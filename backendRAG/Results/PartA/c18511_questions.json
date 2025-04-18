@@ -1,0 +1,174 @@
+[
+    {
+        "question_type": "matching",
+        "question_text": "Look at the following expressions from the text and match them with either Balala Hub or the concept of Balala itself.",
+        "statement": [
+            {
+                "text": "digital distractions dominate",
+                "answer": "Balala Hub"
+            },
+            {
+                "text": "celebrate an age-old tradition",
+                "answer": "Balala Hub"
+            },
+            {
+                "text": "blending music and storytelling",
+                "answer": "Balala"
+            },
+            {
+                "text": "fostering human connections",
+                "answer": "Balala"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "",
+                "text": "In a time when fast-paced lifestyles and digital distractions dominate, a growing movement seeks to reconnect individuals with the simplicity of shared traditions. At Balala Hub, nestled in a vibrant neighbourhood, people gather not to swipe screens or tap keyboards, but to share cultural stories, engage in cooperative activities, and celebrate an age-old tradition—Balala."
+            },
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Balala isn't just an activity; it's a way of life, blending music, communal storytelling, and collaborative games. Its essence lies in fostering human connections, creating a sense of belonging, and invoking joy through shared experiences."
+            }
+        ],
+        "id": "1_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Why does the author emphasize the simplicity of shared traditions in paragraph 1?",
+        "options": {
+            "A": "To highlight the negative aspects of digital distractions.",
+            "B": "To explain the importance of Balala Hub's location.",
+            "C": "To contrast traditional activities with modern lifestyles.",
+            "D": "To encourage people to avoid using digital devices."
+        },
+        "answer": [
+            "C"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "",
+                "text": "In a time when fast-paced lifestyles and digital distractions dominate, a growing movement seeks to reconnect individuals with the simplicity of shared traditions. At Balala Hub, nestled in a vibrant neighbourhood, people gather not to swipe screens or tap keyboards, but to share cultural stories, engage in cooperative activities, and celebrate an age-old tradition—Balala."
+            }
+        ],
+        "id": "2_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "The main purpose of paragraph 2 is to...",
+        "options": {
+            "A": "describe the components of the Balala tradition.",
+            "B": "highlight the benefits of communal engagement.",
+            "C": "explain the historical origins of Balala.",
+            "D": "introduce the founders of Balala Hub."
+        },
+        "answer": [
+            "A"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Balala isn't just an activity; it's a way of life, blending music, communal storytelling, and collaborative games. Its essence lies in fostering human connections, creating a sense of belonging, and invoking joy through shared experiences."
+            }
+        ],
+        "id": "3_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "In paragraph 3, why did Mona and Darius Yelonso start Balala Hub?",
+        "answer": [
+            "(to) revive/rekindle the fading tradition",
+            "to create a community space",
+            "(to) rediscover the power of engagement/collaboration",
+            "to help locals slow down (and transition from hurried routines)"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 3,
+                "section": "The Appeal of Balala Cultures",
+                "text": "Balala Hub was started by siblings Mona and Darius Yelonso, visionaries aiming to rekindle the fading tradition in urban spaces. They envisioned a community space where locals could slow down, transition from their hurried routines, and rediscover the power of collaborative engagement."
+            }
+        ],
+        "id": "4_text1",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Who started Balala Hub?",
+        "answer": [
+            "Mona (Yelonso) and Darius Yelonso",
+            "Mona and Darius",
+            "the siblings Mona and Darius",
+            "the Yelonso siblings",
+            "Mona/Darius Yelonso"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 3,
+                "section": "The Appeal of Balala Cultures",
+                "text": "Balala Hub was started by siblings Mona and Darius Yelonso, visionaries aiming to rekindle the fading tradition in urban spaces. They envisioned a community space where locals could slow down, transition from their hurried routines, and rediscover the power of collaborative engagement."
+            }
+        ],
+        "id": "5_text1",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What was Mona and Darius's vision for Balala Hub?",
+        "answer": [
+            "to rekindle the fading tradition in urban spaces",
+            "to create a community space where locals could slow down",
+            "to encourage collaborative engagement"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 3,
+                "section": "The Appeal of Balala Cultures",
+                "text": "Balala Hub was started by siblings Mona and Darius Yelonso, visionaries aiming to rekindle the fading tradition in urban spaces. They envisioned a community space where locals could slow down, transition from their hurried routines, and rediscover the power of collaborative engagement."
+            }
+        ],
+        "id": "6_text1",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Visitors at Balala Hub can pay HK$40 for an afternoon session, which includes activities such as...",
+        "options": {
+            "A": "card games, Balala Rounds, and Paaja Circle.",
+            "B": "customized activities with Balala drums.",
+            "C": "collective story-weaving and gesture games.",
+            "D": "Balala Rounds, Paaja Circle, and rhythm creations using Balala drums."
+        },
+        "answer": [
+            "D"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 8,
+                "section": "Games and Activities at Balala Hub",
+                "text": "A visitor pays HK$40 for an afternoon session, which includes customized group activities matched to the interests of attendees. These include card-based Balala Rounds, gesture games like Paaja Circle, and rhythm-focused creations using Balala drums. Many of the tools and instruments are crafted locally or imported from areas where Balala traditions flourished historically."
+            }
+        ],
+        "id": "7_text1",
+        "mark": 1,
+        "style": null
+    }
+]

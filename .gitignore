@@ -1,0 +1,26 @@
+# Node.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.env
+
+# Python
+backendRAG/venv/
+backendRAG/__pycache__/
+backendRAG/.env
+backendRAG/.vscode/
+
+# System
+.DS_Store
+*.log
+*.pdf
+*.pptx
+*.iml
+.idea/
+.vscode/
+*.swp
+
+# Ignore cache folders
+.cache/
+dist/
+build/
