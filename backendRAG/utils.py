@@ -341,7 +341,3 @@ def convertQuestionJsonToPdf(part, uid):
     doc = SimpleDocTemplate(pdf_path, pagesize=A4,
                             rightMargin=72, leftMargin=72, topMargin=72, bottomMargin=72)
     doc.build(story)
-    
-    
-convertTxtToJson("PartB1", "2", "ed083b")
-convertTextJsonToPdf("PartB1", "2", "ed083b")
