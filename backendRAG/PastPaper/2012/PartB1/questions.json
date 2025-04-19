@@ -1,0 +1,591 @@
+{
+    "questions": [
+        {
+            "id": "21_text2",
+            "question_type": "short_question",
+            "question_text": "What does 'it' in paragraph 1 refer to?",
+            "answer": ["(joining) the fight against climate change",
+                "fighting against climate change",
+                "fighting for the environment"
+            ],
+            "related_paragraphs": [
+                {
+                "para_id": 1,
+                "section": "(A)",
+                "text": "The world's children are joining the fight against climate change. And they are doing it one fabric patch at a time through an international initiative called the Climate Quilt Campaign, which encourages young people everywhere to help protect the environment."
+                }
+            ],
+            "style": ["1_line"]
+        },
+        {
+            "id": "22_text2",
+            "question_type": "multiple_choice",
+            "question_text": "The Climate Quilt Campaign is an initiative to …",
+            "options": {
+            "A": "teach children about quilt-making.",
+            "B": "help children from around the world.",
+            "C": "raise awareness about climate change.",
+            "D": "recycle clothing from around the world."
+            },
+            "answer": ["C"],
+            "related_paragraphs": [
+                {
+                    "para_id": 1,
+                    "section": "(A)",
+                    "text": "The world's children are joining the fight against climate change. And they are doing it one fabric patch at a time through an international initiative called the Climate Quilt Campaign, which encourages young people everywhere to help protect the environment."
+                }
+            ]
+        },
+        {
+            "id": "23_text2",
+            "question_type": "short_question",
+            "question_text": "Complete the sentence below using information from the passage.\nA ‘pledge patch’ is ________",
+            "answer": [
+            "using recycled clothing to depict promises/pledges to work on environmental stewardship",
+            "a scrap of fabric with a pledge/promise to help save the planet"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 1,
+                    "section": "(A)",
+                    "text": "The world's children are joining the fight against climate change. And they are doing it one fabric patch at a time through an international initiative called the Climate Quilt Campaign, which encourages young people everywhere to help protect the environment."
+                },
+                {
+                    "para_id": 2,
+                    "section": "(A)",
+                    "text": "Using recycled clothing, children in the United States, Australia, China, New Zealand, Britain, the Philippines, Canada, and South Africa designed 'pledge patches' depicting how they promised to work on environmental stewardship."
+                }
+
+            ],
+            "style": ["3_line"]
+        },
+        {
+            "id": "24_text2",
+            "question_type": "multi_choice",
+            "question_text": "When the Chubins first opened Crafteria, they wanted a store where people could _______. Choose all the correct answers",
+            "options": {
+            "A": "sew a huge quilt",
+            "B": "learn how to quilt and embroider",
+            "C": "buy yarn, sewing machines, and all kinds of fabrics",
+            "D": "meet other customers",
+            "E": "repair their sewing machines"
+            },
+            "answer": ["B", "C", "D"],
+            "related_paragraphs": [
+                {
+                    "para_id": 4,
+                    "section": "(B) Crafeteria",
+                    "text": "Craftereia, a family-run business in Harrisburg, Pennsylvania sells yarn, sewing machines and all kinds of fabrics."
+                },
+                {
+                    "para_id": 5,
+                    "section": "(B) Crafeteria",
+                    "text": "When Steve Chubin and his wife, Karen, opened their store in 1990, they dreamed of a place where their neighbours could gather, not just to buy fabric and thread, but to mingle and learn crafts like quilting and embroidery. That is exactly what Craftereia is today."
+                }
+            ]
+        },
+        {
+            "id": "25_text2",
+            "question_type": "multiple_choice",
+            "question_text": "Which of the following is closest in meaning to ‘intrigued’ in paragraph 6?",
+            "options": {
+                "A": "fascinated",
+                "B": "confused",
+                "C": "surprised",
+                "D": "delighted"
+            },
+            "answer": ["A"],
+            "related_paragraphs": [
+                {
+                    "para_id": 6,
+                    "section": "(C)",
+                    "text": "The couple's involvement in the campaign began one evening when Karen was watching TV and saw a story about the Climate Quilt Campaign. She was intrigued by the connection between conservation and quilting and wanted to learn more about the project."
+                }
+            ]
+        },
+        {
+            "id": "26_text2",
+            "question_type": "fill_in_the_blank",
+            "question_text": "Use ONE word to complete each blank.",
+            "text_for_fill": "Quilting is a form of recycling because you can make something new out of ___ ___ that are ___ ___.",
+            "answer": ["old","fabrics", "sewn", "together"],
+            "related_paragraphs": [
+                {
+                    "para_id": 7,
+                    "section": "(C)",
+                    "text": "'Quilting is actually one of the best and most old-fashioned ways of recycling,' she says. 'Old fabrics, that's what a quilt is made of, can be sewn together with any type of material, sometimes decorated with embroidery to make a creative bedspread or wall hanging.'"
+                }
+            ],
+            "style": ["1_line"]
+        },
+        {
+            "id": "28_text2",
+            "question_type": "multiple_choice",
+            "question_text": "How did Kemmerer feel when she said, ‘We couldn’t have finished the job without the help of the local community’ in paragraph 11?",
+            "options": {
+                "A": "critical",
+                "B": "grateful",
+                "C": "confident",
+                "D": "frustrated"
+            },
+            "answer": ["B"],
+            "related_paragraphs": [
+                {
+                    "para_id": 11,
+                    "section": "(C)",
+                    "text": "'We couldn't have finished the job without the help of the local community,' Kemmerer stated. 'We're a small not-for-profit campaign working on a shoe-string budget.'"
+                }
+            ]
+        },
+        {
+            "id": "29_text2",
+            "question_type": "short_question",
+            "question_text": "What does ‘job’ in paragraph 11 refer to?",
+            "answer": [
+                "the job of finishing/completing a quilt",
+                "the Climate quilt",
+                "sewing the (pledge) patches together"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 11,
+                    "section": "(C)",
+                    "text": "'We couldn't have finished the job without the help of the local community,' Kemmerer stated. 'We're a small not-for-profit campaign working on a shoe-string budget.'"
+                }
+            ],
+            "style": ["1_line"]
+        },
+        {
+            "id": "30_text2",
+            "question_type": "matching",
+            "question_text": "Based on the information in the text, write the name of the child on the pledges the children made. One pledge is NOT used. Write NG (not given) on the pledge.",
+            "statements": [
+            {
+                "text": "I will ride my bicycle to school.",
+                "answer": "NG"
+            },
+            {
+                "text": "I will turn off the tap while scrubbing my hands.",
+                "answer": "Dylan"
+            },
+            {
+                "text": "I will recycle as much as possible.",
+                "answer": "Patrick"
+            },
+            {
+                "text": "I will separate my waste.",
+                "answer": "Jacob"
+            },
+            {
+                "text": "I will pack unfinished food.",
+                "answer": "Rachel"
+            }
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 14,
+                    "section": "(D)",
+                    "text": "Dylan pledged to use less water when washing his hands while fourteen-year-old Rachel and her brother Jacob, who is two years younger, had other ideas."
+                },
+                {
+                    "para_id": 15,
+                    "section": "(D)",
+                    "text": "'A lot of people don't finish what's on their plate and end up throwing away a lot of food. But if they had to eat their leftovers, it would help a lot,' says Rachel."
+                },
+                {
+                    "para_id": 16,
+                    "section": "(D)",
+                    "text": "'My pledge was to put paper, plastic, glass and metal waste into different recycling containers instead of in the rubbish bin,' Jacob says."
+                },
+                {
+                    "para_id": 18,
+                    "section": "(D)",
+                    "text": "'I learned that recycling is important,' Patrick says. 'And you should do it every day when you get an opportunity. I drew some smiley faces to reflect my personality.'"
+                }
+
+            ],
+            "marks": 5
+        },
+        {
+            "id": "31_text2",
+            "question_type": "short_question",
+            "question_text": "Read paragraphs 17–18. Find an expression that means the same as ‘help’.",
+            "answer": ["(to) lend a hand"],
+            "related_paragraphs": [
+                {
+                    "para_id": 17,
+                    "section": "(D)",
+                    "text": "Eleven-year-old Patrick says the climate quilt project was a chance for him to lend a hand and express his creativity."
+                },
+                {
+                    "para_id": 18,
+                    "section": "(D)",
+                    "text": "'I learned that recycling is important,' Patrick says. 'And you should do it every day when you get an opportunity. I drew some smiley faces to reflect my personality.'"
+                }
+            ],
+            "style": ["0.5_line"]
+        },     
+        {
+            "id": "32_text2",
+            "question_type": "multi_short_question",
+            "question_text": "Why is Shauna Munshower positive about this project?",
+            "sub_questions": [
+                {
+                    "text": "a)",
+                    "answer": ["(the project/it was a) fun (learning) experience (for her children/them)"]
+                },
+                {
+                    "text": "b)",
+                    "answer": ["(the campaign/it) made her children/them think about the way they behave"]
+                },
+                {
+                    "text": "c)",
+                    "answer": ["small actions could spread through the example of children"]
+                },
+                {
+                    "text": "d)",
+                    "answer": ["(the project/it might) get (her children/them) interested in quilting and sewing"]
+                }
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 19,
+                    "section": "(D)",
+                    "text": "Shauna Munshower's four children made pledge patches for the Climate Quilt. She says the project was a fun learning experience for them."
+                },
+                {
+                    "para_id": 20,
+                    "section": "(D)",
+                    "text": "The campaign has made them think about the way they behave and she believes that small actions could spread through the example of children. She adds, 'It will also be good if they got interested in quilting and sewing. That would be nice, I would like that.'"
+                }
+            ],
+            "style": [],
+            "marks": 4
+        },
+        {
+            "id": "33_text2",
+            "question_type": "short_question",
+            "question_text": "Why does Phyllis Smith say 'Wow' in paragraph 21?",
+            "answer": [
+                "she is amazed/impressed by the kids’ (quilt) strips/patches",
+                "she thinks the kids’ (quilt) strips/patches are great",
+                "she was impressed by what the children wrote on the patches",
+                "she was surprised by how well the children have made/sewn together the patches"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 21,
+                    "section": "(D)",
+                    "text": "Phyllis Smith liked the idea and decided to volunteer. 'I'm sewing together the beautiful strips that the kids have made,' she says. 'They are fantastic. You read them and go, “Wow.” We're supposed to be sewing and we can't sew while we're reading them — how great they are!'"
+                }
+            ],
+            "style": ["2_line"]
+        },
+        {
+            "id": "34_text2",
+            "question_type": "true_false_not_given",
+            "question_text": "Decide whether the following statements are True, False, or Not Given in paragraphs 13–21.",
+            "statements": [
+                {
+                "text": "Only children stitched the quilt.",
+                "answer": "False"
+                },
+                {
+                "text": "Rachel and Jacob are related.",
+                "answer": "True"
+                },
+                {
+                "text": "Jacob and Patrick are classmates.",
+                "answer": "Not Given"
+                },
+                {
+                "text": "Each participant could express their personality through the pledge patches.",
+                "answer": "True"
+                }
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 13,
+                    "section": "(D)",
+                    "text": "One teacher who received an email, invited the students in her school to take part. Five-year-old Dylan worked with his classmates on a small quilt. 'We all made different pledges and we wrote our ages and our names,' he says."
+                },
+                {
+                    "para_id": 14,
+                    "section": "(D)",
+                    "text": "Dylan pledged to use less water when washing his hands while fourteen-year-old Rachel and her brother Jacob, who is two years younger, had other ideas."
+                },
+                {
+                    "para_id": 15,
+                    "section": "(D)",
+                    "text": "'A lot of people don't finish what's on their plate and end up throwing away a lot of food. But if they had to eat their leftovers, it would help a lot,' says Rachel."
+                },
+                {
+                    "para_id": 16,
+                    "section": "(D)",
+                    "text": "'My pledge was to put paper, plastic, glass and metal waste into different recycling containers instead of in the rubbish bin,' Jacob says."
+                },
+                {
+                    "para_id": 17,
+                    "section": "(D)",
+                    "text": "Eleven-year-old Patrick says the climate quilt project was a chance for him to lend a hand and express his creativity."
+                },
+                {
+                    "para_id": 18,
+                    "section": "(D)",
+                    "text": "'I learned that recycling is important,' Patrick says. 'And you should do it every day when you get an opportunity. I drew some smiley faces to reflect my personality.'"
+                },
+                {
+                    "para_id": 19,
+                    "section": "(D)",
+                    "text": "Shauna Munshower's four children made pledge patches for the Climate Quilt. She says the project was a fun learning experience for them."
+                },
+                {
+                    "para_id": 20,
+                    "section": "(D)",
+                    "text": "The campaign has made them think about the way they behave and she believes that small actions could spread through the example of children. She adds, 'It will also be good if they got interested in quilting and sewing. That would be nice, I would like that.'"
+                },
+                {
+                    "para_id": 21,
+                    "section": "(D)",
+                    "text": "Phyllis Smith liked the idea and decided to volunteer. 'I'm sewing together the beautiful strips that the kids have made,' she says. 'They are fantastic. You read them and go, “Wow.” We're supposed to be sewing and we can't sew while we're reading them — how great they are!'"
+                }
+            ],
+            "marks": 4
+        },
+        {
+            "id": "35_text2",
+            "question_type": "short_question",
+            "question_text": "According to Kemmerer, the ultimate goal of the Climate Quilt Campaign is to…",
+            "answer": [
+                "empower children/kids",
+                "effect change"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 22,
+                    "section": "(E)",
+                    "text": "According to the campaign's spokeswoman, the Climate Quilt Campaign empowers kids. 'I guess it's just important that they feel they can effect change, that they can be a part of something and see how it makes a difference to them and the world. That's the ultimate goal of the Climate Quilt and future campaigns,' says Kemmerer."
+                }
+            ],
+            "style": ["0.5_line"]
+        },
+        {
+            "id": "36_text2",
+            "question_type": "matching",
+            "question_text": "Put the events below in the correct order. Write (1-5) in the boxes provided.",
+            "statements": [
+                {
+                "text": "The Quilt was displayed in Washington.",
+                "answer": "5"
+                },
+                {
+                "text": "Steve sent many emails to his customers.",
+                "answer": "3"
+                },
+                {
+                "text": "Karen made a call to the Climate Quilt Campaign.",
+                "answer": "2"
+                },
+                {
+                "text": "Volunteers went to the store to sew patches.",
+                "answer": "4"
+                },
+                {
+                "text": "Children all over the world began making pledge patches.",
+                "answer": "1"
+                }
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 2,
+                    "section": "(A)",
+                    "text": "Using recycled clothing, children in the United States, Australia, China, New Zealand, Britain, the Philippines, Canada, and South Africa designed 'pledge patches' depicting how they promised to work on environmental stewardship."
+                },
+                {
+                    "para_id": 3,
+                    "section": "(B) Crafeteria",
+                    "text": "Last month, thousands of patches arrived in a small-town store in Pennsylvania, USA where volunteers gathered to sew them together into a huge quilt."
+                },
+                {
+                    "para_id": 9,
+                    "section": "(C)",
+                    "text": "Kemmerer appealed for volunteers to help sew the pledge patches together into a quilt and Karen immediately put in a call to the organizers who were happy to accept her offer for help."
+                },
+                {
+                    "para_id": 12,
+                    "section": "(C)",
+                    "text": "Steve Chubin was equally amazed at the positive response from the community. He emailed 5,000 people about the project and many responded saying they wanted to be involved and to support a good cause."
+                },
+                {
+                    "para_id": 24,
+                    "section": "(E)",
+                    "text": "The finished quilt, made of 7,500 patches, was displayed in Washington, D.C. and New York City to celebrate Earth Day. But kids everywhere can still visit the campaign's website to create their virtual pledge patches — and show how much they care about the environment."
+                }
+            ]
+        },
+        {
+            "id": "37_text2",
+            "question_type": "matching",
+            "question_text": "Which subheading below best fits each section in Text 2? One subheading is NOT used and should be left blank.",
+            "marks": 4,
+            "statements": [
+                {
+                "text": "A love of quilting",
+                "answer": ""
+                },
+                {
+                "text": "Locals get involved",
+                "answer": "C"
+                },
+                {
+                "text": "Volunteers share their experience",
+                "answer": "D"
+                },
+                {
+                "text": "The campaign continues",
+                "answer": "E"
+                },
+                {
+                "text": "A campaign for all children",
+                "answer": "A"
+                },
+                {
+                "text": "Crafteria",
+                "answer": "B"
+                }
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 1,
+                    "section": "(A)",
+                    "text": "The world's children are joining the fight against climate change. And they are doing it one fabric patch at a time through an international initiative called the Climate Quilt Campaign, which encourages young people everywhere to help protect the environment."
+                },
+                {
+                    "para_id": 4,
+                    "section": "(B) Crafeteria",
+                    "text": "Craftereia, a family-run business in Harrisburg, Pennsylvania sells yarn, sewing machines and all kinds of fabrics."
+                },
+                {
+                    "para_id": 10,
+                    "section": "(C)",
+                    "text": "When Karen heard that the Climate Quilt Campaign had collected 2,500 patches from children in the USA alone and more than 5,000 internationally, Karen made her own pledge to organize a day where Craftereia could donate their equipment and invite volunteers to come and sew the patches together."
+                },
+                {
+                    "para_id": 11,
+                    "section": "(C)",
+                    "text": "'We couldn't have finished the job without the help of the local community,' Kemmerer stated. 'We're a small not-for-profit campaign working on a shoe-string budget.'"
+                },
+                {
+                    "para_id": 21,
+                    "section": "(D)",
+                    "text": "Phyllis Smith liked the idea and decided to volunteer. 'I'm sewing together the beautiful strips that the kids have made,' she says. 'They are fantastic. You read them and go, “Wow.” We're supposed to be sewing and we can't sew while we're reading them — how great they are!'"
+                },
+                {
+                    "para_id": 23,
+                    "section": "(E)",
+                    "text": "'After this campaign, there are other ways we're going to try to engage students as well,' she says. 'We will be doing campaigns throughout the year focusing on all different things. So this campaign focused on climate, the next one might focus on endangered animals or recycling school supplies or healthy eating.'"
+                }
+            ]
+        },
+        {
+            "id": "39_text2",
+            "question_type": "multiple_choice",
+            "question_text": "Which of the following is the best alternative title for this text?",
+            "options": {
+                "A": "Campaign Needs Volunteers",
+                "B": "Climate Change around the World",
+                "C": "Climate Quilt in Action",
+                "D": "Recycling Old Clothes"
+            },
+            "answer": ["C"],
+            "related_paragraphs": [
+                {"title": "Saving the World, one Patch at a Time"},
+                {"subtitle": "Climate quilt gives children a voice in fighting for the environment"},
+                {
+                    "para_id": 1,
+                    "section": "(A)",
+                    "text": "The world's children are joining the fight against climate change. And they are doing it one fabric patch at a time through an international initiative called the Climate Quilt Campaign, which encourages young people everywhere to help protect the environment."
+                },
+                {
+                    "para_id": 22,
+                    "section": "(E)",
+                    "text": "According to the campaign's spokeswoman, the Climate Quilt Campaign empowers kids. 'I guess it's just important that they feel they can effect change, that they can be a part of something and see how it makes a difference to them and the world. That's the ultimate goal of the Climate Quilt and future campaigns,' says Kemmerer."
+                },
+                {
+                    "para_id": 23,
+                    "section": "(E)",
+                    "text": "'After this campaign, there are other ways we're going to try to engage students as well,' she says. 'We will be doing campaigns throughout the year focusing on all different things. So this campaign focused on climate, the next one might focus on endangered animals or recycling school supplies or healthy eating.'"
+                }
+
+
+            ]
+        },
+        {
+            "id": "40_text2",
+            "question_type": "fill_in_the_blank",
+            "question_text": "Complete the summary of the text by writing ONE word to fill in each blank. You should make sure your answers are grammatically correct, paying attention to tenses, plurals, etc.",
+            "marks": 9,
+            "text_for_fill": "The Climate Quilt Campaign is an ___ initiative involving young people. In Pennsylvania, the owners of ___ invited members of their community to take part in this campaign. Children were given a scrap of recycled ___ which they used to make ___ ___. Children taking part were of all ___, so the sophistication of the pledges and the squares varied. ‘I pledge to save ___’ was one example of a pledge. In total, ___ squares of fabric were sewn together to make a quilt. The quilt was recently on display in Washington D.C. for ___ ___ . The quilt will ultimately be a symbol of children’s hopes and dreams for the future of the ___ .",
+            "answer": [
+                "international",
+                "Crafteria",
+                "fabric//clothing",
+                "pledge",
+                "patches",
+                "ages",
+                "water//food//leftovers",
+                "7500",
+                "Earth",
+                "Day",
+                "world//Earth//environment//planet"
+            ],
+            "related_paragraphs":[
+                {
+                    "para_id": 1,
+                    "section": "(A)",
+                    "text": "The world's children are joining the fight against climate change. And they are doing it one fabric patch at a time through an international initiative called the Climate Quilt Campaign, which encourages young people everywhere to help protect the environment."
+                },
+                {
+                    "para_id": 2,
+                    "section": "(A)",
+                    "text": "Using recycled clothing, children in the United States, Australia, China, New Zealand, Britain, the Philippines, Canada, and South Africa designed 'pledge patches' depicting how they promised to work on environmental stewardship."
+                },
+                {
+                    "para_id": 4,
+                    "section": "(B) Crafeteria",
+                    "text": "Craftereia, a family-run business in Harrisburg, Pennsylvania sells yarn, sewing machines and all kinds of fabrics."
+                },
+                {
+                    "para_id": 5,
+                    "section": "(B) Crafeteria",
+                    "text": "When Steve Chubin and his wife, Karen, opened their store in 1990, they dreamed of a place where their neighbours could gather, not just to buy fabric and thread, but to mingle and learn crafts like quilting and embroidery. That is exactly what Craftereia is today."
+                },
+                {
+                    "para_id": 9,
+                    "section": "(C)",
+                    "text": "Kemmerer appealed for volunteers to help sew the pledge patches together into a quilt and Karen immediately put in a call to the organizers who were happy to accept her offer for help."
+                },
+                {
+                    "para_id": 13,
+                    "section": "(D)",
+                    "text": "One teacher who received an email, invited the students in her school to take part. Five-year-old Dylan worked with his classmates on a small quilt. 'We all made different pledges and we wrote our ages and our names,' he says."
+                },
+                {
+                    "para_id": 14,
+                    "section": "(D)",
+                    "text": "Dylan pledged to use less water when washing his hands while fourteen-year-old Rachel and her brother Jacob, who is two years younger, had other ideas."
+                },
+                {
+                    "para_id": 15,
+                    "section": "(D)",
+                    "text": "'A lot of people don't finish what's on their plate and end up throwing away a lot of food. But if they had to eat their leftovers, it would help a lot,' says Rachel."
+                },
+                {
+                    "para_id": 24,
+                    "section": "(E)",
+                    "text": "The finished quilt, made of 7,500 patches, was displayed in Washington, D.C. and New York City to celebrate Earth Day. But kids everywhere can still visit the campaign's website to create their virtual pledge patches — and show how much they care about the environment."
+                }
+            ]
+        }
+    ]
+  }

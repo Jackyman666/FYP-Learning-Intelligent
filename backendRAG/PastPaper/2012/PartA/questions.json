@@ -5,7 +5,7 @@
             "marks": 4,
             "question_type": "matching",
             "question_text": "Look at the following expressions from the text and match them with either the Polar Cafe or Internet Cafes.",
-            "statement": [
+            "statements": [
                 {
                     "text": "switched off",
                     "answer": "Polar Cafe"
@@ -286,7 +286,7 @@
             "marks": 5,
             "question_type": "matching",
             "question_text": "Use information given in paragraphs 15-21 and match each person with the correct speech.",
-            "statement": [
+            "statements": [
                 {
                     "text": "These games have helped me to improve my skills in the workplace.",
                     "answer": "Benson"

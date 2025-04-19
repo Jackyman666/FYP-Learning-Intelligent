@@ -1,0 +1,1208 @@
+[
+    {
+        "question_type": "short_question",
+        "question_text": "What are students encouraged to address in paragraph 2?",
+        "answer": [
+            "local community challenges",
+            "global concerns",
+            "critical issues"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": " ",
+                "text": "In schools across the United States, Australia, China, South Africa, Canada, and the Philippines, educators are teaming up with students to create school-based initiatives that inspire curiosity and collaboration. These projects encourage students to address critical issues, ranging from local community challenges to global concerns, while fostering a sense of responsibility and teamwork."
+            }
+        ],
+        "id": "21_text2",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "What is the aim of the school-based initiatives described in paragraph 2?",
+        "options": {
+            "A": "Promote international educational exchange programs.",
+            "B": "Encourage students to address important issues.",
+            "C": "Help students excel in standardized tests.",
+            "D": "Introduce advanced technology into classrooms."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": " ",
+                "text": "In schools across the United States, Australia, China, South Africa, Canada, and the Philippines, educators are teaming up with students to create school-based initiatives that inspire curiosity and collaboration. These projects encourage students to address critical issues, ranging from local community challenges to global concerns, while fostering a sense of responsibility and teamwork."
+            }
+        ],
+        "id": "22_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Complete the sentence below using information from the passage.\nThe 'Student Workshop Hub' event at Bright Future Secondary School was ________",
+        "answer": [
+            "a week-long event where students showcased creative solutions to problems affecting their school and neighborhood",
+            "an event that engaged students, parents, and teachers in addressing school and neighborhood issues through creative solutions"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 3,
+                "section": " ",
+                "text": "Last month, a bustling workshop atmosphere brought together students, parents, and teachers at Bright Future Secondary School. Located in Ontario, Canada, the school hosted its first-ever \"Student Workshop Hub,\" a week-long event where students showcased creative solutions to problems affecting their school and neighborhood."
+            }
+        ],
+        "id": "23_text2",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "multi_choice",
+        "question_text": "What was the purpose behind organizing the 'Student Workshop Hub' at Bright Future Secondary School? Choose all the correct answers.",
+        "options": {
+            "A": "To showcase students' creative solutions to school and neighborhood problems",
+            "B": "To transform the school campus into a creative hotspot for community-minded projects",
+            "C": "To encourage students to study traditional academic subjects",
+            "D": "To help students take pride in contributing to something bigger than themselves",
+            "E": "To celebrate the school's tenth anniversary"
+        },
+        "answer": [
+            "A",
+            "B",
+            "D"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 3,
+                "section": " ",
+                "text": "Last month, a bustling workshop atmosphere brought together students, parents, and teachers at Bright Future Secondary School. Located in Ontario, Canada, the school hosted its first-ever \"Student Workshop Hub,\" a week-long event where students showcased creative solutions to problems affecting their school and neighborhood."
+            },
+            {
+                "para_id": 4,
+                "section": " ",
+                "text": "The event was organized by Emma and Paul Gibson, long-time educators who had envisioned turning the campus into a creative hotspot for community-minded projects. When they opened Bright Future Secondary School ten years ago, their dream was to create a space where students could not only study but also explore skills spanning technology, design, and even small-scale manufacturing. Their vision came to life with this event."
+            },
+            {
+                "para_id": 6,
+                "section": " ",
+                "text": "The idea for the Student Workshop Hub came to Emma when she noticed how much her own children enjoyed school activities that required them to solve real-world problems. From recycling initiatives to building birdhouses for local parks, students seemed to take pride in being part of something bigger than themselves. Emma became determined to bring a similar experience to Bright Future Secondary School."
+            }
+        ],
+        "id": "24_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Which of the following is closest in meaning to ‘pride’ in paragraph 6?",
+        "options": {
+            "A": "satisfaction",
+            "B": "indifference",
+            "C": "hesitation",
+            "D": "anxiety"
+        },
+        "answer": [
+            "A"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 6,
+                "section": " ",
+                "text": "The idea for the Student Workshop Hub came to Emma when she noticed how much her own children enjoyed school activities that required them to solve real-world problems. From recycling initiatives to building birdhouses for local parks, students seemed to take pride in being part of something bigger than themselves. Emma became determined to bring a similar experience to Bright Future Secondary School."
+            }
+        ],
+        "id": "25_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "fill_in_the_blank",
+        "question_text": "Use ONE word to complete each blank.",
+        "text_for_fill": "The Student Workshop Hub encourages students to solve ___ ___ problems. Paul emphasized that such activities show children how ___ their actions are to the wider environment, and the campaign gained ___ support with contributions from parents, administrators, and teachers who incorporated the workshops into their ___ .",
+        "answer": [
+            "real-world",
+            "connected",
+            "widespread",
+            "lessons"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 6,
+                "section": " ",
+                "text": "The idea for the Student Workshop Hub came to Emma when she noticed how much her own children enjoyed school activities that required them to solve real-world problems. From recycling initiatives to building birdhouses for local parks, students seemed to take pride in being part of something bigger than themselves. Emma became determined to bring a similar experience to Bright Future Secondary School."
+            },
+            {
+                "para_id": 7,
+                "section": " ",
+                "text": "Paul also saw a unique opportunity to combine educational goals with environmental awareness: 'Projects like these teach students how interconnected the world is. Whether they're improving green spaces in our city or creating art installations with recycled materials, kids start to see how their actions ripple outward.'"
+            },
+            {
+                "para_id": 8,
+                "section": " ",
+                "text": "The campaign prompted widespread enthusiasm. Parents offered to contribute materials, school administrators provided funding, and teachers incorporated elements of the workshop into their lessons. Among the highlights of the week were workshops where students learned woodworking, coding, and sustainable gardening techniques."
+            }
+        ],
+        "id": "26_text2",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "What does Nia believe projects like hers teach, as described in paragraph 11?",
+        "options": {
+            "A": "Teamwork and communication skills",
+            "B": "The importance of education",
+            "C": "Empathy and resourcefulness",
+            "D": "The value of community involvement"
+        },
+        "answer": [
+            "C"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 11,
+                "section": " ",
+                "text": "Beyond environmental work, twelve-year-old Nia worked on a social project aimed at helping underprivileged children access educational supplies. 'We collected unused items like pencils, notebooks, and rulers and distributed them to local families in need,' Nia explained. She believes projects like hers teach empathy and resourcefulness: 'A small gesture can make a big difference.'"
+            }
+        ],
+        "id": "28_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What does 'gesture' in paragraph 11 refer to?",
+        "answer": [
+            "collecting and distributing educational supplies",
+            "helping underprivileged children access educational items"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 11,
+                "section": " ",
+                "text": "Beyond environmental work, twelve-year-old Nia worked on a social project aimed at helping underprivileged children access educational supplies. 'We collected unused items like pencils, notebooks, and rulers and distributed them to local families in need,' Nia explained. She believes projects like hers teach empathy and resourcefulness: 'A small gesture can make a big difference.'"
+            }
+        ],
+        "id": "29_text2",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "matching",
+        "question_text": "Based on the information in the text, match each statement to the person or group it describes. One statement is NOT used. Write NG (not given) if the statement is not mentioned in the text.",
+        "statements": [
+            {
+                "text": "They were inspired by the students’ dedication and helped organize their work.",
+                "answer": "Phyllis Watson"
+            },
+            {
+                "text": "They supported the students in budgeting and marketing their ideas.",
+                "answer": "Parents"
+            },
+            {
+                "text": "They aim to focus on mental health awareness projects in the next year.",
+                "answer": "Emma"
+            },
+            {
+                "text": "They believe the skills students gain here will help them in a rapidly changing world.",
+                "answer": "Paul"
+            },
+            {
+                "text": "They organized a global education initiative connecting students from different countries.",
+                "answer": "NG"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 13,
+                "section": " ",
+                "text": "Meanwhile, Phyllis Watson, a retired local librarian who volunteered during the hub, was inspired by how far-reaching the students' efforts had been. 'The dedication these kids show is nothing short of incredible. Seeing them put their thoughts into tangible projects is very uplifting,' said Phyllis as she helped organize folders showcasing students' work."
+            },
+            {
+                "para_id": 14,
+                "section": " ",
+                "text": "As Emma and Paul reflected on the hub's success, they pointed to the parents' involvement as a key factor in bringing their vision to life. Many parents not only supported the event financially but also mentored students in areas like budgeting, marketing their ideas, and logistics."
+            },
+            {
+                "para_id": 15,
+                "section": " ",
+                "text": "The Student Workshop Hub, according to Emma, is just the first of many initiatives planned for Bright Future Secondary School. 'This is the beginning. Next year, we aim to tackle projects focused on mental health awareness, local history preservation, and even global initiatives connecting students from different countries,' she said."
+            },
+            {
+                "para_id": 16,
+                "section": " ",
+                "text": "Paul shared similar optimism: 'The skills our students are gaining through these projects — teamwork, innovation, and resilience — will stick with them for life. We're giving them the toolkit to adapt and thrive in a rapidly changing world.'"
+            }
+        ],
+        "marks": 5,
+        "id": "30_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Read paragraph 16. Find an expression that means the same as 'get ready to succeed'.",
+        "answer": [
+            "(to) adapt and thrive"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 16,
+                "section": " ",
+                "text": "Paul shared similar optimism: \"The skills our students are gaining through these projects — teamwork, innovation, and resilience — will stick with them for life. We're giving them the toolkit to adapt and thrive in a rapidly changing world.\""
+            }
+        ],
+        "id": "31_text2",
+        "mark": 1,
+        "style": [
+            "0.5_line"
+        ]
+    },
+    {
+        "question_type": "multi_short_question",
+        "question_text": "Why is the Student Workshop Hub considered a success by the contributors?",
+        "sub_questions": [
+            {
+                "text": "a)",
+                "answer": [
+                    "it highlighted cultural diversity and societal issues"
+                ]
+            },
+            {
+                "text": "b)",
+                "answer": [
+                    "students put their ideas into (tangible) projects"
+                ]
+            },
+            {
+                "text": "c)",
+                "answer": [
+                    "parents' involvement (was a key factor in its success)"
+                ]
+            },
+            {
+                "text": "d)",
+                "answer": [
+                    "it set the stage for future initiatives"
+                ]
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 12,
+                "section": " ",
+                "text": "Other standout moments included performances conducted by the Arts and Drama Club highlighting cultural diversity, traditional folklore, and modern interpretations of societal changes. \"Art has the ability to foster understanding,\" said Alan, a sixteen-year-old aspiring theater director. His group performed a play that explored shifting family dynamics in modern society, which resonated with many attendees."
+            },
+            {
+                "para_id": 13,
+                "section": " ",
+                "text": "Meanwhile, Phyllis Watson, a retired local librarian who volunteered during the hub, was inspired by how far-reaching the students' efforts had been. \"The dedication these kids show is nothing short of incredible. Seeing them put their thoughts into tangible projects is very uplifting,\" said Phyllis as she helped organize folders showcasing students' work."
+            },
+            {
+                "para_id": 14,
+                "section": " ",
+                "text": "As Emma and Paul reflected on the hub's success, they pointed to the parents' involvement as a key factor in bringing their vision to life. Many parents not only supported the event financially but also mentored students in areas like budgeting, marketing their ideas, and logistics."
+            },
+            {
+                "para_id": 15,
+                "section": " ",
+                "text": "The Student Workshop Hub, according to Emma, is just the first of many initiatives planned for Bright Future Secondary School. \"This is the beginning. Next year, we aim to tackle projects focused on mental health awareness, local history preservation, and even global initiatives connecting students from different countries,\" she said."
+            }
+        ],
+        "marks": 4,
+        "id": "32_text2",
+        "mark": 1,
+        "style": []
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What does Emma say about the future initiatives in paragraph 15?",
+        "answer": [
+            "they will focus on mental health awareness, local history preservation, and global connections",
+            "the projects will address topics like mental health awareness and preserving local history",
+            "future plans include connecting students from different countries through global initiatives"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 15,
+                "section": " ",
+                "text": "The Student Workshop Hub, according to Emma, is just the first of many initiatives planned for Bright Future Secondary School. 'This is the beginning. Next year, we aim to tackle projects focused on mental health awareness, local history preservation, and even global initiatives connecting students from different countries,' she said."
+            }
+        ],
+        "id": "33_text2",
+        "mark": 1,
+        "style": [
+            "2_line"
+        ]
+    },
+    {
+        "question_type": "true_false_not_given",
+        "question_text": "Decide whether the following statements are True, False, or Not Given based on paragraphs 12–18.",
+        "statements": [
+            {
+                "text": "Alan's group performed a play about cultural diversity.",
+                "answer": "False"
+            },
+            {
+                "text": "Phyllis believes that the students are incredibly dedicated.",
+                "answer": "True"
+            },
+            {
+                "text": "Emma and Paul think parents' involvement was crucial for the success of the hub.",
+                "answer": "True"
+            },
+            {
+                "text": "Students from Bright Future Secondary School are planning to connect with schools in neighboring cities next year.",
+                "answer": "Not Given"
+            },
+            {
+                "text": "The open house event attracted more than 700 attendees.",
+                "answer": "True"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 12,
+                "section": " ",
+                "text": "Other standout moments included performances conducted by the Arts and Drama Club highlighting cultural diversity, traditional folklore, and modern interpretations of societal changes. \"Art has the ability to foster understanding,\" said Alan, a sixteen-year-old aspiring theater director. His group performed a play that explored shifting family dynamics in modern society, which resonated with many attendees."
+            },
+            {
+                "para_id": 13,
+                "section": " ",
+                "text": "Meanwhile, Phyllis Watson, a retired local librarian who volunteered during the hub, was inspired by how far-reaching the students' efforts had been. \"The dedication these kids show is nothing short of incredible. Seeing them put their thoughts into tangible projects is very uplifting,\" said Phyllis as she helped organize folders showcasing students' work."
+            },
+            {
+                "para_id": 14,
+                "section": " ",
+                "text": "As Emma and Paul reflected on the hub's success, they pointed to the parents' involvement as a key factor in bringing their vision to life. Many parents not only supported the event financially but also mentored students in areas like budgeting, marketing their ideas, and logistics."
+            },
+            {
+                "para_id": 17,
+                "section": " ",
+                "text": "At the end of the week, students proudly presented their completed projects during an open house event attended by nearly 700 community members. Their ingenuity was celebrated, and many visitors left inspired by the potential for schools to cultivate meaningful change. Bright Future Secondary School is already planning the next session of the hub, which promises more opportunities for students to innovate and grow."
+            }
+        ],
+        "marks": 5,
+        "id": "34_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "According to Emma, what are the aims of Bright Future Secondary School's future projects?",
+        "answer": [
+            "mental health awareness",
+            "local history preservation",
+            "global initiatives connecting students from different countries"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 15,
+                "section": " ",
+                "text": "The Student Workshop Hub, according to Emma, is just the first of many initiatives planned for Bright Future Secondary School. \"This is the beginning. Next year, we aim to tackle projects focused on mental health awareness, local history preservation, and even global initiatives connecting students from different countries,\" she said."
+            }
+        ],
+        "id": "35_text2",
+        "mark": 1,
+        "style": [
+            "0.5_line"
+        ]
+    },
+    {
+        "question_type": "matching",
+        "question_text": "Put the events mentioned below in the correct order. Write (1-5) in the boxes provided.",
+        "statements": [
+            {
+                "text": "Lara and her classmates created an outdoor terrace project.",
+                "answer": "2"
+            },
+            {
+                "text": "The Student Workshop Hub event was hosted at Bright Future Secondary School.",
+                "answer": "1"
+            },
+            {
+                "text": "Ethan developed a system to track classroom energy usage.",
+                "answer": "3"
+            },
+            {
+                "text": "Nia started a social project to help underprivileged children access educational supplies.",
+                "answer": "4"
+            },
+            {
+                "text": "Students presented their completed projects to the community during an open house event.",
+                "answer": "5"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 3,
+                "section": " ",
+                "text": "Last month, a bustling workshop atmosphere brought together students, parents, and teachers at Bright Future Secondary School. Located in Ontario, Canada, the school hosted its first-ever 'Student Workshop Hub,' a week-long event where students showcased creative solutions to problems affecting their school and neighborhood."
+            },
+            {
+                "para_id": 9,
+                "section": " ",
+                "text": "Fifteen-year-old Lara and her classmates formed a group called 'Eco School Advocates' and worked tirelessly on an outdoor terrace project. 'We wanted to create a shared space in our school where people could relax and connect with nature,' Lara explained. Her group planted native grass species, installed seating made from re-purposed wood, and produced a mural illustrating how ecosystems thrive when people work harmoniously with nature."
+            },
+            {
+                "para_id": 10,
+                "section": " ",
+                "text": "Thirteen-year-old Ethan was equally dedicated, putting his energy into developing an automated system for tracking classroom energy usage. 'I realized that lights were often left on when no one was around,' Ethan said. 'So I built code that monitors energy consumption and sends alerts when electricity is being wasted.' The technology drew interest from both teachers and school administrators."
+            },
+            {
+                "para_id": 11,
+                "section": " ",
+                "text": "Beyond environmental work, twelve-year-old Nia worked on a social project aimed at helping underprivileged children access educational supplies. 'We collected unused items like pencils, notebooks, and rulers and distributed them to local families in need,' Nia explained. She believes projects like hers teach empathy and resourcefulness: 'A small gesture can make a big difference.'"
+            },
+            {
+                "para_id": 17,
+                "section": " ",
+                "text": "At the end of the week, students proudly presented their completed projects during an open house event attended by nearly 700 community members. Their ingenuity was celebrated, and many visitors left inspired by the potential for schools to cultivate meaningful change. Bright Future Secondary School is already planning the next session of the hub, which promises more opportunities for students to innovate and grow."
+            }
+        ],
+        "id": "36_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "matching",
+        "question_text": "Which subheading below best fits each section in Text 1? One subheading is NOT used and should be left blank.",
+        "marks": 4,
+        "statements": [
+            {
+                "text": "Empowering environmental change",
+                "answer": "A"
+            },
+            {
+                "text": "Students team up for empathy",
+                "answer": "C"
+            },
+            {
+                "text": "Creativity transforms education",
+                "answer": "E"
+            },
+            {
+                "text": "Community support for innovation",
+                "answer": "D"
+            },
+            {
+                "text": "Reimagining old spaces",
+                "answer": "B"
+            },
+            {
+                "text": "Technology to save energy",
+                "answer": ""
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 9,
+                "section": "(A)",
+                "text": "Fifteen-year-old Lara and her classmates formed a group called \"Eco School Advocates\" and worked tirelessly on an outdoor terrace project. \"We wanted to create a shared space in our school where people could relax and connect with nature,\" Lara explained. Her group planted native grass species, installed seating made from re-purposed wood, and produced a mural illustrating how ecosystems thrive when people work harmoniously with nature."
+            },
+            {
+                "para_id": 11,
+                "section": "(C)",
+                "text": "Beyond environmental work, twelve-year-old Nia worked on a social project aimed at helping underprivileged children access educational supplies. \"We collected unused items like pencils, notebooks, and rulers and distributed them to local families in need,\" Nia explained. She believes projects like hers teach empathy and resourcefulness: \"A small gesture can make a big difference.\""
+            },
+            {
+                "para_id": 1,
+                "section": "(E)",
+                "text": "Education is evolving, and schools around the world are embracing innovative approaches to learning. From community outreach to hands-on creative projects, students are being challenged to think critically and develop real-world skills. At the heart of this transformation are initiatives designed to make learning interactive, engaging, and impactful."
+            },
+            {
+                "para_id": 14,
+                "section": "(D)",
+                "text": "As Emma and Paul reflected on the hub's success, they pointed to the parents' involvement as a key factor in bringing their vision to life. Many parents not only supported the event financially but also mentored students in areas like budgeting, marketing their ideas, and logistics."
+            },
+            {
+                "para_id": 9,
+                "section": "(B)",
+                "text": "Fifteen-year-old Lara and her classmates formed a group called \"Eco School Advocates\" and worked tirelessly on an outdoor terrace project. \"We wanted to create a shared space in our school where people could relax and connect with nature,\" Lara explained. Her group planted native grass species, installed seating made from re-purposed wood, and produced a mural illustrating how ecosystems thrive when people work harmoniously with nature."
+            }
+        ],
+        "id": "37_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Which of the following is the best alternative title for this text?",
+        "options": {
+            "A": "Global Connections in Education",
+            "B": "Empowering Students through Innovative Learning",
+            "C": "Community Outreach by Schools",
+            "D": "Critical Issues and Classroom Projects"
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "title": "Shaping the Future, One Lesson at a Time"
+            },
+            {
+                "subtitle": "Innovative School Projects Inspire Students to Learn and Grow"
+            },
+            {
+                "para_id": 1,
+                "section": " ",
+                "text": "Education is evolving, and schools around the world are embracing innovative approaches to learning. From community outreach to hands-on creative projects, students are being challenged to think critically and develop real-world skills. At the heart of this transformation are initiatives designed to make learning interactive, engaging, and impactful."
+            },
+            {
+                "para_id": 18,
+                "section": " ",
+                "text": "Through these kinds of programs, schools worldwide are empowering students to turn ideas into action and showing them how to make a meaningful impact, both inside and outside the classroom. As education continues to evolve, initiatives like the Student Workshop Hub will undoubtedly inspire generations of learners to shape a brighter, more connected future."
+            }
+        ],
+        "id": "39_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "fill_in_the_blank",
+        "question_text": "Complete the summary of the text by writing ONE word to fill in each blank. You should make sure your answers are grammatically correct, paying attention to tenses, plurals, etc.",
+        "marks": 11,
+        "text_for_fill": "The Student Workshop Hub was first held at Bright Future Secondary School, a facility located in ___, Canada. Organized by Emma and Paul Gibson, the event aimed to transform the school into a ___ of innovation while cultivating teamwork and accountability among students. During the workshop, students applied their skills to create practical solutions to real-world ___ affecting their school and local ___ . Among the many student projects, Lara and her classmates developed an outdoor terrace with seating created from ___ wood. Ethan built an automated system to track classroom energy ___ and provided alerts to address instances of ___ electricity usage. The Arts and Drama Club put on performances exploring cultural ___ , such as folklore, family dynamics, and societal change. Parents contributed significantly to the hub's success by providing ___ support and mentoring students in areas like logistics and budgeting. The hub was deemed a ___ by all participants and is set to grow even further with upcoming initiatives addressing mental health and global ___ .",
+        "answer": [
+            "Ontario",
+            "hotspot",
+            "problems",
+            "community",
+            "repurposed",
+            "consumption",
+            "wasted",
+            "diversity",
+            "financial",
+            "success",
+            "projects"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 3,
+                "section": " ",
+                "text": "Last month, a bustling workshop atmosphere brought together students, parents, and teachers at Bright Future Secondary School. Located in Ontario, Canada, the school hosted its first-ever \"Student Workshop Hub,\" a week-long event where students showcased creative solutions to problems affecting their school and neighborhood."
+            },
+            {
+                "para_id": 4,
+                "section": " ",
+                "text": "The event was organized by Emma and Paul Gibson, long-time educators who had envisioned turning the campus into a creative hotspot for community-minded projects. When they opened Bright Future Secondary School ten years ago, their dream was to create a space where students could not only study but also explore skills spanning technology, design, and even small-scale manufacturing. Their vision came to life with this event."
+            },
+            {
+                "para_id": 9,
+                "section": " ",
+                "text": "Fifteen-year-old Lara and her classmates formed a group called \"Eco School Advocates\" and worked tirelessly on an outdoor terrace project. \"We wanted to create a shared space in our school where people could relax and connect with nature,\" Lara explained. Her group planted native grass species, installed seating made from re-purposed wood, and produced a mural illustrating how ecosystems thrive when people work harmoniously with nature."
+            },
+            {
+                "para_id": 10,
+                "section": " ",
+                "text": "Thirteen-year-old Ethan was equally dedicated, putting his energy into developing an automated system for tracking classroom energy usage. \"I realized that lights were often left on when no one was around,\" Ethan said. \"So I built code that monitors energy consumption and sends alerts when electricity is being wasted.\" The technology drew interest from both teachers and school administrators."
+            },
+            {
+                "para_id": 12,
+                "section": " ",
+                "text": "Other standout moments included performances conducted by the Arts and Drama Club highlighting cultural diversity, traditional folklore, and modern interpretations of societal changes. \"Art has the ability to foster understanding,\" said Alan, a sixteen-year-old aspiring theater director. His group performed a play that explored shifting family dynamics in modern society, which resonated with many attendees."
+            },
+            {
+                "para_id": 14,
+                "section": " ",
+                "text": "As Emma and Paul reflected on the hub's success, they pointed to the parents' involvement as a key factor in bringing their vision to life. Many parents not only supported the event financially but also mentored students in areas like budgeting, marketing their ideas, and logistics."
+            },
+            {
+                "para_id": 15,
+                "section": " ",
+                "text": "The Student Workshop Hub, according to Emma, is just the first of many initiatives planned for Bright Future Secondary School. \"This is the beginning. Next year, we aim to tackle projects focused on mental health awareness, local history preservation, and even global initiatives connecting students from different countries,\" she said."
+            }
+        ],
+        "id": "40_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "matching",
+        "question_text": "Look at the following activities from the text and match them with either Digital learning or Harmony Learning Centre.",
+        "statements": [
+            {
+                "text": "team games",
+                "answer": "Harmony Learning Centre"
+            },
+            {
+                "text": "face-to-face discussions",
+                "answer": "Harmony Learning Centre"
+            },
+            {
+                "text": "solitary computer sessions",
+                "answer": "Digital learning"
+            },
+            {
+                "text": "leaving phones behind",
+                "answer": "Harmony Learning Centre"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "",
+                "text": "In an era where schools are increasingly embracing digital tools and online platforms, Harmony Learning Centre chooses a different path. This institution prioritises personal connection, traditional learning methods, and hands-on activities to foster deeper understanding among students."
+            },
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Group projects, team games, and face-to-face discussions have replaced solitary computer sessions. Students here share ideas, solve puzzles, and engage in collaborative learning exercises, all while leaving their phones behind."
+            }
+        ],
+        "id": "1_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Why does the author suggest that Harmony Learning Centre chooses a different path in paragraph 1?",
+        "options": {
+            "A": "It embraces technology-based learning methods.",
+            "B": "It prioritises traditional and personal approaches to education.",
+            "C": "It encourages solitary computer work for deeper understanding.",
+            "D": "It avoids group projects and collaborative activities."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "",
+                "text": "In an era where schools are increasingly embracing digital tools and online platforms, Harmony Learning Centre chooses a different path. This institution prioritises personal connection, traditional learning methods, and hands-on activities to foster deeper understanding among students."
+            }
+        ],
+        "id": "2_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "The main focus of paragraph 2 is to...",
+        "options": {
+            "A": "describe the use of phones in group learning.",
+            "B": "highlight Harmony Learning Centre's emphasis on collaborative learning methods.",
+            "C": "introduce puzzles as educational tools.",
+            "D": "explain the importance of solitary computer sessions."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Group projects, team games, and face-to-face discussions have replaced solitary computer sessions. Students here share ideas, solve puzzles, and engage in collaborative learning exercises, all while leaving their phones behind."
+            }
+        ],
+        "id": "3_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "In paragraph 4, what is the vision behind the establishment of Harmony Learning Centre?",
+        "answer": [
+            "to revive collaborative learning",
+            "to promote interpersonal/interactive education",
+            "to encourage students to think critically and socially"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 4,
+                "section": "Harmony School's Interactive Approach",
+                "text": "Emma Li and Joshua Chan, founders of Harmony Learning Centre, established the school two years ago to encourage a more interpersonal approach to education. With a vision to revive collaborative learning, Emma and Joshua introduced activities that inspire students to think critically and socially."
+            }
+        ],
+        "id": "4_text1",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Who founded Harmony Learning Centre?",
+        "answer": [
+            "Emma Li and Joshua Chan",
+            "Emma and Joshua",
+            "Joshua Chan and Emma Li",
+            "Joshua and Emma"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 4,
+                "section": "Harmony School's Interactive Approach",
+                "text": "Emma Li and Joshua Chan, founders of Harmony Learning Centre, established the school two years ago to encourage a more interpersonal approach to education. With a vision to revive collaborative learning, Emma and Joshua introduced activities that inspire students to think critically and socially."
+            }
+        ],
+        "id": "5_text1",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What was the purpose of establishing Harmony Learning Centre?",
+        "answer": [
+            "to encourage a more interpersonal approach to education",
+            "to revive collaborative learning",
+            "to inspire students to think critically and socially"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 4,
+                "section": "Harmony School's Interactive Approach",
+                "text": "Emma Li and Joshua Chan, founders of Harmony Learning Centre, established the school two years ago to encourage a more interpersonal approach to education. With a vision to revive collaborative learning, Emma and Joshua introduced activities that inspire students to think critically and socially."
+            }
+        ],
+        "id": "6_text1",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Activities organised by the learning centre at Harmony School include...",
+        "options": {
+            "A": "Outdoor trips and debates.",
+            "B": "Creative workshops and story circles hosted by parents and grandparents.",
+            "C": "Outdoor trips, creative workshops, debates, and story circles hosted by parents and grandparents.",
+            "D": "Outdoor trips, creative workshops, debates, science projects, and history presentations."
+        },
+        "answer": [
+            "C"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 6,
+                "section": "Harmony School's Interactive Approach",
+                "text": "The learning centre also organises activities such as outdoor trips, creative workshops, and debates. Parents and even grandparents are often invited to host story circles, imparting wisdom from their generations while bonding with the younger crowd."
+            }
+        ],
+        "id": "7_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "true_false_not_given",
+        "question_text": "Decide whether the following statements are True, False, or Not Given based on paragraphs 7-8.",
+        "statements": [
+            {
+                "text": "Emma believes interpersonal skills are crucial for modern collaborative learning.",
+                "answer": "True"
+            },
+            {
+                "text": "Digital connectivity is the primary focus of Harmony School’s interactive approach.",
+                "answer": "False"
+            },
+            {
+                "text": "Harmony School students analyze scientific data during Community Brainstorm Sessions.",
+                "answer": "Not Given"
+            },
+            {
+                "text": "Joshua observes that students learn a lot through interaction during group discussions.",
+                "answer": "True"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 7,
+                "section": "Harmony School's Interactive Approach",
+                "text": "Emma, a former education specialist, is enthusiastic about introducing all her students to collaborative learning models. “We live in times where everyone is connected digitally, but interpersonal skills are often lacking. Learning should involve conversations and understanding diverse perspectives, not isolated scrolling through screens.”"
+            },
+            {
+                "para_id": 8,
+                "section": "Harmony School's Interactive Approach",
+                "text": "For example, every Wednesday afternoon features what Harmony calls “Community Brainstorm Sessions.” Students present ideas or ask questions related to science, literature, or history, and, through group discussions, reach conclusions collaboratively. “It's amazing to see how much they absorb from each other just by interacting,” Joshua adds."
+            }
+        ],
+        "id": "8_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Find a word in paragraph 11 that means 'strong in dealing with difficulties'.",
+        "answer": [
+            "resilient"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 11,
+                "section": "The Benefits of Engaging Hands-on Activities",
+                "text": "Hugh Lee, co-teacher for Skill Unity, believes these interactive approaches make children emotionally resilient. “When kids play and collaborate actively, they naturally learn teamwork without being explicitly told. This aligns with Harmony's commitment to meaningful learning experiences,” Hugh explains proudly."
+            }
+        ],
+        "id": "9_Text1",
+        "mark": 1,
+        "style": [
+            "0.5_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What does 'these initiatives' in paragraph 10 refer to?",
+        "answer": [
+            "Group activities at Harmony Learning Centre"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 10,
+                "section": "The Benefits of Engaging Hands-on Activities",
+                "text": "Students come from diverse backgrounds to join Harmony but all find themselves immersed in this unique and close-knit culture. Anna Fong, a student from Year 9, shares: “At first, I was shy about participating in group activities. But these initiatives helped me open up, and now I love working with my classmates. My favourite event is when we work together in science lab experiments; it's exciting to learn in a group!”"
+            }
+        ],
+        "id": "10_Text1",
+        "mark": 1,
+        "style": [
+            "0.5_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "According to paragraph 10, what is Anna Fong’s favorite group activity?",
+        "options": {
+            "A": "Playing classic games.",
+            "B": "Science lab experiments.",
+            "C": "Logical challenges.",
+            "D": "Outdoor sports."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 10,
+                "section": "The Benefits of Engaging Hands-on Activities",
+                "text": "Students come from diverse backgrounds to join Harmony but all find themselves immersed in this unique and close-knit culture. Anna Fong, a student from Year 9, shares: “At first, I was shy about participating in group activities. But these initiatives helped me open up, and now I love working with my classmates. My favourite event is when we work together in science lab experiments; it's exciting to learn in a group!”"
+            }
+        ],
+        "id": "11_Text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multi_short_question",
+        "question_text": "Based on information provided in paragraphs 11-15, what do the following people say about engaging in hands-on activities or traditional learning methods?",
+        "sub_questions": [
+            {
+                "text": "Hugh Lee",
+                "answer": [
+                    "teamwork (skills)"
+                ]
+            },
+            {
+                "text": "Emma",
+                "answer": [
+                    "mental discipline/cultural heritage"
+                ]
+            },
+            {
+                "text": "Kevin Lam",
+                "answer": [
+                    "quick problem solving (skills)"
+                ]
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 11,
+                "section": "The Benefits of Engaging Hands-on Activities",
+                "text": "Hugh Lee, co-teacher for Skill Unity, believes these interactive approaches make children emotionally resilient. “When kids play and collaborate actively, they naturally learn teamwork without being explicitly told. This aligns with Harmony's commitment to meaningful learning experiences,” Hugh explains proudly."
+            },
+            {
+                "para_id": 13,
+                "section": "Learning through Tradition",
+                "text": "Games like Chinese Chess, Sudoku boards, and geometric puzzles are widely popular here. Emma believes such games not only provide mental discipline but also offer insights into social dynamics and reasoning techniques. “Take Chinese Chess as an example. It's fantastic for learning strategy and balance while also engaging students with parts of cultural heritage,” Emma explains."
+            },
+            {
+                "para_id": 14,
+                "section": "Learning through Tradition",
+                "text": "Among Harmony's cohort, Year 8 student Kevin Lam has developed a knack for strategic planning thanks to playing board games during breaks. After practising such games enthusiastically, Kevin says it's easier to make quick revisions to his math projects or address unanticipated challenges during discussions. “The problem-solving here makes me sharper in nearly every school subject,” he admits."
+            }
+        ],
+        "id": "12_Text1",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "matching",
+        "question_text": "Use information given in paragraphs 14-19 and match each person with the correct speech.",
+        "statements": [
+            {
+                "text": "Playing board games makes me sharper in my school subjects.",
+                "answer": "Kevin Lam"
+            },
+            {
+                "text": "Face-to-face learning strengthens social skills, which I always wanted for my child.",
+                "answer": "Mrs Wong"
+            },
+            {
+                "text": "Families come together for creative ideas, making learning enjoyable for everyone involved.",
+                "answer": "Joshua"
+            },
+            {
+                "text": "Chess strategies explained during games help tie generations together.",
+                "answer": "Mr Ho"
+            },
+            {
+                "text": "Re-enacting historical moments is both fun and educational.",
+                "answer": "Participants of Historic Role Playing"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 14,
+                "section": "Learning through Tradition",
+                "text": "Among Harmony's cohort, Year 8 student Kevin Lam has developed a knack for strategic planning thanks to playing board games during breaks. After practising such games enthusiastically, Kevin says it's easier to make quick revisions to his math projects or address unanticipated challenges during discussions. “The problem-solving here makes me sharper in nearly every school subject,” he admits."
+            },
+            {
+                "para_id": 15,
+                "section": "Learning through Tradition",
+                "text": "Parents particularly rave about Harmony's ability to engage students with such activities. “The focus on face-to-face learning that strengthens social skills is something I always wanted for my child,” says Mrs Wong, mother of ten-year-old Margaret. “This school feels refreshing when many others only push online video lessons.”"
+            },
+            {
+                "para_id": 17,
+                "section": "Inclusive Workshops That Unite Families",
+                "text": "Joshua notices the joy in creating simple items such as manually powered flashlights or water-saving devices: “When families come together for such ideas, the excitement is palpable. Learning becomes enjoyable for everyone involved.”"
+            },
+            {
+                "para_id": 18,
+                "section": "Inclusive Workshops That Unite Families",
+                "text": "“We participated in Family Chess Night last term,” shares Mr Ho, who regularly attends Harmony's weekend co-learning sessions with his son Noah. “It wasn't just about winning the match; it's about explaining chess strategies to younger players. These mindful games help tie generations together with smoother communication too.”"
+            },
+            {
+                "para_id": 19,
+                "section": "Inclusive Workshops That Unite Families",
+                "text": "Another popular session hosted regularly is “Historic Role Playing.” Children gather with guardians or leisure-time educators to re-enact key moments from history, adding creative interpretations where needed. It's both fun and educational and serves Harmony's broader mission to blend diverse approaches to learning."
+            }
+        ],
+        "id": "14_Text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "What is the main focus of Harmony's Community Learning Model as described in paragraph 20?",
+        "options": {
+            "A": "Enhancing technological skills in children.",
+            "B": "Promoting academic excellence and social collaboration.",
+            "C": "Preparing students for competitive environments.",
+            "D": "Encouraging individual achievements."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 20,
+                "section": "Harmony's Community Learning Model",
+                "text": "What truly defines the Harmony Learning Centre is its commitment to revitalising education as a shared experience. While fostering academic excellence, growing communal bonds in an institution where independence meets collaboration remains Harmony's unique priority."
+            }
+        ],
+        "id": "15_Text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "According to Emma, how do consistent dynamic relationships benefit students over time?",
+        "answer": [
+            "they shape students socially",
+            "they benefit students socially in the long term",
+            "students are shaped socially over years",
+            "social development occurs through long-term interactions"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 21,
+                "section": "Harmony's Community Learning Model",
+                "text": "Emma remarks: “When kids interact naturally or share creative input each day working together collaboratively, students learn both academic concepts related through consistent dynamic relationships evolving forward effectively shaping them socially over years ahead ultimately.”"
+            }
+        ],
+        "id": "16_Text1",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Which of the following best describes Harmony Learning Centre's approach to education?",
+        "options": {
+            "A": "It emphasizes online learning and digital platforms.",
+            "B": "It prioritizes collaborative and hands-on activities over technology dependence.",
+            "C": "Students use phones for research and puzzles.",
+            "D": "Its focus is mainly on competitive exams preparation."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "",
+                "text": "In an era where schools are increasingly embracing digital tools and online platforms, Harmony Learning Centre chooses a different path. This institution prioritises personal connection, traditional learning methods, and hands-on activities to foster deeper understanding among students."
+            },
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Group projects, team games, and face-to-face discussions have replaced solitary computer sessions. Students here share ideas, solve puzzles, and engage in collaborative learning exercises, all while leaving their phones behind."
+            }
+        ],
+        "id": "17_Text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "fill_in_the_blank",
+        "question_text": "Complete the following summary about Harmony Learning Centre. Use ONE word to fill in each blank. (Hyphenated words count as one word.)",
+        "text_for_fill": "The Harmony Learning Centre focuses on traditional and ___ ways of learning, prioritising hands-on activities and ___ interactions over digital ones. Group projects and teamwork-based games are central in helping students ___ with their classmates effectively. In contrast to solitary computer sessions, Harmony's collaborative approach includes ___ activities and discussions. Classrooms showcase colourful charts, puzzles, and ___ maps created by students. Outdoor trips and creative workshops are organised where even elderly family members participate through ___ circles. Emma, a former education specialist, emphasises improving ___ skills, as over-reliance on screens limits interpersonal connections. With events like “Community ___ Sessions” every Wednesday afternoon, students actively engage in presenting ideas and ___ solutions as a group. Another popular feature is the “Skill Unity” segment every Saturday, in which students ___ prototypes, solve riddles, or act out historical events. Activities like these help students become emotionally resilient while teaching critical thinking. For Year 9 student Anna Fong, group science lab experiments have aided her in becoming more ___ and open. Hugh Lee, a ___ for Skill Unity, highlights that playing and collaborating naturally fosters teamwork. Harmony also believes in reviving classic games and logical challenges to ___ students' minds and promote nostalgia in older generations. Emma concludes that collaborative learning models shape students ___ for their academic and social development. Harmony aspires to help children grow into emotionally ___ individuals able to appreciate deeper, slow-paced and ___ experiences.",
+        "answer": [
+            "interactive",
+            "personal",
+            "bond",
+            "collaborative",
+            "mind",
+            "story",
+            "interpersonal",
+            "Brainstorm",
+            "reach",
+            "build",
+            "confident",
+            "co-teacher",
+            "sharpen",
+            "naturally",
+            "resilient",
+            "meaningful",
+            "rich",
+            "engagements"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "",
+                "text": "In an era where schools are increasingly embracing digital tools and online platforms, Harmony Learning Centre chooses a different path. This institution prioritises personal connection, traditional learning methods, and hands-on activities to foster deeper understanding among students."
+            },
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Group projects, team games, and face-to-face discussions have replaced solitary computer sessions. Students here share ideas, solve puzzles, and engage in collaborative learning exercises, all while leaving their phones behind."
+            },
+            {
+                "para_id": 5,
+                "section": "Harmony School's Interactive Approach",
+                "text": "Classrooms are designed similar to inclusive sitting areas found in libraries, with round tables and interactive smart boards used sparingly. The corridors display walls of puzzles, mind maps, and colourful charts created by students. Even the playground is thoughtfully arranged, offering games that promote teamwork and communication."
+            },
+            {
+                "para_id": 6,
+                "section": "Harmony School's Interactive Approach",
+                "text": "The learning centre also organises activities such as outdoor trips, creative workshops, and debates. Parents and even grandparents are often invited to host story circles, imparting wisdom from their generations while bonding with the younger crowd."
+            },
+            {
+                "para_id": 8,
+                "section": "Harmony School's Interactive Approach",
+                "text": "For example, every Wednesday afternoon features what Harmony calls “Community Brainstorm Sessions.” Students present ideas or ask questions related to science, literature, or history, and, through group discussions, reach conclusions collaboratively. “It's amazing to see how much they absorb from each other just by interacting,” Joshua adds."
+            },
+            {
+                "para_id": 9,
+                "section": "The Benefits of Engaging Hands-on Activities",
+                "text": "One of Harmony Learning Centre's biggest attractions is its “Skill Unity” segment, conducted every Saturday. For two hours, students engage in fun group exercises such as making miniature prototypes of bridges, solving riddles, or role-playing historical events. It allows them to learn teamwork, critical thinking, and creativity."
+            },
+            {
+                "para_id": 11,
+                "section": "The Benefits of Engaging Hands-on Activities",
+                "text": "Hugh Lee, co-teacher for Skill Unity, believes these interactive approaches make children emotionally resilient. “When kids play and collaborate actively, they naturally learn teamwork without being explicitly told. This aligns with Harmony's commitment to meaningful learning experiences,” Hugh explains proudly."
+            },
+            {
+                "para_id": 12,
+                "section": "Learning through Tradition",
+                "text": "Harmony incorporates classic games and logical challenges into their curriculum, reviving methods that many education systems have abandoned. This effort helps sharpen the minds of students while stimulating a sense of nostalgia for older generations."
+            },
+            {
+                "para_id": 21,
+                "section": "Harmony's Community Learning Model",
+                "text": "Emma remarks: “When kids interact naturally or share creative input each day working together collaboratively, students learn both academic concepts related through consistent dynamic relationships evolving forward effectively shaping them socially over years ahead ultimately.”"
+            }
+        ],
+        "id": "18_Text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Why does Harmony Learning Centre incorporate traditional games like Chinese Chess? Give one reason from the text to support your answer.",
+        "answer": [
+            "they provide mental discipline",
+            "they offer insights into social dynamics/reasoning techniques",
+            "they engage students with cultural heritage"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 13,
+                "section": "Learning through Tradition",
+                "text": "Games like Chinese Chess, Sudoku boards, and geometric puzzles are widely popular here. Emma believes such games not only provide mental discipline but also offer insights into social dynamics and reasoning techniques. “Take Chinese Chess as an example. It's fantastic for learning strategy and balance while also engaging students with parts of cultural heritage,” Emma explains."
+            }
+        ],
+        "id": "19_Text1",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "multi_short_question",
+        "question_text": "Does Harmony Learning Centre focus more on traditional or digital learning methods? Give one reason to support each point of view from the provided paragraphs.",
+        "sub_questions": [
+            {
+                "text": "Traditional learning methods",
+                "answer": [
+                    "the institution prioritises personal connection, hands-on activities and face-to-face learning to foster understanding",
+                    "it replaces solitary computer sessions with group projects, team games, and discussions"
+                ]
+            },
+            {
+                "text": "Digital learning methods",
+                "answer": [
+                    "Harmony chooses a different path, but some may argue digital tools and online platforms offer more convenience/efficiency",
+                    "digital learning methods can provide access to a wider range of resources for students"
+                ]
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "",
+                "text": "In an era where schools are increasingly embracing digital tools and online platforms, Harmony Learning Centre chooses a different path. This institution prioritises personal connection, traditional learning methods, and hands-on activities to foster deeper understanding among students."
+            },
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Group projects, team games, and face-to-face discussions have replaced solitary computer sessions. Students here share ideas, solve puzzles, and engage in collaborative learning exercises, all while leaving their phones behind."
+            }
+        ],
+        "id": "20_Text1",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    }
+]

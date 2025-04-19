@@ -47,9 +47,11 @@ def convertTxtToJson(part,text_id, uid):
                     })  
                     paragraph_id += 1  
             paragraphs = []  
-            match = re.search(r"Section:\s*([^%$@#*`~<>{}\[\]()+=!^|\\/\n]+)", line)
+            match = re.search(r"Section:\s*((\([A-Za-z0-9]+\))?\s*[A-Za-z0-9\s]*)", line)
             if match:
-                current_section = clean_text(match.group(1)) 
+                raw_section = match.group(1)
+                cleaned_section = re.sub(r"[^\w()\s]+$", "", raw_section).strip()
+                current_section = clean_text(cleaned_section)
 
         else:  
             paragraphs.append(line)  
@@ -159,7 +161,9 @@ def convertTextJsonToPdf(part,text_id, uid):
     # Add title and subtitle
     story.append(Paragraph(data["title"], title_style))
     story.append(Spacer(1, 12))
-    story.append(Paragraph(data["subtitle"], subtitle_style))
+    subtitle_lines = data["subtitle"].split("\n")
+    for line in subtitle_lines:
+        story.append(Paragraph(line, subtitle_style))
     story.append(Spacer(1, 24))
 
         # Track sections that have already been added
@@ -244,6 +248,14 @@ def render_question_by_type(q, idx, styles):
             ]))
 
             elements.append(indented_table)
+            
+        case "multi_choice":
+            options = q.get("options", {})
+
+            for key, value in options.items():
+                option_text = f"○ {key}. {value}"
+                elements.append(Paragraph(option_text, styles['option']))
+                elements.append(Spacer(1, 4))
 
         case "short_question":
             # Add 2 lines for answer
@@ -270,7 +282,7 @@ def render_question_by_type(q, idx, styles):
         case "matching":
             # Render as table with three columns
             data = [["Expressions", "Answer"]]
-            for stmt in q.get("statement", []):
+            for stmt in q.get("statements", []):
                 data.append([stmt["text"], ""])
 
             table = Table(data, colWidths=[220, 100])
@@ -321,10 +333,15 @@ def convertQuestionJsonToPdf(part, uid):
     }
     
     story = [Paragraph("Question Paper", styles['title']), Spacer(1, 24)]
-
-    for i, question in enumerate(data, start=1):
-        story.extend(render_question_by_type(question, i, styles))
+    
+    for question in data:
+        qid = question.get("id", "0_textx").split('_')[0]
+        story.extend(render_question_by_type(question, qid, styles))
 
     doc = SimpleDocTemplate(pdf_path, pagesize=A4,
                             rightMargin=72, leftMargin=72, topMargin=72, bottomMargin=72)
     doc.build(story)
+    
+    
+convertTxtToJson("PartB1", "2", "ed083b")
+convertTextJsonToPdf("PartB1", "2", "ed083b")

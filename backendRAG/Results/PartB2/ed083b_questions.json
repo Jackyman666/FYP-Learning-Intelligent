@@ -1,0 +1,817 @@
+[
+    {
+        "question_type": "short_question",
+        "question_text": "What does the act of greeting reveal about cultures?",
+        "answer": [
+            "cultural significance/priorities",
+            "values/customs",
+            "levels of formality",
+            "human connection",
+            "relationships"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "",
+                "text": "The phrase \"hello\" might seem ordinary, but its usage across cultures and languages is a fascinating reflection of human connection. The simple act of greeting another person — whether as a way to begin a conversation, express warmth, or establish rapport — serves as a powerful tool for building relationships. Understanding the nuances of greetings and their cultural significance is essential in today's interconnected world."
+            },
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Across various languages, \"hello\" takes on unique forms and conveys distinct cultural values. In Japanese, for instance, \"konnichiwa\" is often accompanied by a bow, demonstrating respect and humility. Meanwhile, in Italian, \"ciao\" carries both an informal and affectionate tone, reflecting the country's emphasis on familial bonds and close-knit communities. Even the way greetings are physically expressed can differ, from handshakes and kisses on the cheek to elaborate rituals, such as the Maori greeting of pressing noses together. Each version of \"hello\" represents more than just a word; it reveals different cultural priorities and levels of formality."
+            }
+        ],
+        "id": "41_text3",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "According to paragraph 2, how do different cultures express the greeting 'hello'?",
+        "answer": [
+            "using physical gestures like bows/handshakes/kisses on the cheek/pressing noses together",
+            "through unique forms reflecting cultural values, such as respect/humility/affection/familial bonds"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Across various languages, 'hello' takes on unique forms and conveys distinct cultural values. In Japanese, for instance, 'konnichiwa' is often accompanied by a bow, demonstrating respect and humility. Meanwhile, in Italian, 'ciao' carries both an informal and affectionate tone, reflecting the country's emphasis on familial bonds and close-knit communities. Even the way greetings are physically expressed can differ, from handshakes and kisses on the cheek to elaborate rituals, such as the Maori greeting of pressing noses together. Each version of 'hello' represents more than just a word; it reveals different cultural priorities and levels of formality."
+            }
+        ],
+        "id": "42_text3",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "According to paragraph 2, all of the following are ways greetings reflect cultural values EXCEPT...",
+        "options": {
+            "A": "Japanese greetings convey respect and humility.",
+            "B": "Italian greetings emphasize familial bonds and informality.",
+            "C": "Maori greetings do not involve physical contact.",
+            "D": "Handshakes and kisses on the cheek showcase cultural priorities."
+        },
+        "answer": [
+            "C"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Across various languages, 'hello' takes on unique forms and conveys distinct cultural values. In Japanese, for instance, 'konnichiwa' is often accompanied by a bow, demonstrating respect and humility. Meanwhile, in Italian, 'ciao' carries both an informal and affectionate tone, reflecting the country's emphasis on familial bonds and close-knit communities. Even the way greetings are physically expressed can differ, from handshakes and kisses on the cheek to elaborate rituals, such as the Maori greeting of pressing noses together. Each version of 'hello' represents more than just a word; it reveals different cultural priorities and levels of formality."
+            }
+        ],
+        "id": "43_text3",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What does the writer suggest in paragraph 1 is the purpose of greetings like 'hello'?",
+        "answer": [
+            "building relationships",
+            "expressing warmth",
+            "establish(ing) rapport",
+            "to begin a conversation"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "",
+                "text": "The phrase \"hello\" might seem ordinary, but its usage across cultures and languages is a fascinating reflection of human connection. The simple act of greeting another person — whether as a way to begin a conversation, express warmth, or establish rapport — serves as a powerful tool for building relationships. Understanding the nuances of greetings and their cultural significance is essential in today's interconnected world."
+            }
+        ],
+        "id": "44_text3",
+        "mark": 1,
+        "style": [
+            "2_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Which of the following best describes the cultural significance of greetings, according to Paragraph 2?",
+        "options": {
+            "A": "They are primarily for starting conversations.",
+            "B": "They reflect respect, affection, and cultural priorities.",
+            "C": "They serve as formal gestures only.",
+            "D": "They eliminate the need for physical expression in communication."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Across various languages, \"hello\" takes on unique forms and conveys distinct cultural values. In Japanese, for instance, \"konnichiwa\" is often accompanied by a bow, demonstrating respect and humility. Meanwhile, in Italian, \"ciao\" carries both an informal and affectionate tone, reflecting the country's emphasis on familial bonds and close-knit communities. Even the way greetings are physically expressed can differ, from handshakes and kisses on the cheek to elaborate rituals, such as the Maori greeting of pressing noses together. Each version of \"hello\" represents more than just a word; it reveals different cultural priorities and levels of formality."
+            }
+        ],
+        "id": "45_text3",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "In paragraph 2, it is mentioned that ‘each version of “hello” represents more than just a word.’ What else does the word ‘hello’ reveal, according to the writer?",
+        "answer": [
+            "different cultural priorities",
+            "levels of formality"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Across various languages, \"hello\" takes on unique forms and conveys distinct cultural values. In Japanese, for instance, \"konnichiwa\" is often accompanied by a bow, demonstrating respect and humility. Meanwhile, in Italian, \"ciao\" carries both an informal and affectionate tone, reflecting the country's emphasis on familial bonds and close-knit communities. Even the way greetings are physically expressed can differ, from handshakes and kisses on the cheek to elaborate rituals, such as the Maori greeting of pressing noses together. Each version of \"hello\" represents more than just a word; it reveals different cultural priorities and levels of formality."
+            }
+        ],
+        "id": "46_text3",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "How do cultural differences influence the ways people express greetings, according to the writer?",
+        "answer": [
+            "greetings reflect cultural priorities and levels of formality",
+            "different ways of expressing greetings show distinct cultural values",
+            "greetings can involve physical actions like bows or rituals such as pressing noses together"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "Across various languages, \"hello\" takes on unique forms and conveys distinct cultural values. In Japanese, for instance, \"konnichiwa\" is often accompanied by a bow, demonstrating respect and humility. Meanwhile, in Italian, \"ciao\" carries both an informal and affectionate tone, reflecting the country's emphasis on familial bonds and close-knit communities. Even the way greetings are physically expressed can differ, from handshakes and kisses on the cheek to elaborate rituals, such as the Maori greeting of pressing noses together. Each version of \"hello\" represents more than just a word; it reveals different cultural priorities and levels of formality."
+            }
+        ],
+        "id": "47_text3",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "According to paragraph 2, Ling Wei suggests that saying 'hello'...",
+        "options": {
+            "A": "is a strategic tool used exclusively in formal ceremonies.",
+            "B": "helps to initiate human interaction in different contexts.",
+            "C": "is important only in intercultural communication.",
+            "D": "has diminished in significance over time."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "One compelling perspective comes from 45-year-old Ling Wei, an anthropologist who lives in Shenzhen and has spent years studying intercultural communication. While much of her research has focused on formal greetings in traditional societies, she is equally fascinated by everyday informal exchanges. \"A simple 'hello' disarms people,\" she notes, \"whether on an elevator, in a work email, or during international negotiations. It's the starting point of human interaction.\" Wei believes that in both personal and professional contexts, the significance of saying \"hello\" cannot be overstated."
+            }
+        ],
+        "id": "48_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What does Ling Wei suggest about the importance of saying 'hello' in paragraph 2?",
+        "answer": [
+            "it is the starting point of human interaction",
+            "it disarms people",
+            "it is significant in both personal and professional contexts"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "One compelling perspective comes from 45-year-old Ling Wei, an anthropologist who lives in Shenzhen and has spent years studying intercultural communication. While much of her research has focused on formal greetings in traditional societies, she is equally fascinated by everyday informal exchanges. \"A simple 'hello' disarms people,\" she notes, \"whether on an elevator, in a work email, or during international negotiations. It's the starting point of human interaction.\" Wei believes that in both personal and professional contexts, the significance of saying \"hello\" cannot be overstated."
+            }
+        ],
+        "id": "49_text4",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "According to Ling Wei, why is the word \"hello\" important in interpersonal interactions (para 2)?",
+        "options": {
+            "A": "It is a formal greeting used in traditional societies.",
+            "B": "It makes people feel disarmed and more open.",
+            "C": "It is used mainly in professional negotiations.",
+            "D": "It prevents cultural misunderstandings."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "One compelling perspective comes from 45-year-old Ling Wei, an anthropologist who lives in Shenzhen and has spent years studying intercultural communication. While much of her research has focused on formal greetings in traditional societies, she is equally fascinated by everyday informal exchanges. \"A simple 'hello' disarms people,\" she notes, \"whether on an elevator, in a work email, or during international negotiations. It's the starting point of human interaction.\" Wei believes that in both personal and professional contexts, the significance of saying \"hello\" cannot be overstated."
+            }
+        ],
+        "id": "50_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "true_false_not_given",
+        "question_text": "Decide whether the following statements are True, False, or the information is Not Given in paragraphs 2–3.",
+        "statements": [
+            {
+                "text": "Ling Wei specializes in studying greetings in urban societies.",
+                "answer": "False"
+            },
+            {
+                "text": "Ling Wei teaches her children to value kindness through initiating conversations.",
+                "answer": "True"
+            },
+            {
+                "text": "Ling Wei's daughters struggle to make friends because of linguistic barriers.",
+                "answer": "False"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "One compelling perspective comes from 45-year-old Ling Wei, an anthropologist who lives in Shenzhen and has spent years studying intercultural communication. While much of her research has focused on formal greetings in traditional societies, she is equally fascinated by everyday informal exchanges. \"A simple 'hello' disarms people,\" she notes, \"whether on an elevator, in a work email, or during international negotiations. It's the starting point of human interaction.\" Wei believes that in both personal and professional contexts, the significance of saying \"hello\" cannot be overstated."
+            },
+            {
+                "para_id": 3,
+                "section": "",
+                "text": "Wei's insights extend to her personal life, where she uses this straightforward greeting to teach her children the value of kindness and connection. Her two teenage daughters often accompany her to community events, where Wei encourages them to introduce themselves and initiate conversations with strangers using \"hello.\" \"You don't need expensive gifts or grand gestures to break the ice,\" Wei explains. \"Hello teaches children empathy and the courage to approach someone new.\" She remarks that her daughters have developed friendships across cultural and linguistic boundaries simply because they learned the art of initiating with a warm greeting."
+            }
+        ],
+        "id": "51_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "fill_in_the_blank",
+        "question_text": "Use ONE word to complete each blank",
+        "text_for_fill": "Ling Wei, an anthropologist from Shenzhen, values the simple greeting 'hello' for its ability to ___ people. She believes it can serve as the ___ ___ of human interaction, whether in personal or professional contexts. In corporate scenarios, a genuine 'hello', coupled with a ___, is seen as a way to ease tension.",
+        "answer": [
+            [
+                "disarm"
+            ],
+            [
+                "starting"
+            ],
+            [
+                "point"
+            ],
+            [
+                "smile"
+            ]
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "One compelling perspective comes from 45-year-old Ling Wei, an anthropologist who lives in Shenzhen and has spent years studying intercultural communication. While much of her research has focused on formal greetings in traditional societies, she is equally fascinated by everyday informal exchanges. \"A simple 'hello' disarms people,\" she notes, \"whether on an elevator, in a work email, or during international negotiations. It's the starting point of human interaction.\" Wei believes that in both personal and professional contexts, the significance of saying \"hello\" cannot be overstated."
+            },
+            {
+                "para_id": 4,
+                "section": "",
+                "text": "The power of \"hello\" becomes more evident in corporate settings. A recent survey conducted by a global human resources consultancy revealed that professionals across industries rated \"approachability\" as one of the top traits they value in teammates and leaders. With that in mind, many corporate training programs have incorporated lessons on effective verbal and non-verbal greetings, recognizing the role of an inviting tone and posture. \"A genuinely spoken 'hello', paired with a smile, can immediately ease tension during high-stakes meetings or negotiations,\" states Martin Kane, a consultant based in Singapore who specializes in cross-border team building."
+            }
+        ],
+        "id": "52_text4",
+        "mark": 1,
+        "style": [
+            "2_blank"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "According to Wei, saying 'hello' is significant because it...",
+        "options": {
+            "A": "requires expensive gifts to make an impression",
+            "B": "breaks the ice and fosters human connections",
+            "C": "helps children avoid intercultural communication",
+            "D": "is limited to professional contexts only"
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "One compelling perspective comes from 45-year-old Ling Wei, an anthropologist who lives in Shenzhen and has spent years studying intercultural communication. While much of her research has focused on formal greetings in traditional societies, she is equally fascinated by everyday informal exchanges. \"A simple 'hello' disarms people,\" she notes, \"whether on an elevator, in a work email, or during international negotiations. It's the starting point of human interaction.\" Wei believes that in both personal and professional contexts, the significance of saying \"hello\" cannot be overstated."
+            },
+            {
+                "para_id": 3,
+                "section": "",
+                "text": "Wei's insights extend to her personal life, where she uses this straightforward greeting to teach her children the value of kindness and connection. Her two teenage daughters often accompany her to community events, where Wei encourages them to introduce themselves and initiate conversations with strangers using \"hello.\" \"You don't need expensive gifts or grand gestures to break the ice,\" Wei explains. \"Hello teaches children empathy and the courage to approach someone new.\" She remarks that her daughters have developed friendships across cultural and linguistic boundaries simply because they learned the art of initiating with a warm greeting."
+            }
+        ],
+        "id": "53_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What is the main idea of paragraph 3?",
+        "answer": [
+            "Wei uses 'hello' to teach her children the value of kindness and connection",
+            "children learn empathy and courage through the greeting 'hello'",
+            "introducing oneself with a warm greeting helps create friendships across boundaries"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 3,
+                "section": "",
+                "text": "Wei's insights extend to her personal life, where she uses this straightforward greeting to teach her children the value of kindness and connection. Her two teenage daughters often accompany her to community events, where Wei encourages them to introduce themselves and initiate conversations with strangers using 'hello.' 'You don't need expensive gifts or grand gestures to break the ice,' Wei explains. 'Hello teaches children empathy and the courage to approach someone new.' She remarks that her daughters have developed friendships across cultural and linguistic boundaries simply because they learned the art of initiating with a warm greeting."
+            }
+        ],
+        "id": "54_text4",
+        "mark": 1,
+        "style": [
+            "2_line"
+        ]
+    },
+    {
+        "question_type": "multi_short_question",
+        "question_text": "What might 'kindness and connection' (para 3) refer to? Find TWO examples given in paragraph 3.",
+        "sub_questions": [
+            {
+                "text": "a)",
+                "answer": [
+                    "(breaking the ice with) a straightforward greeting",
+                    "using 'hello' to greet (someone)"
+                ]
+            },
+            {
+                "text": "b)",
+                "answer": [
+                    "developing friendships (across cultural and linguistic boundaries)",
+                    "(initiating) conversations with strangers"
+                ]
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 3,
+                "section": "",
+                "text": "Wei's insights extend to her personal life, where she uses this straightforward greeting to teach her children the value of kindness and connection. Her two teenage daughters often accompany her to community events, where Wei encourages them to introduce themselves and initiate conversations with strangers using 'hello.' 'You don't need expensive gifts or grand gestures to break the ice,' Wei explains. 'Hello teaches children empathy and the courage to approach someone new.' She remarks that her daughters have developed friendships across cultural and linguistic boundaries simply because they learned the art of initiating with a warm greeting."
+            }
+        ],
+        "id": "55_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multi_short_question",
+        "question_text": "In paragraph 4, find three traits that professionals value in teammates and leaders. (Do NOT use 'approachability' as an answer).",
+        "sub_questions": [
+            {
+                "text": "a)",
+                "answer": [
+                    "inviting tone"
+                ]
+            },
+            {
+                "text": "b)",
+                "answer": [
+                    "posture"
+                ]
+            },
+            {
+                "text": "c)",
+                "answer": [
+                    "(genuine) smile"
+                ]
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 4,
+                "section": "",
+                "text": "The power of \"hello\" becomes more evident in corporate settings. A recent survey conducted by a global human resources consultancy revealed that professionals across industries rated \"approachability\" as one of the top traits they value in teammates and leaders. With that in mind, many corporate training programs have incorporated lessons on effective verbal and non-verbal greetings, recognizing the role of an inviting tone and posture. \"A genuinely spoken 'hello', paired with a smile, can immediately ease tension during high-stakes meetings or negotiations,\" states Martin Kane, a consultant based in Singapore who specializes in cross-border team building."
+            }
+        ],
+        "id": "56_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "According to Martin Kane, what can a genuinely spoken 'hello' paired with a smile achieve during high-stakes meetings or negotiations?",
+        "answer": [
+            "ease tension",
+            "reduce tension"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 4,
+                "section": "",
+                "text": "The power of \"hello\" becomes more evident in corporate settings. A recent survey conducted by a global human resources consultancy revealed that professionals across industries rated \"approachability\" as one of the top traits they value in teammates and leaders. With that in mind, many corporate training programs have incorporated lessons on effective verbal and non-verbal greetings, recognizing the role of an inviting tone and posture. \"A genuinely spoken 'hello', paired with a smile, can immediately ease tension during high-stakes meetings or negotiations,\" states Martin Kane, a consultant based in Singapore who specializes in cross-border team building."
+            }
+        ],
+        "id": "57_text4",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "What is the main idea of paragraph 4?",
+        "options": {
+            "A": "Corporate training programs focus on teamwork-building activities.",
+            "B": "Saying 'hello' enhances approachability in professional settings.",
+            "C": "Teammates and leaders value creativity over communication skills.",
+            "D": "Non-verbal gestures are considered more important than verbal greetings."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 4,
+                "section": "",
+                "text": "The power of 'hello' becomes more evident in corporate settings. A recent survey conducted by a global human resources consultancy revealed that professionals across industries rated 'approachability' as one of the top traits they value in teammates and leaders. With that in mind, many corporate training programs have incorporated lessons on effective verbal and non-verbal greetings, recognizing the role of an inviting tone and posture. 'A genuinely spoken 'hello', paired with a smile, can immediately ease tension during high-stakes meetings or negotiations,' states Martin Kane, a consultant based in Singapore who specializes in cross-border team building."
+            }
+        ],
+        "id": "58_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What does ‘approachability’ (para 4) refer to?",
+        "answer": [
+            "being easy to talk to",
+            "being friendly and welcoming"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 4,
+                "section": "",
+                "text": "The power of \"hello\" becomes more evident in corporate settings. A recent survey conducted by a global human resources consultancy revealed that professionals across industries rated \"approachability\" as one of the top traits they value in teammates and leaders. With that in mind, many corporate training programs have incorporated lessons on effective verbal and non-verbal greetings, recognizing the role of an inviting tone and posture. \"A genuinely spoken 'hello,' paired with a smile, can immediately ease tension during high-stakes meetings or negotiations,\" states Martin Kane, a consultant based in Singapore who specializes in cross-border team building."
+            }
+        ],
+        "id": "59_text4",
+        "mark": 1,
+        "style": [
+            "0.5_line"
+        ]
+    },
+    {
+        "question_type": "multi_short_question",
+        "question_text": "In paragraph 5, identify two ways 'hello' helped maintain connections during COVID-19.",
+        "sub_questions": [
+            {
+                "text": "a)",
+                "answer": [
+                    "maintain relationships"
+                ]
+            },
+            {
+                "text": "b)",
+                "answer": [
+                    "foster trust"
+                ]
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 5,
+                "section": "",
+                "text": "In the wider world, the significance of \"hello\" has grown as societies navigate technological and social transformations. A study of interpersonal communication patterns during the COVID-19 pandemic revealed another fascinating layer to this ubiquitous greeting: digital hellos. Platforms like Zoom, WhatsApp, and even older tools like email became central to saying \"hello\" virtually. Researchers found that despite the absence of physical presence or the ability to shake hands, the simple act of writing or saying \"hello\" online helped maintain relationships and foster trust during times of isolation."
+            }
+        ],
+        "id": "60_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "In paragraph 6, the author’s main point is…",
+        "options": {
+            "A": "The word 'hello' can influence global diplomacy.",
+            "B": "The word 'hello' has no significant impact on international affairs.",
+            "C": "Historic summits succeed due to polite greetings like 'hello'.",
+            "D": "The exchange of 'hello' guarantees immediate political change."
+        },
+        "answer": [
+            "A"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 6,
+                "section": "",
+                "text": "Perhaps nowhere else has \"hello\" been more impactful recently than in diplomacy and international affairs. A 2017 interaction between then-U.S. President Donald Trump and North Korean leader Kim Jong Un is a case study in the value of small beginnings. At their historic summit meeting, the leaders greeted each other with a polite \"hello\" before entering deeper discussions on nuclear disarmament. Political analysts argue that while the summit achieved limited tangible outcomes, the exchange served as a symbolic opening, paving the way for improved dialogue moving forward. \"The word 'hello' might not lead to immediate change,\" says Dr. Michael Foster, a political historian, \"but history shows us that greetings can break tension and signal willingness to cooperate.\""
+            }
+        ],
+        "id": "61_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What is one cultural or regional difference in how 'hello' is expressed?",
+        "answer": [
+            "bowing or tone adjustment in Japan",
+            "hugs and pats on the shoulder in Brazil",
+            "saying 'G'day' in Australia",
+            "saying 'Hiya' in Britain",
+            "saying 'Hey' in America"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 8,
+                "section": "",
+                "text": "Cultural nuances play an essential role in how 'hello' is perceived and received. In Japan, for instance, the act of greeting, known as aisatsu, often comes with subtle cues like bowing or tone adjustment. In contrast, greetings in Brazil are often more physical, involving hugs and pats on the shoulder. Even within English-speaking countries, there are variations — an Australian might say 'G'day,' a Brit might use 'Hiya,' and an American might opt simply for 'Hey.' Across cultures, though, the underlying principle remains the same: initiating warmth and openness."
+            }
+        ],
+        "id": "62_text4",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Find a word in paragraph 6 that means 'agreement to talk in an accommodating manner'.",
+        "answer": [
+            "dialogue"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 6,
+                "section": "",
+                "text": "Perhaps nowhere else has \"hello\" been more impactful recently than in diplomacy and international affairs. A 2017 interaction between then-U.S. President Donald Trump and North Korean leader Kim Jong Un is a case study in the value of small beginnings. At their historic summit meeting, the leaders greeted each other with a polite \"hello\" before entering deeper discussions on nuclear disarmament. Political analysts argue that while the summit achieved limited tangible outcomes, the exchange served as a symbolic opening, paving the way for improved dialogue moving forward. \"The word 'hello' might not lead to immediate change,\" says Dr. Michael Foster, a political historian, \"but history shows us that greetings can break tension and signal willingness to cooperate.\""
+            }
+        ],
+        "id": "63_text4",
+        "mark": 1,
+        "style": [
+            "0.5_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "What does ‘cohesion’ (line 7) mean?",
+        "options": {
+            "A": "unity",
+            "B": "confusion",
+            "C": "trust",
+            "D": "reputation"
+        },
+        "answer": [
+            "A"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 7,
+                "section": "",
+                "text": "It's not just large-scale diplomacy where \"hello\" shows its power. In local communities, saying the word can transform neighborhoods. During a civic engagement initiative in Melbourne, participants were encouraged to greet at least three strangers every day with a simple \"hello\" while walking through parks or attending public events. After six months, neighborhood surveys revealed a sharp increase in perceived community cohesion. One participant recounted how she came to recognize and greet people she'd previously considered strangers on her daily runs. \"A hello is often the beginning of recognizing someone as part of your life or surroundings,\" the woman observed."
+            }
+        ],
+        "id": "64_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "matching",
+        "question_text": "Match the following observations about greetings to their respective cultural or societal context. Write the correct letter (A-C) in the boxes provided.",
+        "statements": [
+            {
+                "text": "A greeting that involves bowing or tone adjustment.",
+                "answer": "A"
+            },
+            {
+                "text": "More physical greetings, such as hugs and pats on the shoulder.",
+                "answer": "B"
+            },
+            {
+                "text": "An issue where urbanization leads to fewer greetings between people.",
+                "answer": "C"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 8,
+                "section": "",
+                "text": "Cultural nuances play an essential role in how \"hello\" is perceived and received. In Japan, for instance, the act of greeting, known as aisatsu, often comes with subtle cues like bowing or tone adjustment. In contrast, greetings in Brazil are often more physical, involving hugs and pats on the shoulder. Even within English-speaking countries, there are variations — an Australian might say \"G'day,\" a Brit might use \"Hiya,\" and an American might opt simply for \"Hey.\" Across cultures, though, the underlying principle remains the same: initiating warmth and openness."
+            },
+            {
+                "para_id": 9,
+                "section": "",
+                "text": "However, challenges also exist. As societies modernize and urbanize, some lament the erosion of greeting customs. Ling Wei remarks on her experience in vast metropolitan cities like Shanghai and New York, where busy lives overshadow personal exchanges. \"In big cities, people often avoid eye contact, forget to say hello,\" Wei laments. Yet, she also believes that movements like mindfulness and localized community initiatives could reignite the relevance of greetings. \"We need to reclaim hello,\" she asserts."
+            }
+        ],
+        "id": "65_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "How does the anecdote about Melbourne participants illustrate the power of greetings in paragraph 7?",
+        "answer": [
+            "it increases community cohesion",
+            "it helps people recognize strangers as part of their life"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 7,
+                "section": "",
+                "text": "It's not just large-scale diplomacy where \"hello\" shows its power. In local communities, saying the word can transform neighborhoods. During a civic engagement initiative in Melbourne, participants were encouraged to greet at least three strangers every day with a simple \"hello\" while walking through parks or attending public events. After six months, neighborhood surveys revealed a sharp increase in perceived community cohesion. One participant recounted how she came to recognize and greet people she'd previously considered strangers on her daily runs. \"A hello is often the beginning of recognizing someone as part of your life or surroundings,\" the woman observed."
+            }
+        ],
+        "id": "66_text4",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "fill_in_the_blank",
+        "question_text": "Below is a summary of the ideas found in paragraphs 6-9. Fill in the blanks using words that can be found in paragraphs 6-9. Write ONE word per blank.",
+        "text_for_fill": "The word \"hello\" has played a significant role in ___ and cultural interactions. A polite greeting between Donald Trump and Kim Jong Un at their ___ summit in 2017 highlighted the ___ value of beginnings, paving the way for improved dialogue. Likewise, local initiatives in Melbourne show how simply saying hello can foster ___ between neighbors. Cultural differences also shape greeting customs; in Japan, greetings often involve bowing, while in Brazil they are generally ___ interactions like hugs. However, modernization and urbanization have challenged greeting habits, especially in large cities, where people tend to ___ eye contact and personal exchanges. Some believe that mindfulness initiatives could bring ___ to greetings. Across diverse regions, people continue to view hello as a(n) ___ means of creating ___ and cooperation. Yet, societal dynamics such as faster lifestyles could ___ hello's relevance, requiring efforts to ___ the lost art of greetings.",
+        "answer": [
+            "diplomatic",
+            "historic",
+            "symbolic",
+            "cohesion",
+            "physical",
+            "avoid",
+            "relevance",
+            "universal",
+            "warmth",
+            "erode",
+            "reclaim"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 6,
+                "section": "",
+                "text": "Perhaps nowhere else has \"hello\" been more impactful recently than in diplomacy and international affairs. A 2017 interaction between then-U.S. President Donald Trump and North Korean leader Kim Jong Un is a case study in the value of small beginnings. At their historic summit meeting, the leaders greeted each other with a polite \"hello\" before entering deeper discussions on nuclear disarmament. Political analysts argue that while the summit achieved limited tangible outcomes, the exchange served as a symbolic opening, paving the way for improved dialogue moving forward. \"The word 'hello' might not lead to immediate change,\" says Dr. Michael Foster, a political historian, \"but history shows us that greetings can break tension and signal willingness to cooperate.\""
+            },
+            {
+                "para_id": 7,
+                "section": "",
+                "text": "It's not just large-scale diplomacy where \"hello\" shows its power. In local communities, saying the word can transform neighborhoods. During a civic engagement initiative in Melbourne, participants were encouraged to greet at least three strangers every day with a simple \"hello\" while walking through parks or attending public events. After six months, neighborhood surveys revealed a sharp increase in perceived community cohesion. One participant recounted how she came to recognize and greet people she'd previously considered strangers on her daily runs. \"A hello is often the beginning of recognizing someone as part of your life or surroundings,\" the woman observed."
+            },
+            {
+                "para_id": 8,
+                "section": "",
+                "text": "Cultural nuances play an essential role in how \"hello\" is perceived and received. In Japan, for instance, the act of greeting, known as aisatsu, often comes with subtle cues like bowing or tone adjustment. In contrast, greetings in Brazil are often more physical, involving hugs and pats on the shoulder. Even within English-speaking countries, there are variations — an Australian might say \"G'day,\" a Brit might use \"Hiya,\" and an American might opt simply for \"Hey.\" Across cultures, though, the underlying principle remains the same: initiating warmth and openness."
+            },
+            {
+                "para_id": 9,
+                "section": "",
+                "text": "However, challenges also exist. As societies modernize and urbanize, some lament the erosion of greeting customs. Ling Wei remarks on her experience in vast metropolitan cities like Shanghai and New York, where busy lives overshadow personal exchanges. \"In big cities, people often avoid eye contact, forget to say hello,\" Wei laments. Yet, she also believes that movements like mindfulness and localized community initiatives could reignite the relevance of greetings. \"We need to reclaim hello,\" she asserts."
+            }
+        ],
+        "id": "67_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Which word is closest in meaning to ‘reclaim’ in paragraph 9?",
+        "options": {
+            "A": "restore",
+            "B": "remove",
+            "C": "reject",
+            "D": "relinquish"
+        },
+        "answer": [
+            "A"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 9,
+                "section": "",
+                "text": "However, challenges also exist. As societies modernize and urbanize, some lament the erosion of greeting customs. Ling Wei remarks on her experience in vast metropolitan cities like Shanghai and New York, where busy lives overshadow personal exchanges. \"In big cities, people often avoid eye contact, forget to say hello,\" Wei laments. Yet, she also believes that movements like mindfulness and localized community initiatives could reignite the relevance of greetings. \"We need to reclaim hello,\" she asserts."
+            }
+        ],
+        "id": "68_text4",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "According to paragraph 9, what are some factors contributing to the decline of greeting customs in metropolitan cities?",
+        "answer": [
+            "busy lives overshadow personal exchanges",
+            "people avoid eye contact",
+            "people forget to say hello"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 9,
+                "section": "",
+                "text": "However, challenges also exist. As societies modernize and urbanize, some lament the erosion of greeting customs. Ling Wei remarks on her experience in vast metropolitan cities like Shanghai and New York, where busy lives overshadow personal exchanges. \"In big cities, people often avoid eye contact, forget to say hello,\" Wei laments. Yet, she also believes that movements like mindfulness and localized community initiatives could reignite the relevance of greetings. \"We need to reclaim hello,\" she asserts."
+            }
+        ],
+        "id": "69_text4",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What challenges regarding greetings are mentioned in the passage (para 9)?",
+        "answer": [
+            "modernization/urbanization overshadow personal exchanges",
+            "people avoid eye contact",
+            "forget to say hello"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 9,
+                "section": "",
+                "text": "However, challenges also exist. As societies modernize and urbanize, some lament the erosion of greeting customs. Ling Wei remarks on her experience in vast metropolitan cities like Shanghai and New York, where busy lives overshadow personal exchanges. \"In big cities, people often avoid eye contact, forget to say hello,\" Wei laments. Yet, she also believes that movements like mindfulness and localized community initiatives could reignite the relevance of greetings. \"We need to reclaim hello,\" she asserts."
+            }
+        ],
+        "id": "70_text4",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "According to paragraph 9, what does Ling Wei believe could reignite the relevance of greetings?",
+        "answer": [
+            "movements like mindfulness",
+            "localized community initiatives"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 9,
+                "section": "",
+                "text": "However, challenges also exist. As societies modernize and urbanize, some lament the erosion of greeting customs. Ling Wei remarks on her experience in vast metropolitan cities like Shanghai and New York, where busy lives overshadow personal exchanges. \"In big cities, people often avoid eye contact, forget to say hello,\" Wei laments. Yet, she also believes that movements like mindfulness and localized community initiatives could reignite the relevance of greetings. \"We need to reclaim hello,\" she asserts."
+            }
+        ],
+        "id": "71_text4",
+        "mark": 1,
+        "style": [
+            "2_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Why does Ling Wei believe the word 'hello' is important in both personal and professional contexts?",
+        "answer": [
+            "because it disarms people/breaks the ice/initiates human interaction/teaches empathy and courage (to approach someone new)"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "One compelling perspective comes from 45-year-old Ling Wei, an anthropologist who lives in Shenzhen and has spent years studying intercultural communication. While much of her research has focused on formal greetings in traditional societies, she is equally fascinated by everyday informal exchanges. \"A simple 'hello' disarms people,\" she notes, \"whether on an elevator, in a work email, or during international negotiations. It's the starting point of human interaction.\" Wei believes that in both personal and professional contexts, the significance of saying \"hello\" cannot be overstated."
+            },
+            {
+                "para_id": 3,
+                "section": "",
+                "text": "Wei's insights extend to her personal life, where she uses this straightforward greeting to teach her children the value of kindness and connection. Her two teenage daughters often accompany her to community events, where Wei encourages them to introduce themselves and initiate conversations with strangers using \"hello.\" \"You don't need expensive gifts or grand gestures to break the ice,\" Wei explains. \"Hello teaches children empathy and the courage to approach someone new.\" She remarks that her daughters have developed friendships across cultural and linguistic boundaries simply because they learned the art of initiating with a warm greeting."
+            }
+        ],
+        "id": "72_text4",
+        "mark": 1,
+        "style": [
+            "2_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Do you agree that saying 'hello' is an essential part of building relationships in both personal and professional contexts? Explain.",
+        "answer": [
+            "Yes – it initiates human interaction and builds connections in personal life, as shown by how Ling Wei teaches her children to use 'hello'.",
+            "No – urbanization and busy lifestyles have diminished the practice of saying 'hello', making it less relevant in modern cities."
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "One compelling perspective comes from 45-year-old Ling Wei, an anthropologist who lives in Shenzhen and has spent years studying intercultural communication. While much of her research has focused on formal greetings in traditional societies, she is equally fascinated by everyday informal exchanges. \"A simple 'hello' disarms people,\" she notes, \"whether on an elevator, in a work email, or during international negotiations. It's the starting point of human interaction.\" Wei believes that in both personal and professional contexts, the significance of saying \"hello\" cannot be overstated."
+            },
+            {
+                "para_id": 9,
+                "section": "",
+                "text": "However, challenges also exist. As societies modernize and urbanize, some lament the erosion of greeting customs. Ling Wei remarks on her experience in vast metropolitan cities like Shanghai and New York, where busy lives overshadow personal exchanges. \"In big cities, people often avoid eye contact, forget to say hello,\" Wei laments. Yet, she also believes that movements like mindfulness and localized community initiatives could reignite the relevance of greetings. \"We need to reclaim hello,\" she asserts."
+            }
+        ],
+        "id": "73_text4",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    }
+]

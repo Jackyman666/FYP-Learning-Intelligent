@@ -34,21 +34,19 @@ def generateReadingMaterials(generator: Generator, topic, year, part, text_id, u
     with open(write_path, "x", encoding="utf-8") as file:
         file.write(response)
 
-def generateQuestions(generator: Generator, year, part, result: list, error: list, uid: uuid):
+def generateQuestions(generator: Generator, year, part, error: list, uid: uuid):
+    result = []
     with open(f"PastPaper/{year}/{part}/questions.json", "r", encoding="utf-8") as file:
         questions = json.load(file)
     
     # loop through every question and generate then one by one
     for q in range(len(questions["questions"])):
-        if q > 6:
-            break
+        # if q > 6:
+        #     break
         
         # extract data
         question = copy.deepcopy(questions["questions"][q])
         question_type = question["question_type"]
-        print(q)
-        print(question)
-        print(questions["questions"][q-1])
         if q == 0 or question["id"][-1] != questions["questions"][q-1]["id"][-1]:
             text_id = question["id"][-1]
             with open(f"PastPaper/{year}/{part}/text{text_id}.json", "r", encoding="utf-8") as file:
@@ -97,7 +95,6 @@ def run_generation_pipeline(topic: str, uid):
     # Example Usage
     print(topic)
     generator = Generator()
-    result = []
     generation_error = []
     year = 2012
     
@@ -119,10 +116,10 @@ def run_generation_pipeline(topic: str, uid):
         for file in files:
             if file == "questions.json": 
                 part_name = os.path.relpath(root, base_path)  # 💡 Get 'PartA', 'PartB1', etc.
-                if part_name != "PartA":
-                    continue
+                # if part_name != "PartA":
+                #     continue
                 job_store.update_job(uid,"status",f"Generating {part_name} questions.")
-                generateQuestions(generator, year, part_name, result, generation_error, uid)
+                generateQuestions(generator, year, part_name, generation_error, uid)
                 convertQuestionJsonToPdf(part_name, uid)
     
     with open(f"Results/ErrorLog/{uid}_generationError.json", "x", encoding="utf-8") as file:

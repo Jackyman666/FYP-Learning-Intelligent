@@ -1,0 +1,705 @@
+{
+    "questions": [
+        {
+            "id": "41_text3",
+            "question_type": "short_question",
+            "question_text": "What are Chinese moms ‘superior’ at?",
+            "style": ["3_line"],
+            "answer": [
+                "parenting",
+                "being moms/mothers",
+                "raising children",
+                "bringing up children"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 1,
+                    "section": "",
+                    "text": "The Wall Street Journal's provocative January 8 headline alone — 'Why Chinese Mothers Are Superior' — would have been enough to spark intense discussion. But coupled with an excerpt from Amy Chua's parenting memoir, Battle Hymn of the Tiger Mother (Penguin Press, Jan.), that sharply contrasts so-called 'Eastern' and 'Western' styles of parenting, what resulted was nothing less than a firestorm."
+                }
+            ]
+        },
+        {
+            "id": "42_text3",
+            "question_type": "short_question",
+            "question_text": "What would the ‘intense discussion’ in paragraph 1 be about?",
+            "style": ["3_line"],
+            "answer": [
+                "why/how Chinese mothers are better/superior at parenting",
+                "why/how Chinese mothers are superior to other parents",
+                "whether Chinese moms/parents are (indeed) superior",
+                "which is better: Eastern or Western styles of parenting"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 1,
+                    "section": "",
+                    "text": "The Wall Street Journal's provocative January 8 headline alone — 'Why Chinese Mothers Are Superior' — would have been enough to spark intense discussion. But coupled with an excerpt from Amy Chua's parenting memoir, Battle Hymn of the Tiger Mother (Penguin Press, Jan.), that sharply contrasts so-called 'Eastern' and 'Western' styles of parenting, what resulted was nothing less than a firestorm."
+                }
+            ]
+        },
+        {
+            "id": "43_text3",
+            "question_type": "multiple_choice",
+            "question_text": "Battle Hymn of the Tiger Mother falls under all of the following book categories EXCEPT...",
+            "options": {
+                "A": "autobiography",
+                "B": "parenting manual",
+                "C": "thriller",
+                "D": "nonfiction"
+            },
+            "answer": ["C"],
+            "related_paragraphs": [
+                {
+                    "para_id": 1,
+                    "section": "",
+                    "text": "The Wall Street Journal's provocative January 8 headline alone — 'Why Chinese Mothers Are Superior' — would have been enough to spark intense discussion. But coupled with an excerpt from Amy Chua's parenting memoir, Battle Hymn of the Tiger Mother (Penguin Press, Jan.), that sharply contrasts so-called 'Eastern' and 'Western' styles of parenting, what resulted was nothing less than a firestorm."
+                }
+            ]
+        },
+        {
+            "id": "44_text3",
+            "question_type": "short_question",
+            "question_text": "What metaphor does the writer use in paragraph 1 to describe the controversy of Amy Chua’s book?",
+            "style": ["2_line"],
+            "answer": [
+                "(nothing less than a) firestorm",
+                "fire(s)",
+                "spark"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 1,
+                    "section": "",
+                    "text": "The Wall Street Journal's provocative January 8 headline alone — 'Why Chinese Mothers Are Superior' — would have been enough to spark intense discussion. But coupled with an excerpt from Amy Chua's parenting memoir, Battle Hymn of the Tiger Mother (Penguin Press, Jan.), that sharply contrasts so-called 'Eastern' and 'Western' styles of parenting, what resulted was nothing less than a firestorm."
+                }
+            ]
+        },
+        {
+            "id": "45_text3",
+            "question_type": "multiple_choice",
+            "question_text": "Which of the following best describes Chua’s parenting style from a Western point of view?",
+            "options": {
+              "A": "extreme",
+              "B": "cautious",
+              "C": "personal",
+              "D": "lenient"
+            },
+            "answer": ["A"],
+            "related_paragraphs": [
+                {
+                    "para_id": 2,
+                    "section": "",
+                    "text": "Chua's stated intent is to present the differences between Western and Chinese parenting styles by sharing experiences with her own children (now teenagers). It is a deeply personal story about her two daughters and how their lives are shaped by such demands as Chua's relentless insistence on straight A's and daily hours of mandatory music practice, even while vacationing with grandparents."
+                },
+                {
+                    "para_id": 3,
+                    "section": "",
+                    "text": "Readers may be stunned by Chua's explanations of her hard-line style, public shaming and insults intended to force greatness from her girls. She insists that Western children are no happier than Chinese ones, and that her daughters are the envy of neighbors and friends, because of their poise and musical, athletic, and academic accomplishments. Ironically, this may be read as a cautionary tale that asks just what price should be paid for achievement."
+                }
+            ]
+        },
+        {
+            "id": "46_text3",
+            "question_type": "short_question",
+            "question_text": "In paragraph 3, Chua ‘insists that Western children are no happier than Chinese ones…’. Why would some people presume that Western children are happier than Chinese children?",
+            "style": ["3_line"],
+            "answer": [
+                "western moms are less strict/less demanding/more lenient",
+                "Chinese parents/moms are stricter",
+                "western children have more freedom/independence",
+                "western children are not pressured to get straight A’s"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 3,
+                    "section": "",
+                    "text": "Readers may be stunned by Chua's explanations of her hard-line style, public shaming and insults intended to force greatness from her girls. She insists that Western children are no happier than Chinese ones, and that her daughters are the envy of neighbors and friends, because of their poise and musical, athletic, and academic accomplishments. Ironically, this may be read as a cautionary tale that asks just what price should be paid for achievement."
+                }
+            ]
+        },
+        {
+            "id": "47_text3",
+            "question_type": "short_question",
+            "question_text": "Why does the writer suggest reading Chua’s book as a cautionary tale?",
+            "style": ["3_line"],
+            "answer": [
+                "there is a cost for success/achievement",
+                "the cost of achievement may not be worth the price of success",
+                "the book questions how much someone has to pay in order to be successful",
+                "in order to achieve success, the children suffer/there are negative effects on the children"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 3,
+                    "section": "",
+                    "text": "Readers may be stunned by Chua's explanations of her hard-line style, public shaming and insults intended to force greatness from her girls. She insists that Western children are no happier than Chinese ones, and that her daughters are the envy of neighbors and friends, because of their poise and musical, athletic, and academic accomplishments. Ironically, this may be read as a cautionary tale that asks just what price should be paid for achievement."
+                }
+            ]
+        },
+        {
+            "id": "48_text4",
+            "question_type": "multiple_choice",
+            "question_text": "The ‘Wild Kingdom’ in paragraph 1 refers to…",
+            "options": {
+                "A": "Beijing",
+                "B": "China",
+                "C": "the Philippines",
+                "D": "the United States"
+            },
+            "answer": ["B"],
+            "related_paragraphs": [
+                {
+                    "para_id": 1,
+                    "section": "",
+                    "text": "'Chinese moms' in China aren't raising superior kids, actually. U.S. author Amy Chua's book, Battle Hymn of the Tiger Mother and The Wall Street Journal extract of her memoir headlined 'Why Chinese Mothers Are Superior' have sparked huge debate inside China. But the response from what should surely be the Wild Kingdom of 'tiger moms' might surprise you."
+                }
+            ]
+        },
+        {
+            "id": "49_text4",
+            "question_type": "short_question",
+            "question_text": "Why might ‘the response from what should surely be the Wild Kingdom of “tiger moms”’ surprise readers in paragraph 1?",
+            "style": ["3_line"],
+            "answer": [
+                "not all Chinese mothers are ‘tiger moms’",
+                "many Chinese parents’ parenting style/guidelines are not as strict as Chua",
+                "moms in China are following the US/Western parenting style",
+                "they don’t follow/are against Amy Chua’s ideas"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 1,
+                    "section": "",
+                    "text": "'Chinese moms' in China aren't raising superior kids, actually. U.S. author Amy Chua's book, Battle Hymn of the Tiger Mother and The Wall Street Journal extract of her memoir headlined 'Why Chinese Mothers Are Superior' have sparked huge debate inside China. But the response from what should surely be the Wild Kingdom of 'tiger moms' might surprise you."
+                }
+            ]
+        },
+        {
+            "id": "50_text4",
+            "question_type": "multiple_choice",
+            "question_text": "Why is Guo Jing called a ‘real Chinese mom’ (para 2)?",
+            "options": {
+                "A": "She works for the Chinese government.",
+                "B": "She is a traditional Chinese mother.",
+                "C": "She is a Chinese national living in China.",
+                "D": "She is proud of being Chinese."
+            },
+            "answer": ["C"],
+            "related_paragraphs": [
+                {
+                    "para_id": 2,
+                    "section": "",
+                    "text": "One real Chinese mom is 39-year-old Guo Jing, a government office-worker in Beijing with 8-year-old twins. (Yale law professor Amy Chua is of Filipino-Chinese descent and lives in the U.S., not in China.) 'I won't be like Amy Chua,' says Guo about her kids' upbringing. 'I don't want to pressure them ... in the future I'd like them to have their own hobbies, to develop their own abilities. I won't make decisions for them.'"
+                }
+            ]
+        },
+        {
+            "id": "51_text4",
+            "question_type": "true_false_not_given",
+            "question_text": "Decide whether the following statements are True, False, or the information is Not Given in paragraphs 2–3.",
+            "statements": [
+                {
+                "text": "Chua was born in the Philippines.",
+                "answer": "NG"
+                },
+                {
+                "text": "Chua forces her children to do certain activities.",
+                "answer": "True"
+                },
+                {
+                "text": "Guo is unhappy her sons are learning painting and weiqi.",
+                "answer": "False"
+                }
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 2,
+                    "section": "",
+                    "text": "One real Chinese mom is 39-year-old Guo Jing, a government office-worker in Beijing with 8-year-old twins. (Yale law professor Amy Chua is of Filipino-Chinese descent and lives in the U.S., not in China.) 'I won't be like Amy Chua,' says Guo about her kids' upbringing. 'I don't want to pressure them ... in the future I'd like them to have their own hobbies, to develop their own abilities. I won't make decisions for them.'"
+                },
+                {
+                    "para_id": 3,
+                    "section": "",
+                    "text": "Guo says she believes her sons love their extracurricular hobbies, such as painting and learning how to play weiqi (the Chinese equivalent of chess), not because she forces them into it, but precisely because she does not: 'I didn't give them any pressure.' If that isn't a startling admission, here's the clincher: Guo is so convinced that her kids need more than a traditional Chinese education that she's sending them to a private, bilingual international school where kids learn both English and Chinese in a comparatively looser classroom environment. 'I try my best to adopt both Chinese and Western educational ways.'"
+                }
+            ]
+        },
+        {
+            "id": "52_text4",
+            "question_type": "fill_in_the_blank",
+            "question_text": "Use ONE word to complete each blank",
+            "text_for_fill": "Guo sends her children to an international school because classes are taught in ___ and  ___ and the ___ ___ is more relaxing.",
+            "style": ["2_blank"],
+            "answer": [
+              ["English//Chinese"],
+              ["Chinese//English"],
+              ["classroom"],
+              ["environment"]
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 3,
+                    "section": "",
+                    "text": "Guo says she believes her sons love their extracurricular hobbies, such as painting and learning how to play weiqi (the Chinese equivalent of chess), not because she forces them into it, but precisely because she does not: 'I didn't give them any pressure.' If that isn't a startling admission, here's the clincher: Guo is so convinced that her kids need more than a traditional Chinese education that she's sending them to a private, bilingual international school where kids learn both English and Chinese in a comparatively looser classroom environment. 'I try my best to adopt both Chinese and Western educational ways.'"
+                }
+            ]
+        },
+        {
+            "id": "53_text4",
+            "question_type": "multiple_choice",
+            "question_text": "Compared to Chua, Guo’s style of parenting is more…",
+            "options": {
+              "A": "exemplary",
+              "B": "traditional",
+              "C": "efficient",
+              "D": "permissive"
+            },
+            "answer": ["D"],
+            "related_paragraphs": [
+                {
+                    "para_id": 3,
+                    "section": "",
+                    "text": "Guo says she believes her sons love their extracurricular hobbies, such as painting and learning how to play weiqi (the Chinese equivalent of chess), not because she forces them into it, but precisely because she does not: 'I didn't give them any pressure.' If that isn't a startling admission, here's the clincher: Guo is so convinced that her kids need more than a traditional Chinese education that she's sending them to a private, bilingual international school where kids learn both English and Chinese in a comparatively looser classroom environment. 'I try my best to adopt both Chinese and Western educational ways.'"
+                },
+                {
+                    "para_id": 4,
+                    "section": "",
+                    "text": "Chua's strict parenting guidelines, including the long hours of piano practice, the endless rules, the homework that never goes unfinished, the lack of playdates, TV watching and electronic games are familiar to many mainland Chinese families. One recent online survey in China, conducted in response to the controversy over Chua's book, found a majority of Chinese netizens ticking the box that stated, 'Yes, starting from when I was little, my mother always said I'm not as good as others at this or that.'"
+                }
+            ]
+        },
+        {
+            "id": "54_text4",
+            "question_type": "short_question",
+            "question_text": "What is the main idea of paragraph 4?",
+            "style": ["2_line"],
+            "answer": [
+              "Chinese people are familiar with strict parenting guidelines",
+              "parents who make negative comparisons",
+              "parents who tell their children they are inferior"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 4,
+                    "section": "",
+                    "text": "Chua's strict parenting guidelines, including the long hours of piano practice, the endless rules, the homework that never goes unfinished, the lack of playdates, TV watching and electronic games are familiar to many mainland Chinese families. One recent online survey in China, conducted in response to the controversy over Chua's book, found a majority of Chinese netizens ticking the box that stated, 'Yes, starting from when I was little, my mother always said I'm not as good as others at this or that.'"
+                }
+            ]
+        },
+        {
+            "id": "55_text4",
+            "question_type": "multi_short_question",
+            "question_text": "What might 'this or that' (para 4) refer to? Find TWO examples given in paragraph 4.",
+            "sub_questions": [
+                {
+                    "text": "a)",
+                    "answer": [
+                        "(long hours of) piano practice",
+                        "playing (the) piano",
+                        "piano skills"
+                    ]
+                },
+                {
+                    "text": "b)",
+                    "answer": ["(doing) homework"]
+                }
+            ],
+            "related_paragraphs": [{
+                "para_id": 4,
+                "section": "",
+                "text": "Chua's strict parenting guidelines, including the long hours of piano practice, the endless rules, the homework that never goes unfinished, the lack of playdates, TV watching and electronic games are familiar to many mainland Chinese families. One recent online survey in China, conducted in response to the controversy over Chua's book, found a majority of Chinese netizens ticking the box that stated, 'Yes, starting from when I was little, my mother always said I'm not as good as others at this or that.'"
+            }]
+        },
+        {
+            "id": "56_text4",
+            "question_type": "multi_short_question",
+            "question_text": "In paragraph 5, find three other words used to refer to 'students'. (Do NOT include 'student' as an answer).\n An correct example has been done for you\n e.g. schoolkids",
+            "sub_questions": [
+                {
+                    "text": "a)",
+                    "answer": ["contenders"]
+                },
+                {
+                    "text": "b)",
+                    "answer": ["(top) performers"]
+                },
+                {
+                    "text": "c)",
+                    "answer": ["participants"]
+                }
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 5,
+                    "section": "",
+                    "text": "Then there's the eye-opening international study, conducted in 65 countries and publicized last month, revealing that Shanghai schoolkids outperformed all other contenders in reading, science, and math. Of the next three top performers, students in Hong Kong, Singapore, and South Korea, two are ethnic Chinese societies and the third is based on Confucian beliefs, prompting The New York Times' Nicholas Kristof to declare Confucianism the hands-down winner. 'Education thrives in China and the rest of Asia because it is a top priority and we have plenty to learn from that,' concludes Kristof. Participants in the American study scored No. 15 in reading, No. 23 in science, and No. 31 in math."
+                }
+            ]
+        },
+        {
+            "id": "57_text4",
+            "question_type": "short_question",
+            "question_text": "Which Confucian belief is the reason behind the success of students in Asia?",
+            "style": ["1_line"],
+            "answer": [
+              "education is a top priority",
+              "education is very important"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 5,
+                    "section": "",
+                    "text": "Then there's the eye-opening international study, conducted in 65 countries and publicized last month, revealing that Shanghai schoolkids outperformed all other contenders in reading, science, and math. Of the next three top performers, students in Hong Kong, Singapore, and South Korea, two are ethnic Chinese societies and the third is based on Confucian beliefs, prompting The New York Times' Nicholas Kristof to declare Confucianism the hands-down winner. 'Education thrives in China and the rest of Asia because it is a top priority and we have plenty to learn from that,' concludes Kristof. Participants in the American study scored No. 15 in reading, No. 23 in science, and No. 31 in math."
+                }
+            ]
+          },
+          {
+            "id": "58_text4",
+            "question_type": "multiple_choice",
+            "question_text": "What is the main idea of paragraph 5?",
+            "options": {
+              "A": "Shanghai students scored the highest in the tests.",
+              "B": "American students did not do so well in the tests.",
+              "C": "Chinese students performed better than Western students.",
+              "D": "Students from societies based on Confucian beliefs performed the best."
+            },
+            "answer": ["D"],
+            "related_paragraphs": [
+                {
+                    "para_id": 5,
+                    "section": "",
+                    "text": "Then there's the eye-opening international study, conducted in 65 countries and publicized last month, revealing that Shanghai schoolkids outperformed all other contenders in reading, science, and math. Of the next three top performers, students in Hong Kong, Singapore, and South Korea, two are ethnic Chinese societies and the third is based on Confucian beliefs, prompting The New York Times' Nicholas Kristof to declare Confucianism the hands-down winner. 'Education thrives in China and the rest of Asia because it is a top priority and we have plenty to learn from that,' concludes Kristof. Participants in the American study scored No. 15 in reading, No. 23 in science, and No. 31 in math."
+                }
+            ]
+          },
+          {
+            "id": "59_text4",
+            "question_type": "short_question",
+            "question_text": "What does ‘we’ (para 5) refer to?",
+            "style": ["0.5_line"],
+            "answer": [
+              "Americans",
+              "people in the West",
+              "western countries"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 5,
+                    "section": "",
+                    "text": "Then there's the eye-opening international study, conducted in 65 countries and publicized last month, revealing that Shanghai schoolkids outperformed all other contenders in reading, science, and math. Of the next three top performers, students in Hong Kong, Singapore, and South Korea, two are ethnic Chinese societies and the third is based on Confucian beliefs, prompting The New York Times' Nicholas Kristof to declare Confucianism the hands-down winner. 'Education thrives in China and the rest of Asia because it is a top priority and we have plenty to learn from that,' concludes Kristof. Participants in the American study scored No. 15 in reading, No. 23 in science, and No. 31 in math."
+                }
+            ]
+          },
+          {
+            "id": "60_text4",
+            "question_type": "multi_short_question",
+            "question_text": "In paragraph 6, find two expressions used to describe students who do really well at school.",
+            "sub_questions": [
+                {
+                    "text": "a)",
+                    "answer": ["excel academically"]
+                },
+                {
+                    "text": "b)",
+                    "answer": ["scholastically superior (kids)"]
+                }
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 6,
+                    "section": "",
+                    "text": "But the really big question, and one that the 'Chinese mom' debate doesn't entirely explore, is this: Even if 'Chinese moms' raise kids who excel academically, does that mean the aggregate of those scholastically superior kids is a more dynamic economy, a more creative population, a 'superior' society? And the answer is no, at least as far as Chinese moms, and the Chinese kids they raise, inside China are concerned."
+                }
+            ]
+          },
+          {
+            "id": "61_text4",
+            "question_type": "multiple_choice",
+            "question_text": "In paragraph 6, the author’s main point is…",
+            "options": {
+              "A": "‘Chinese moms’ raise children who do very well at school.",
+              "B": "‘Chinese moms’ are responsible for making China a more superior country.",
+              "C": "High-achieving students do not necessarily make China a superior country.",
+              "D": "The ‘Chinese mom’ issue does not explore the future of these smart children."
+            },
+            "answer": ["C"],
+            "related_paragraphs": [
+                {
+                    "para_id": 6,
+                    "section": "",
+                    "text": "But the really big question, and one that the 'Chinese mom' debate doesn't entirely explore, is this: Even if 'Chinese moms' raise kids who excel academically, does that mean the aggregate of those scholastically superior kids is a more dynamic economy, a more creative population, a 'superior' society? And the answer is no, at least as far as Chinese moms, and the Chinese kids they raise, inside China are concerned."
+                }
+            ]
+          },
+          {
+            "id": "62_text4",
+            "question_type": "short_question",
+            "question_text": "Name one problem college graduates on the mainland are facing.",
+            "style": ["1_line"],
+            "answer": [
+              "unemployment",
+              "competition from other graduates for jobs",
+              "can’t find an appropriate job",
+              "lack money",
+              "are broke",
+              "lack practical skills"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 7,
+                    "section": "",
+                    "text": "In fact, China is suffering a glut of college graduates who can't find appropriate jobs, and a shortage of blue-collar workers. These jobless grads comprise an unusual underclass, they're educated, white-collar, net-savvy yet broke. China's higher-education system is churning out too many university graduates with high-paying expectations and too few practical skills. Multinational managers privately complain that fresh Chinese grads are often clueless when it comes to working in an office environment."
+                }
+            ]
+          },
+          {
+            "id": "63_text4",
+            "question_type": "short_question",
+            "question_text": "Find a word in paragraph 7 with the opposite meaning of ‘shortage’.",
+            "style": ["0.5_line"],
+            "answer": ["glut"],
+            "related_paragraphs": [
+                {
+                    "para_id": 7,
+                    "section": "",
+                    "text": "In fact, China is suffering a glut of college graduates who can't find appropriate jobs, and a shortage of blue-collar workers. These jobless grads comprise an unusual underclass, they're educated, white-collar, net-savvy yet broke. China's higher-education system is churning out too many university graduates with high-paying expectations and too few practical skills. Multinational managers privately complain that fresh Chinese grads are often clueless when it comes to working in an office environment."
+                }
+            ]
+        },
+        {
+            "id": "64_text4",
+            "question_type": "multiple_choice",
+            "question_text": "What does ‘flummoxed’ (line 43) mean?",
+            "options": {
+              "A": "confused",
+              "B": "surprised",
+              "C": "upset",
+              "D": "angry"
+            },
+            "answer": ["A"],
+            "related_paragraphs": [
+                {
+                    "para_id": 8,
+                    "section": "",
+                    "text": "One Western expat who helps Chinese students enter Western colleges tells the story of a Chinese student who lived with an English host family in Britain; he was so flummoxed by the knobs and levers on the washing machine that he phoned his mom back in China for help. The Chinese mom phoned the washing-machine manufacturer's rep in China who then contacted the firm's people in the U.K. to help out the hapless son. Tellingly, last year saw a decrease in the numbers of high school students taking the nationwide college entrance examinations, the all-important rite of passage by which college freshmen are selected. By contrast, applications to blue-collar vocational schools jumped."
+                }
+            ]
+        },
+        {
+            "id": "65_text4",
+            "question_type": "matching",
+            "question_text": "Number the following events from paragraph 8 in chronological order. Write (1-6) in the boxes provided",
+            "statements": [
+                {
+                "text": "Mom gets a phone call from son.",
+                "answer": "3"
+                },
+                {
+                "text": "Mainland student stays with an English family.",
+                "answer": "1"
+                },
+                {
+                "text": "The Chinese employees contact colleagues in the UK.",
+                "answer": "5"
+                },
+                {
+                "text": "Student wants to do his washing.",
+                "answer": "4"
+                },
+                {
+                "text": "Mom calls the washing-machine company.",
+                "answer": "2"
+                },
+                {
+                "text": "Student does his washing.",
+                "answer": "6"
+                }
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 8,
+                    "section": "",
+                    "text": "One Western expat who helps Chinese students enter Western colleges tells the story of a Chinese student who lived with an English host family in Britain; he was so flummoxed by the knobs and levers on the washing machine that he phoned his mom back in China for help. The Chinese mom phoned the washing-machine manufacturer's rep in China who then contacted the firm's people in the U.K. to help out the hapless son. Tellingly, last year saw a decrease in the numbers of high school students taking the nationwide college entrance examinations, the all-important rite of passage by which college freshmen are selected. By contrast, applications to blue-collar vocational schools jumped."
+                }
+            ]
+        },
+        {
+            "id": "66_text4",
+            "question_type": "short_question",
+            "question_text": "The anecdote of the Chinese student has been included to illustrate which point in paragraph 7?",
+            "style": ["1_line"],
+            "answer": [
+                "lack of/too few practical skills"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 7,
+                    "section": "",
+                    "text": "In fact, China is suffering a glut of college graduates who can't find appropriate jobs, and a shortage of blue-collar workers. These jobless grads comprise an unusual underclass, they're educated, white-collar, net-savvy yet broke. China's higher-education system is churning out too many university graduates with high-paying expectations and too few practical skills. Multinational managers privately complain that fresh Chinese grads are often clueless when it comes to working in an office environment."
+                },
+                {
+                    "para_id": 8,
+                    "section": "",
+                    "text": "One Western expat who helps Chinese students enter Western colleges tells the story of a Chinese student who lived with an English host family in Britain; he was so flummoxed by the knobs and levers on the washing machine that he phoned his mom back in China for help. The Chinese mom phoned the washing-machine manufacturer's rep in China who then contacted the firm's people in the U.K. to help out the hapless son. Tellingly, last year saw a decrease in the numbers of high school students taking the nationwide college entrance examinations, the all-important rite of passage by which college freshmen are selected. By contrast, applications to blue-collar vocational schools jumped."
+                }
+            ]
+        },
+        {
+            "id": "67_text4",
+            "question_type": "fill_in_the_blank",
+            "question_text": "Below is a summary of the ideas found in paragraphs 7-8. Fill in the blanks using words that can be found in paragraphs 7–8. Write ONE word per blank.",
+            "text_for_fill": "The new underclass is China’s ___ ___. As educated professionals, they expect ___ jobs on completion of their studies, but employers complain that many lack even the basic ___ needed in the workplace. The excess of white-collar workers has led to a ___ of blue-collar workers. This in turn has encouraged ___ ___ students to skip the ___ ___ ___ and apply directly to ___ ___.",
+            "answer": [
+                "university//college//jobless",
+                "graduates//grads",
+                "high-paying",
+                "skills",
+                "shortage",
+                "high",
+                "school",
+                "college//nationwide",
+                "entrance",
+                "exams//examinations",
+                "vocational",
+                "schools"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 7,
+                    "section": "",
+                    "text": "In fact, China is suffering a glut of college graduates who can't find appropriate jobs, and a shortage of blue-collar workers. These jobless grads comprise an unusual underclass, they're educated, white-collar, net-savvy yet broke. China's higher-education system is churning out too many university graduates with high-paying expectations and too few practical skills. Multinational managers privately complain that fresh Chinese grads are often clueless when it comes to working in an office environment."
+                },
+                {
+                    "para_id": 8,
+                    "section": "",
+                    "text": "One Western expat who helps Chinese students enter Western colleges tells the story of a Chinese student who lived with an English host family in Britain; he was so flummoxed by the knobs and levers on the washing machine that he phoned his mom back in China for help. The Chinese mom phoned the washing-machine manufacturer's rep in China who then contacted the firm's people in the U.K. to help out the hapless son. Tellingly, last year saw a decrease in the numbers of high school students taking the nationwide college entrance examinations, the all-important rite of passage by which college freshmen are selected. By contrast, applications to blue-collar vocational schools jumped."
+                }
+            ]
+        },
+        {
+            "id": "68_text4",
+            "question_type": "multiple_choice",
+            "question_text": "Which word is closest in meaning to ‘ossified’ in paragraph 9?",
+            "options": {
+                "A": "stressful",
+                "B": "inflexible",
+                "C": "repressive",
+                "D": "competitive"
+            },
+            "answer": ["B"],
+            "related_paragraphs": [
+                {
+                    "para_id": 9,
+                    "section": "",
+                    "text": "What the 'Chinese mom' debate swirling around Amy Chua's book fails to adequately consider is the fact that American classrooms, and society in general, are more conducive to individual expression and innovation. The rote learning that she stresses at home might work for her daughters because, outside the home, they are encouraged to think independently. But in China, where authoritarian parenting is coupled with an ossified higher-education system resistant to change, creativity is stifled. The father-knows-best Confucian approach is applied to a repressive degree."
+                }        
+            ]
+        },
+        {
+            "id": "69_text4",
+            "question_type": "short_question",
+            "question_text": "According to the passage, why might the ‘tiger mom’ approach to parenting be more successful in the US than in China?",
+            "style": ["3_line"],
+            "answer": [
+              "outside the home, they are encouraged to think independently",
+              "because the US society/education system/classroom is more conducive/open to individual expression and innovation"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 9,
+                    "section": "",
+                    "text": "What the 'Chinese mom' debate swirling around Amy Chua's book fails to adequately consider is the fact that American classrooms, and society in general, are more conducive to individual expression and innovation. The rote learning that she stresses at home might work for her daughters because, outside the home, they are encouraged to think independently. But in China, where authoritarian parenting is coupled with an ossified higher-education system resistant to change, creativity is stifled. The father-knows-best Confucian approach is applied to a repressive degree."
+                }
+            ]
+        },
+        {
+            "id": "70_text4",
+            "question_type": "short_question",
+            "question_text": "According to the passage, why is there no ‘Bill Gates of China’ (para 10)?",
+            "style": ["3_line"],
+            "answer": [
+              "not encouraged to think independently",
+              "creativity is stifled (in China)",
+              "system (in China) is preventing creativity"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 9,
+                    "section": "",
+                    "text": "What the 'Chinese mom' debate swirling around Amy Chua's book fails to adequately consider is the fact that American classrooms, and society in general, are more conducive to individual expression and innovation. The rote learning that she stresses at home might work for her daughters because, outside the home, they are encouraged to think independently. But in China, where authoritarian parenting is coupled with an ossified higher-education system resistant to change, creativity is stifled. The father-knows-best Confucian approach is applied to a repressive degree."
+                },
+                {
+                    "para_id": 10,
+                    "section": "",
+                    "text": "Many young Chinese lament there is no Bill Gates of China. And the most cutting-edge scientific institutions' are research centers run by Western-educated administrators wooing Chinese-born scientists back from the West, where they had relocated in order to enjoy the more rewarding research environment abroad. If they had the money and the clout and the personal connections to do so, Chinese moms would want to send their kids to Harvard (as several top-level Chinese leaders have done). In other words, the key to success is seen as a hybrid of East and West, at least when viewed from the lair of the Tiger Moms."
+                }
+            ]
+        },
+        {
+            "id": "71_text4",
+            "question_type": "short_question",
+            "question_text": "According to the passage, why do many Chinese-born scientists go to work in the West?",
+            "style": ["2_line"],
+            "answer": [
+              "it offers a more rewarding research environment"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 10,
+                    "section": "",
+                    "text": "Many young Chinese lament there is no Bill Gates of China. And the most cutting-edge scientific institutions' are research centers run by Western-educated administrators wooing Chinese-born scientists back from the West, where they had relocated in order to enjoy the more rewarding research environment abroad. If they had the money and the clout and the personal connections to do so, Chinese moms would want to send their kids to Harvard (as several top-level Chinese leaders have done). In other words, the key to success is seen as a hybrid of East and West, at least when viewed from the lair of the Tiger Moms."
+                }
+            ]
+        },
+        {
+            "id": "72_text4",
+            "question_type": "short_question",
+            "question_text": "Why is the word ‘tiger’ used to describe mothers?",
+            "style": ["2_line"],
+            "answer": [
+              "because these mothers are fearsome/aggressive/scary/fierce/protective/threatening/frightening/cruel/brutal/ruthless/ferocious/show no mercy"
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 1,
+                    "section": "",
+                    "text": "'Chinese moms' in China aren't raising superior kids, actually. U.S. author Amy Chua's book, Battle Hymn of the Tiger Mother and The Wall Street Journal extract of her memoir headlined 'Why Chinese Mothers Are Superior' have sparked huge debate inside China. But the response from what should surely be the Wild Kingdom of 'tiger moms' might surprise you."
+                },
+                {
+                    "para_id": 2,
+                    "section": "",
+                    "text": "One real Chinese mom is 39-year-old Guo Jing, a government office-worker in Beijing with 8-year-old twins. (Yale law professor Amy Chua is of Filipino-Chinese descent and lives in the U.S., not in China.) 'I won't be like Amy Chua,' says Guo about her kids' upbringing. 'I don't want to pressure them ... in the future I'd like them to have their own hobbies, to develop their own abilities. I won't make decisions for them.'"
+                },
+                {
+                    "para_id": 10,
+                    "section": "",
+                    "text": "Many young Chinese lament there is no Bill Gates of China. And the most cutting-edge scientific institutions' are research centers run by Western-educated administrators wooing Chinese-born scientists back from the West, where they had relocated in order to enjoy the more rewarding research environment abroad. If they had the money and the clout and the personal connections to do so, Chinese moms would want to send their kids to Harvard (as several top-level Chinese leaders have done). In other words, the key to success is seen as a hybrid of East and West, at least when viewed from the lair of the Tiger Moms."
+                }
+
+            ]
+        },
+        {
+            "id": "73_text4",
+            "question_type": "short_question",
+            "question_text": "Do you agree that the key to success is a ‘hybrid of East and West’? Explain.",
+            "style": ["3_line"],
+            "answer": [
+              "Yes – one needs both pressure and ‘father-knows-best’ guidance from parents and teachers, but also room for each individual to develop their own abilities.",
+              "No – creativity is best developed with a Western education, and there is little to be gained from rote learning."
+            ],
+            "related_paragraphs": [
+                {
+                    "para_id": 3,
+                    "section": "",
+                    "text": "Guo says she believes her sons love their extracurricular hobbies, such as painting and learning how to play weiqi (the Chinese equivalent of chess), not because she forces them into it, but precisely because she does not: 'I didn't give them any pressure.' If that isn't a startling admission, here's the clincher: Guo is so convinced that her kids need more than a traditional Chinese education that she's sending them to a private, bilingual international school where kids learn both English and Chinese in a comparatively looser classroom environment. 'I try my best to adopt both Chinese and Western educational ways.'"
+                },
+                {
+                    "para_id": 10,
+                    "section": "",
+                    "text": "Many young Chinese lament there is no Bill Gates of China. And the most cutting-edge scientific institutions' are research centers run by Western-educated administrators wooing Chinese-born scientists back from the West, where they had relocated in order to enjoy the more rewarding research environment abroad. If they had the money and the clout and the personal connections to do so, Chinese moms would want to send their kids to Harvard (as several top-level Chinese leaders have done). In other words, the key to success is seen as a hybrid of East and West, at least when viewed from the lair of the Tiger Moms."
+                }
+            ]
+        }
+    ]
+}

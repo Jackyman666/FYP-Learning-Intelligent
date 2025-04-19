@@ -26,6 +26,8 @@ class Generator:
                 prompt = self.shortQuestionPrompt(selected_materials, reference_question, remark)
             case "multiple_choice":
                 prompt = self.MCPrompt(selected_materials, reference_question, remark)
+            case "multi_choice":
+                prompt = self.multiChoicePrompt(selected_materials, reference_question, remark)
             case "fill_in_the_blank":
                 prompt = self.fillInBlankPrompt(selected_materials, reference_question, remark)
             case "matching":
@@ -40,7 +42,6 @@ class Generator:
     def readingPromt(self, topic, selected_materials, words_number, max_para, remark):
         remark = "\n\t".join(remark)
         prompt = f"""
-        You are an expert in **HKDSE English reading paper creation**.  
         Your task is to generate a **new reading material** based on the given **HKDSE past paper reading text**.  
 
         ## **📌 Task Instructions:**
@@ -48,6 +49,7 @@ class Generator:
         - It must **maintain a similar length, format, and structure** as the provided passage.
         - It must have at least **{words_number}** words.
         - It must contain at most {max_para} paragraphs. Ideally, it should match the number of paragraphs in the given reading text.
+        - If the given text has section(s), your generate result should section(s) similar as the given text.
         - Do **not include any instructions or explanations in the output, only the generated reading material"".
         {remark}
 
@@ -110,6 +112,51 @@ class Generator:
         """
         return prompt
     
+    def multiChoicePrompt(self, reading_material, reference, remark):
+        prompt = f"""
+        Your task is to generate ONE multiple-choice question with more than one answer correct based on the provided text paragraphs and taking reference from the Question Sample.
+        The Question Sample is taken from the past paper in JSON format with all the related information.
+        The provided text is a list of dictionaries. Each dictionary represents either:
+            - a subtitle, in the format: {{"subtitle": text}}
+            - a title, in the format: {{"title": text}}
+            - a full paragraph, in the format: {{"para_id": paragraph number, "section": section name, "text": full paragraph text}}
+        
+        ## **📌 Provided Text Paragraphs:**
+        {reading_material}
+
+        ## **📌 Question Sample (Follow this style):**
+        {json.dumps(reference, indent=4)}
+        
+        ## **📌 Task Instructions:**
+        - The generated question should follow this JSON format:
+        {{
+          "question_type": "multi_choice",
+          "question_text": [Question related to the passage],
+          "options": {{
+            "A": [Option A],
+            "B": [Option B],
+            "C": [Option C],
+            "D": [Option D],
+            ... (the remaining options)
+          }},
+          "answer": [Correct answers],
+          "related_paragraphs": [{{Extract the content dictionary which the answer is derived from the provided text paragraphs}}]
+        }}
+        
+        - **Note that the `related_paragraphs` field in the reference MCQs comes from a different text.**
+        - **Use only information found in the provided text.**
+        - **It is not necessary to use all the provided text paragraphs**
+        - **Ensure that the generated question originates from a similar paragraph(s) area as stated in the Question Sample**
+        - **Ensure the  difficulty level is similar to Question Sample.**
+        - **If paragraph(s) is indicated in the Question Sample, it must have paragraph(s) indicated in the generated question text too.**
+        {remark}
+        
+
+        ## **📌 Output Format:**  
+        Return only a single JSON object. Do not include any explanations, comments, or markdown formatting.
+        """
+        return prompt
+        
     def shortQuestionPrompt(self, reading_material, reference, remark):
         prompt = f"""
         You are an expert in **HKDSE English Reading exam paper creation**.
@@ -259,7 +306,7 @@ class Generator:
             - a subtitle, in the format: {{"subtitle": text}}
             - a title, in the format: {{"title": text}}
             - a full paragraph, in the format: {{"para_id": paragraph number, "section": section name, "text": full paragraph text}}
-        In "text_for_fill", each "___" represents a blank that must be filled based on the instruction provided in "question_text" (e.g. Use ONE word to fill in each blank).
+        In "text_for_fill", each "___" represents a blank that must be filled based on the instruction provided in "question_text" (e.g. Use ONE word/ more than one words to fill in each blank).
         The "answer" field is a list where each element corresponds to a blank in the text, based on its order of appearance (i.e. the first element matches the first blank, the second element matches the second blank, and so on)
         You may encounter the following symbols in "answer:
             - () means the words inside the bracket can be neglected
@@ -318,7 +365,7 @@ class Generator:
             {{
                 "question_type": "matching",
                 "question_text": [Question for student],
-                "statement": [
+                "statements": [
                     {{
                         "text": [Item to be matched],
                         "answer": [Matching item]
@@ -352,90 +399,3 @@ class Generator:
         print("🔹 Total Tokens Used:", response.usage.total_tokens)
 
         return response.choices[0].message.content  # ✅ Corrected response format
-    
-
-
-
-
-
-
-
-
-
-
-# if __name__ == "__main__":
-    
-    # Example Usage
-    # topic = "Teenagers'growth"
-    # generator = Generator()
-    # result = []
-    
-    
-    # Generate Reading Materials
-    # with open("PastPaper/2012/PartA/text1.txt", "r", encoding="utf-8") as file:
-    #     reading_materials = file.read()
-    # readingPrompt = generator.readingPromt(topic, reading_materials)
-    # response = generator.generate(readingPrompt)
-    # print(response)
-    # with open("learning-intelligent/Results/PartA/text1.txt", "w", encoding="utf-8") as file:
-    #     file.write(response)
-        
-    # convertTxtToJson("A",1)
-    # convertTextJsonToPdf("A", 1)
-    # convertQuestionJsonToPdf("A")
-        
-    # Generate Questions
-    # with open("PastPaper/2012/PartA/text1.json", "r", encoding="utf-8") as file:
-    #     reading_materials_json = json.load(file)
-    # with open("PastPaper/2012/PartA/questions.json", "r", encoding="utf-8") as file:
-    #     questions = json.load(file)
-    # error_responses = []
-    
-    # for i in range(len(questions["questions"])):
-    #     question = questions["questions"][i]
-    #     question_type = question["question_type"]
-    #     selected_materials = getParagraphs("Results/PartA/text1.json",question["related_paragraphs"], reading_materials_json["para_num"])
-        
-    #     # print(selected_materials)
-        
-    #     id = question.pop("id", None)
-    #     mark = question.pop("mark", 1)
-    #     remark = question.pop("remark", [])
-    #     style = question.pop("style", None)
-            
-    #     prompt = generator.generateQuestionPrompt(question_type,selected_materials, question, list(remark))
-        
-    #     for i in range(3):
-    #         response_str = generator.generate(prompt)
-    #         try:
-    #             response = json.loads(response_str)
-    #             break
-    #         except:
-    #             error_responses.append({
-    #                 "attempt": i + 1,
-    #                 "raw_response": response_str,
-    #                 "prompt": prompt
-    #             })
-    #             if i == 2:
-    #                 remark.append("- **Ensure the output is a single JSON object**")
-    #                 prompt = generator.generateQuestionPrompt(question_type,selected_materials, question, list(remark))
-    #             time.sleep(1)
-                
-    #     print(response)
-    #     if response is not None:
-    #         response["id"] = id
-    #         response["mark"] = mark
-    #         response["style"] = style
-    #         result.append(response)
-        
-    # print(result)
-    
-    # if error_responses:
-    #     print("🚨 Has no json generated!!")
-    #     print(error_responses)
-        
-    
-    # with open("Results/PartA/question.json", "w", encoding="utf-8") as file:
-    #     json.dump(result, file, indent=4, ensure_ascii=False)
-    
-    # convertQuestionJsonToPdf("A")
