@@ -3,6 +3,7 @@ from fastapi import FastAPI, HTTPException, BackgroundTasks
 from starlette.responses import FileResponse
 from starlette.background import BackgroundTask 
 from pydantic import BaseModel
+from threading import Thread
 from pipeline import run_generation_pipeline
 from job_store_redis import job_store
 
@@ -37,7 +38,7 @@ def download_part_files(part: str, uid: str):
         raise HTTPException(status_code=500, detail=f"Failed to create lock file: {str(e)}")
 
     # ✅ Only include PDFs that match UID
-    pdf_pattern = os.path.join(base_dir, f"{uid}_*.pdf")
+    pdf_pattern = os.path.join(base_dir, f"{uid}*.pdf")
     pdf_files = glob.glob(pdf_pattern)
 
     if not pdf_files:
@@ -47,7 +48,7 @@ def download_part_files(part: str, uid: str):
         raise HTTPException(status_code=404, detail="No PDF files found for this UID and part")
 
     # 🧹 Find ALL files starting with uid_ for later deletion
-    delete_pattern = os.path.join(base_dir, f"{uid}_*")
+    delete_pattern = os.path.join(base_dir, f"{uid}*")
     all_matching_files = glob.glob(delete_pattern)
 
     # 🗜️ Create ZIP archive
@@ -58,7 +59,7 @@ def download_part_files(part: str, uid: str):
         with zipfile.ZipFile(zip_path, "w") as zipf:
             for file_path in pdf_files:
                 filename = os.path.basename(file_path)
-                arcname = filename.replace(f"{uid}_", "")
+                arcname = filename.replace(f"{uid}", "")
                 zipf.write(file_path, arcname=arcname)
     except Exception as e:
         # Clean up lock on failure
@@ -93,11 +94,18 @@ def download_part_files(part: str, uid: str):
 
 @app.get("/status/{uid}")
 def getStatus(uid: str):
-    return job_store.get_job(uid)
+    statuses = {}
+    for part in ["PartA", "PartB1", "PartB2"]:
+        part_uid = uid + part
+        statuses[part] = job_store.get_job(part_uid)
+    return {"uid": uid, "statuses": statuses}
 
 @app.post("/generate")
-def generate(input_data: TopicInput, background_tasks: BackgroundTasks):
+def generate(input_data: TopicInput):
     uid = uuid.uuid4().hex[:6]
-    background_tasks.add_task(run_generation_pipeline,input_data.topic, uid)
-    job_store.create_job(uid,{"status": "Start generation"})
+    for part in ["PartA", "PartB1", "PartB2"]:
+        part_uid = uid + part
+        job_store.create_job(part_uid,{"status": "Start generation"})
+        thread = Thread(target=run_generation_pipeline, args=(input_data.topic, part_uid, part))
+        thread.start()
     return {"uid": uid}

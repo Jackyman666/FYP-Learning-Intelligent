@@ -7,8 +7,9 @@ type Status = 'idle' | 'loading' | 'done';
 export default function Home() {
     const [input, setInput] = useState('');
     const [status, setStatus] = useState<Status>('idle');
-    const [generateStatus, setGenerateStatus] = useState(''); // new!
+    const [generateStatuses, setGenerateStatuses] = useState<{ [key: string]: { status: string } }>({});
     const [uid, setUid] = useState<string | null>(null);
+    const parts = ["PartA", "PartB1", "PartB2"];
 
     const handleGenerate = async () => {
         console.log('🟠 handleGenerate clicked!');
@@ -70,17 +71,22 @@ export default function Home() {
                 const data = await res.json();
                 console.log('📡 Polled status:', data);
 
-                const currentStatus = data.status;
-                setGenerateStatus(currentStatus); // generateStatus not will be update in next render not immediately
-          
-                if (currentStatus === 'Done') {
+                const partStatuses = data.statuses;
+                setGenerateStatuses(partStatuses);
+
+                const allDone = parts.every(part => {
+                    const statusText = partStatuses[part]?.status || '';
+                    return statusText && statusText === 'Done';
+                });
+
+                if (allDone) {
                     clearInterval(interval);
-                    setStatus("done");
+                    setStatus('done');
                 }
-              } catch (err) {
-                console.error('❌ Error polling status:', err);
-              }
-            }, 2000);
+            } catch (err) {
+            console.error('❌ Error polling status:', err);
+            }
+        }, 2000);
 
         return () => clearInterval(interval);
     }, [status, uid]);
@@ -120,10 +126,14 @@ export default function Home() {
                 <div className="text-center space-y-3">
                     <p className="text-lg text-blue-600 animate-pulse">⏳ Generating your document...</p>
                     <p className="text-sm text-gray-500">UID: <code>{uid}</code></p>
-                    <p className="text-sm">
-                    <strong>Status:</strong>{' '}
-                    <code>{generateStatus || 'Waiting for status from server...'}</code>
-                    </p>
+                    <div className="text-left text-sm text-gray-700 space-y-1">
+                        {parts.map((part) => (
+                            <div key={part}>
+                            <strong>{part}:</strong>{' '}
+                            <code>{generateStatuses[part]?.status || 'Waiting...'}</code>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             )}
       

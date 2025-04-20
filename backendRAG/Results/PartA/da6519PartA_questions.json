@@ -1,0 +1,574 @@
+[
+    {
+        "question_type": "matching",
+        "question_text": "Look at the following descriptions from the text and match them with the corresponding statement about greetings.",
+        "statements": [
+            {
+                "text": "steeped in tradition and culture",
+                "answer": "Greetings serve purposes deeper than starting a conversation"
+            },
+            {
+                "text": "profound impact",
+                "answer": "Saying 'hi' can mean more than it seems"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "",
+                "text": "In an age dominated by emojis and text messages, the simple act of saying \"hi\" remains an enduring and universal way to connect with others. Though seemingly small, greetings are steeped in tradition, culture, and psychology, serving purposes far deeper than just starting a conversation."
+            },
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "\"Hi.\" It's one word, but its impact can be profound. What lies beneath this unassuming exchange? More than you might think."
+            }
+        ],
+        "id": "1_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Why does the author highlight the impact of saying 'hi' in paragraph 2?",
+        "options": {
+            "A": "It is often overlooked but has significant depth.",
+            "B": "It is a word that carries cultural significance.",
+            "C": "It is traditionally used for greeting strangers.",
+            "D": "It is the simplest form of expressing emotions."
+        },
+        "answer": [
+            "A"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "\"Hi.\" It's one word, but its impact can be profound. What lies beneath this unassuming exchange? More than you might think."
+            }
+        ],
+        "id": "2_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "The main purpose of paragraph 2 is to...",
+        "options": {
+            "A": "highlight the simplicity of greetings.",
+            "B": "emphasize the impact of saying 'hi.'",
+            "C": "introduce the cultural significance of greetings.",
+            "D": "question the universality of greetings."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "",
+                "text": "\"Hi.\" It's one word, but its impact can be profound. What lies beneath this unassuming exchange? More than you might think."
+            }
+        ],
+        "id": "3_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "In paragraph 4, what does the emergence of 'hi' as a global greeting signify?",
+        "answer": [
+            "its simplicity",
+            "(its) universal appeal",
+            "(the mark of) social evolution"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 4,
+                "section": "The Evolution of a Greeting",
+                "text": "Anthropologists argue that greetings have been part of human behavior for centuries. From the ancient bow of respect to a modern wave, every civilization has its own variation of this polite formality. But how did 'hi' emerge as the global favorite?"
+            }
+        ],
+        "id": "4_text1",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What does 'hi' originate from?",
+        "answer": [
+            "'hello'",
+            "hāl",
+            "old English (word)",
+            "good health and luck"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 5,
+                "section": "The Evolution of a Greeting",
+                "text": "The word 'hi' is often linked to 'hello,' a term whose origins date back to the old English word 'hāl,' meaning good health and luck. Over time, societies adapted it into casual formats. The concise form 'hi' gained popularity in the late 19th century, particularly in the United States."
+            }
+        ],
+        "id": "5_text1",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "How did the word 'hi' become popular?",
+        "answer": [
+            "societies adapted 'hello' into casual formats",
+            "it gained popularity in the late 19th century",
+            "it became common in the United States"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 5,
+                "section": "The Evolution of a Greeting",
+                "text": "The word 'hi' is often linked to 'hello,' a term whose origins date back to the old English word 'hāl,' meaning good health and luck. Over time, societies adapted it into casual formats. The concise form 'hi' gained popularity in the late 19th century, particularly in the United States."
+            }
+        ],
+        "id": "6_text1",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "According to paragraph 7, how did technology contribute to the global adoption of 'hi'?",
+        "options": {
+            "A": "It introduced new devices where 'hi' was the default greeting.",
+            "B": "Operators used 'hello' and 'hi' in telephone calls, setting a precedent.",
+            "C": "Body language integrated with 'hi' was enhanced by technological tools.",
+            "D": "Technology reduced the use of formal greetings and encouraged casual ones."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 7,
+                "section": "The Evolution of a Greeting",
+                "text": "Technology also played its part in spreading the global use of 'hi.' With the emergence of telephones, operators often used 'hello' or 'hi' as standard phrases to begin calls. This set a precedent for its widespread adoption in the years to come."
+            }
+        ],
+        "id": "7_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "true_false_not_given",
+        "question_text": "Decide whether the following statements are True, False, or Not Given based on paragraphs 7-8.",
+        "statements": [
+            {
+                "text": "The global use of 'hi' spread with the introduction of telephones.",
+                "answer": "True"
+            },
+            {
+                "text": "'Hi' is the most commonly used greeting in Asia.",
+                "answer": "Not Given"
+            },
+            {
+                "text": "Body language enhances the effectiveness of saying 'hi'.",
+                "answer": "True"
+            },
+            {
+                "text": "Mei Chang believes greetings like bows and peace signs are exclusive to specific countries.",
+                "answer": "False"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 7,
+                "section": "The Evolution of a Greeting",
+                "text": "Technology also played its part in spreading the global use of 'hi.' With the emergence of telephones, operators often used 'hello' or 'hi' as standard phrases to begin calls. This set a precedent for its widespread adoption in the years to come."
+            },
+            {
+                "para_id": 8,
+                "section": "The Evolution of a Greeting",
+                "text": "Cultural historian Mei Chang highlights how global greetings vary, yet 'hi' remains ubiquitous. 'Waves, bows, peace signs, or clasped hands—all are forms of saying hello. And intertwined with body language, 'hi' has become embedded in everyday interactions across the world.'"
+            }
+        ],
+        "id": "8_text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Which hormone mentioned in paragraph 10 is associated with bonding?",
+        "answer": [
+            "oxytocin"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 10,
+                "section": "Beyond a Word",
+                "text": "Hi can be a prelude to complex relationships. A study at the International Center for Social Dynamics found that people who greeted strangers with a smile and \"hi\" felt an increase in their own happiness levels by 46% compared to those who avoided conversation. This behavior triggers oxytocin release—the \"bonding hormone\"—which invigorates the feeling of social connectedness."
+            }
+        ],
+        "id": "9_Text1",
+        "mark": 1,
+        "style": [
+            "0.5_line"
+        ]
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What is triggered by the act of greeting strangers with a smile and 'hi' as mentioned in paragraph 10?",
+        "answer": [
+            "oxytocin release",
+            "the bonding hormone"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 10,
+                "section": "Beyond a Word",
+                "text": "Hi can be a prelude to complex relationships. A study at the International Center for Social Dynamics found that people who greeted strangers with a smile and \"hi\" felt an increase in their own happiness levels by 46% compared to those who avoided conversation. This behavior triggers oxytocin release—the \"bonding hormone\"—which invigorates the feeling of social connectedness."
+            }
+        ],
+        "id": "10_Text1",
+        "mark": 1,
+        "style": [
+            "0.5_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "What triggers the release of oxytocin mentioned in paragraph 10?",
+        "options": {
+            "A": "Avoiding strangers",
+            "B": "Greeting strangers with a smile and 'hi'",
+            "C": "Having a hurried conversation",
+            "D": "Showing mechanical sincerity"
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 10,
+                "section": "Beyond a Word",
+                "text": "Hi can be a prelude to complex relationships. A study at the International Center for Social Dynamics found that people who greeted strangers with a smile and \"hi\" felt an increase in their own happiness levels by 46% compared to those who avoided conversation. This behavior triggers oxytocin release—the \"bonding hormone\"—which invigorates the feeling of social connectedness."
+            }
+        ],
+        "id": "11_Text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multi_short_question",
+        "question_text": "According to information given in paragraphs 11-16, what do each of the following people say can be gained from greetings?",
+        "sub_questions": [
+            {
+                "text": "Dr. Anika Patel",
+                "answer": [
+                    "trust"
+                ]
+            },
+            {
+                "text": "Jeremy Tan",
+                "answer": [
+                    "engaging a customer/respect and welcome"
+                ]
+            },
+            {
+                "text": "Greta Schild",
+                "answer": [
+                    "cross-cultural connections"
+                ]
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 11,
+                "section": "Beyond a Word",
+                "text": "Dr. Anika Patel, a psychologist specializing in first impressions, notes that greetings say much about one's personality. \"Whether the tone of 'hi' is cheerful, formal, or hurried reflects the underlying emotions or social context. A genuine greeting sets a stage for trust, while a mechanical 'hi' might make people question your sincerity.\""
+            },
+            {
+                "para_id": 12,
+                "section": "Beyond a Word",
+                "text": "Customer service manager Jeremy Tan reflects on the art of greetings in workplace environments. \"When I train employees at our corporate retail chain, I always stress that saying 'hi' with enthusiasm can immediately engage a customer—it's an act of respect and welcome. And that magic transcends industry borders.\""
+            },
+            {
+                "para_id": 16,
+                "section": "Cultural Impact of Greetings",
+                "text": "Greta Schild of the International Tourism Board believes understanding greetings can deepen cross-cultural connections. \"A traveler who learns to greet locals in their native style builds bridges between cultures. While 'hi' may suffice in informal settings, cultural nuances enrich the communication experience.\""
+            }
+        ],
+        "id": "12_Text1",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "matching",
+        "question_text": "Use information given in paragraphs 14-21 and match each person with the correct statement.",
+        "statements": [
+            {
+                "text": "Learning local greetings can foster cultural understanding while traveling.",
+                "answer": "Greta Schild"
+            },
+            {
+                "text": "Even small acts like a simple 'hi' can uplift someone's mood during tough times.",
+                "answer": "Wynn Chan"
+            },
+            {
+                "text": "Greeting strangers daily made me feel happier and helped me form new friendships.",
+                "answer": "Ling Wu"
+            },
+            {
+                "text": "Local traditions often involve symbolic gestures that reflect values of togetherness.",
+                "answer": "Maori culture"
+            },
+            {
+                "text": "Saying 'hi' can reflect respect, regardless of someone's status or position.",
+                "answer": "Leadership experts"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 14,
+                "section": "Cultural Impact of Greetings",
+                "text": "\"Our culture increasingly favors speed and simplicity, leading 'hi' to gain traction,\" says Liam Davies, author of the book Global Greetings: Historical Perspectives and Modern Practices. His research attributes \"hi's\" dominance in the world of digital communication."
+            },
+            {
+                "para_id": 15,
+                "section": "Cultural Impact of Greetings",
+                "text": "In contrast, local traditions still prefer more elaborate greetings. In Ghana, mutual inquiries into personal and family health often accompany a handshake. In Maori culture, symbolic gestures like 'hongi' involve touching noses, expressing togetherness."
+            },
+            {
+                "para_id": 16,
+                "section": "Cultural Impact of Greetings",
+                "text": "Greta Schild of the International Tourism Board believes understanding greetings can deepen cross-cultural connections. \"A traveler who learns to greet locals in their native style builds bridges between cultures. While 'hi' may suffice in informal settings, cultural nuances enrich the communication experience.\""
+            },
+            {
+                "para_id": 17,
+                "section": "Hi",
+                "text": "Saying \"hi\" also serves a role in stress reduction. Clinical therapist Wynn Chan says even brief exchanges with neighbors, baristas, and colleagues can foster feelings of calm. \"Human beings thrive on recognition—when someone greets you, it validates your presence. Even during difficult days, a single 'hi' can uplift the spirit.\""
+            },
+            {
+                "para_id": 19,
+                "section": "Hi",
+                "text": "Ling Wu, a sociology student who participated, reports surprising results. “I usually avoid interactions, but during this challenge, I randomly greeted ten strangers daily. Not only did I feel happier, but I also made unexpected friends.\""
+            },
+            {
+                "para_id": 21,
+                "section": "Hi",
+                "text": "Moreover, leadership experts emphasize the importance of greetings. Whether it's a company CEO saying \"hi\" to an intern during breakfast or politicians personally greeting attendees at town halls, these moments reflect respect regardless of status."
+            }
+        ],
+        "id": "14_Text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "What is the writer's tone in paragraph 20?",
+        "options": {
+            "A": "inclusive",
+            "B": "critical",
+            "C": "nostalgic",
+            "D": "indifferent"
+        },
+        "answer": [
+            "A"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 20,
+                "section": "Hi",
+                "text": "Modern apps and social campaigns encourage inclusivity through greetings too—introverts, migrants, or overlooked demographics are reminded of the magic in a simple exchange."
+            }
+        ],
+        "id": "15_Text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "According to the passage, why do leadership experts emphasize the importance of greetings?",
+        "answer": [
+            "they reflect respect regardless of status",
+            "to show respect irrespective of position",
+            "because greetings demonstrate respect no matter the social rank or position"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 21,
+                "section": "Hi",
+                "text": "Moreover, leadership experts emphasize the importance of greetings. Whether it's a company CEO saying \"hi\" to an intern during breakfast or politicians personally greeting attendees at town halls, these moments reflect respect regardless of status."
+            }
+        ],
+        "id": "16_Text1",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Which of the following statements best explains why saying 'hi' is considered powerful according to the text?",
+        "options": {
+            "A": "'Hi' is a formal greeting used in traditional ceremonies worldwide.",
+            "B": "Saying 'hi' can lead to a release of oxytocin, fostering social connection.",
+            "C": "People who avoid greetings tend to feel 46% happier.",
+            "D": "'Hi' is the most common greeting in digital communication, making it impactful."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 10,
+                "section": "Beyond a Word",
+                "text": "Hi can be a prelude to complex relationships. A study at the International Center for Social Dynamics found that people who greeted strangers with a smile and \"hi\" felt an increase in their own happiness levels by 46% compared to those who avoided conversation. This behavior triggers oxytocin release—the \"bonding hormone\"—which invigorates the feeling of social connectedness."
+            }
+        ],
+        "id": "17_Text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "fill_in_the_blank",
+        "question_text": "Complete the following article on the evolution and significance of greetings. Use ONE word to fill in each blank. (Hyphenated words count as one word.)",
+        "text_for_fill": "\"Hi\" may seem trivial, but it holds universal ___ in human interaction. Historically, the origins of greetings can be traced back to terms like \"hāl,\" which symbolizes good ___ and luck. The modern word \"hi\" emerged in the ___ century, primarily in the United States. Linguistics professor Ginger Liu emphasizes its ___ simplicity, noting that the word transcends barriers of language, class, and mood. Technology, such as the advent of ___, also contributed to its widespread usage. Operators used \"hello\" and \"hi\" to initiate phone ___, setting a global precedent. Cultural historian Mei Chang explores how different societies use distinct gestures like waves and bows, yet \"hi\" remains ___ worldwide. Beyond a greeting, \"hi\" plays a role in fostering ___ connection. Studies reveal that smiling and saying \"hi\" can elevate happiness levels by ___ percent, thanks to the release of the hormone ___. Dr. Anika Patel highlights how the tone and delivery of \"hi,\" whether cheerful or hurried, reflect the ___ emotions behind it. In customer service, Jeremy Tan believes enthusiastic greetings help ___ and engage clients, serving as a sign of respect. Even in the age of advanced ___, developers like AIMatrix are creating AI-powered assistants capable of simulating greetings. Ravi Singh notes their humanoid interactions feel ___ and eerie, raising questions about the ___ of robotic exchanges. Still, the simple \"hi\" is unlikely to be ___, as its universality and warmth ___ a timeless connection in communication.",
+        "answer": [
+            "value",
+            "health",
+            "19th//nineteenth",
+            "universality",
+            "telephones",
+            "calls",
+            "ubiquitous",
+            "social",
+            "46//forty-six",
+            "oxytocin",
+            "underlying",
+            "welcome",
+            "technology",
+            "personal",
+            "future",
+            "replaced",
+            "ensure",
+            "maintain"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "",
+                "text": "In an age dominated by emojis and text messages, the simple act of saying \"hi\" remains an enduring and universal way to connect with others. Though seemingly small, greetings are steeped in tradition, culture, and psychology, serving purposes far deeper than just starting a conversation."
+            },
+            {
+                "para_id": 5,
+                "section": "The Evolution of a Greeting",
+                "text": "The word \"hi\" is often linked to \"hello,\" a term whose origins date back to the old English word \"hāl,\" meaning good health and luck. Over time, societies adapted it into casual formats. The concise form \"hi\" gained popularity in the late 19th century, particularly in the United States."
+            },
+            {
+                "para_id": 6,
+                "section": "The Evolution of a Greeting",
+                "text": "Ginger Liu, a professor of linguistics, explains, \"The simplicity of 'hi' ensures its universality. Unlike more formal greetings, it transcends barriers of language, class, and even mood. It's a word anchored in ease and warmth.\""
+            },
+            {
+                "para_id": 7,
+                "section": "The Evolution of a Greeting",
+                "text": "Technology also played its part in spreading the global use of \"hi.\" With the emergence of telephones, operators often used \"hello\" or \"hi\" as standard phrases to begin calls. This set a precedent for its widespread adoption in the years to come."
+            },
+            {
+                "para_id": 8,
+                "section": "The Evolution of a Greeting",
+                "text": "Cultural historian Mei Chang highlights how global greetings vary, yet \"hi\" remains ubiquitous. \"Waves, bows, peace signs, or clasped hands—all are forms of saying hello. And intertwined with body language, 'hi' has become embedded in everyday interactions across the world.\""
+            },
+            {
+                "para_id": 10,
+                "section": "Beyond a Word",
+                "text": "Hi can be a prelude to complex relationships. A study at the International Center for Social Dynamics found that people who greeted strangers with a smile and \"hi\" felt an increase in their own happiness levels by 46% compared to those who avoided conversation. This behavior triggers oxytocin release—the \"bonding hormone\"—which invigorates the feeling of social connectedness."
+            },
+            {
+                "para_id": 11,
+                "section": "Beyond a Word",
+                "text": "Dr. Anika Patel, a psychologist specializing in first impressions, notes that greetings say much about one's personality. \"Whether the tone of 'hi' is cheerful, formal, or hurried reflects the underlying emotions or social context. A genuine greeting sets a stage for trust, while a mechanical 'hi' might make people question your sincerity.\""
+            },
+            {
+                "para_id": 12,
+                "section": "Beyond a Word",
+                "text": "Customer service manager Jeremy Tan reflects on the art of greetings in workplace environments. \"When I train employees at our corporate retail chain, I always stress that saying 'hi' with enthusiasm can immediately engage a customer—it's an act of respect and welcome. And that magic transcends industry borders.\""
+            },
+            {
+                "para_id": 23,
+                "section": "Greeting Future Innovations",
+                "text": "Artificial Intelligence developers are designing personable bots capable of saying \"hi\" during customer service interactions. AIMatrix launched its newest AI-powered assistant, Aria, programmed for conversational greetings that imitate human emotions."
+            },
+            {
+                "para_id": 24,
+                "section": "Greeting Future Innovations",
+                "text": "Users like software engineer Ravi Singh marvel at these experiences. \"While chatting with Aria, her friendly 'hi' felt personal enough to initiate engagement. Almost human, it's fascinating and eerie.\""
+            }
+        ],
+        "id": "18_Text1",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "According to the text, why has 'hi' become popular globally? Give one reason from the passage to support your answer.",
+        "answer": [
+            "Our culture increasingly favors speed and simplicity",
+            "Digital communication favors concise greetings"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 14,
+                "section": "Cultural Impact of Greetings",
+                "text": "\"Our culture increasingly favors speed and simplicity, leading 'hi' to gain traction,\" says Liam Davies, author of the book *Global Greetings: Historical Perspectives and Modern Practices.* His research attributes 'hi's' dominance in the world of digital communication."
+            }
+        ],
+        "id": "19_Text1",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "multi_short_question",
+        "question_text": "Does greeting someone have deeper psychological or leadership implications? Provide one reason for each point.",
+        "sub_questions": [
+            {
+                "text": "Yes, it has psychological implications.",
+                "answer": [
+                    "greeting someone can reduce stress/create calm feelings",
+                    "it validates someone's presence and uplifts the spirit"
+                ]
+            },
+            {
+                "text": "Yes, it has leadership implications.",
+                "answer": [
+                    "leaders who greet others show respect regardless of status",
+                    "greetings reflect the values of good leadership"
+                ]
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 17,
+                "section": "Hi",
+                "text": "Saying 'hi' also serves a role in stress reduction. Clinical therapist Wynn Chan says even brief exchanges with neighbors, baristas, and colleagues can foster feelings of calm. 'Human beings thrive on recognition—when someone greets you, it validates your presence. Even during difficult days, a single 'hi' can uplift the spirit.'"
+            },
+            {
+                "para_id": 21,
+                "section": "Hi",
+                "text": "Moreover, leadership experts emphasize the importance of greetings. Whether it's a company CEO saying 'hi' to an intern during breakfast or politicians personally greeting attendees at town halls, these moments reflect respect regardless of status."
+            }
+        ],
+        "id": "20_Text1",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    }
+]

@@ -1,0 +1,622 @@
+[
+    {
+        "question_type": "short_question",
+        "question_text": "What does 'this movement' in paragraph 1 refer to?",
+        "answer": [
+            "(around the world) communities (reviving the tradition of greetings)",
+            "(reviving the tradition of) greetings",
+            "the 'Hi Campaign'"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "(A)",
+                "text": "In the bustling digital age, the simplest forms of human connection are often overlooked. However, around the world, communities are reviving the tradition of greetings through a global initiative called the \"Hi Campaign.\" This movement is encouraging individuals everywhere to rediscover the power of saying \"Hi\" and spreading kindness."
+            }
+        ],
+        "id": "21_text2",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "The Hi Campaign encourages people to …",
+        "options": {
+            "A": "learn about different cultures.",
+            "B": "participate in global competitions.",
+            "C": "spread kindness through greetings.",
+            "D": "create postcards as a hobby."
+        },
+        "answer": [
+            "C"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "(A)",
+                "text": "In the bustling digital age, the simplest forms of human connection are often overlooked. However, around the world, communities are reviving the tradition of greetings through a global initiative called the \"Hi Campaign.\" This movement is encouraging individuals everywhere to rediscover the power of saying \"Hi\" and spreading kindness."
+            }
+        ],
+        "id": "22_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Complete the sentence below using information from the passage.\nThe 'Hi Campaign' aims to ________",
+        "answer": [
+            "rediscover the power of saying 'Hi' and spreading kindness",
+            "encourage individuals to revive the tradition of greetings"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "(A)",
+                "text": "In the bustling digital age, the simplest forms of human connection are often overlooked. However, around the world, communities are reviving the tradition of greetings through a global initiative called the 'Hi Campaign.' This movement is encouraging individuals everywhere to rediscover the power of saying 'Hi' and spreading kindness."
+            }
+        ],
+        "id": "23_text2",
+        "mark": 1,
+        "style": [
+            "3_line"
+        ]
+    },
+    {
+        "question_type": "multi_choice",
+        "question_text": "What are some of the roles played by the Community Center Inn in Albuquerque? Choose all the correct answers.",
+        "options": {
+            "A": "Hosting workshops and art sessions",
+            "B": "Serving as a hub for activism and creativity",
+            "C": "Distributing greeting postcards globally",
+            "D": "Selling crafts and sewing equipment",
+            "E": "Encouraging neighbors to reconnect meaningfully"
+        },
+        "answer": [
+            "A",
+            "B",
+            "E"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 4,
+                "section": "(B) Community Center Inn",
+                "text": "The Community Center Inn, a family-run space in Albuquerque, has been fostering social connections since its opening in 1985. Managed by longtime residents Maria Lopez and her son, Daniel, the venue offers workshops, art sessions, and local events aimed at bringing neighbors together."
+            },
+            {
+                "para_id": 5,
+                "section": "(B) Community Center Inn",
+                "text": "Maria explains that when she envisioned the community center, her goal was to create a space where people could reconnect with each other in meaningful ways. That vision has turned into reality over the years, turning the center into a local hub of creativity and activism."
+            }
+        ],
+        "id": "24_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Which of the following best describes the purpose of the 'Hi Campaign' mentioned in paragraph 6?",
+        "options": {
+            "A": "Promoting environmental conservation",
+            "B": "Encouraging acts of empathy and kindness",
+            "C": "Creating local hubs for creativity",
+            "D": "Organizing public talks on mental health"
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 6,
+                "section": "(C)",
+                "text": "Maria's support for the 'Hi Campaign' began when she attended a talk about spreading kindness and acknowledging mental well-being. She was moved by the initiative's purpose of revitalizing empathy through the simple act of greeting."
+            }
+        ],
+        "id": "25_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "fill_in_the_blank",
+        "question_text": "Use ONE word to complete each blank.",
+        "text_for_fill": "Maria believes that a ___, whether spoken softly or sent as a postcard, carries the power to ___ spirits and create ___ bonds. Janet Snyder highlights the campaign’s ___ methods like postcards and virtual messages.",
+        "answer": [
+            "greeting",
+            "uplift",
+            "new",
+            "humble"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 6,
+                "section": "(C)",
+                "text": "Maria's support for the \"Hi Campaign\" began when she attended a talk about spreading kindness and acknowledging mental well-being. She was moved by the initiative's purpose of revitalizing empathy through the simple act of greeting."
+            },
+            {
+                "para_id": 7,
+                "section": "(C)",
+                "text": "“Greeting someone isn't just a pleasantry; it's a gesture of acknowledgment and shared humanity,” Maria explains. “Whether softly spoken or sent via a postcard, a greeting carries the strength to uplift spirits and build new bonds."
+            },
+            {
+                "para_id": 8,
+                "section": "(C)",
+                "text": "The campaign's spokesperson, Janet Snyder, shares this belief. She emphasizes that the campaign is rooted in simplicity and accessibility, encouraging everyone to participate using humble yet impactful methods like postcards, virtual messages, or face-to-face smiles."
+            }
+        ],
+        "id": "26_text2",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "What was Lola’s likely intention when she created her greeting postcard in paragraph 11?",
+        "options": {
+            "A": "To express her artistic talents.",
+            "B": "To inspire positivity in the recipient.",
+            "C": "To showcase her school's involvement.",
+            "D": "To participate in a competition."
+        },
+        "answer": [
+            "B"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 11,
+                "section": "(D)",
+                "text": "Several schools and clubs were quick to join the campaign, including Lincoln Elementary School where students eagerly created their greeting postcards. Seven-year-old Lola designed a vibrant card that said, \"Hi! You're amazing just the way you are!\" She wanted her message to inspire positivity in its recipient."
+            }
+        ],
+        "id": "28_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What does 'outreach efforts' in paragraph 10 refer to?",
+        "answer": [
+            "spreading news of the campaign through email and printed flyers",
+            "word of mouth and grassroots communication"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 10,
+                "section": "(C)",
+                "text": "Daniel Lopez, Maria's son, spearheaded outreach efforts by spreading news of the campaign through email and printed flyers. With mainly word of mouth and grassroots communication, he was able to rally over 800 members of the local community to contribute."
+            }
+        ],
+        "id": "29_text2",
+        "mark": 1,
+        "style": [
+            "1_line"
+        ]
+    },
+    {
+        "question_type": "matching",
+        "question_text": "Based on the information in the text, write the name of the person who participated based on their actions or pledges. One action is NOT used. Write NG (not given) if the action is not mentioned.",
+        "statements": [
+            {
+                "text": "Creating greeting cards inspired by overcoming personal challenges.",
+                "answer": "Rebecca"
+            },
+            {
+                "text": "Collaborating with family members to make cheerful postcards.",
+                "answer": "Mia"
+            },
+            {
+                "text": "Writing postcards that encourage others to keep dreaming.",
+                "answer": "Tyler"
+            },
+            {
+                "text": "Planning future campaigns for fostering team spirit.",
+                "answer": "NG"
+            },
+            {
+                "text": "Designing cards with cheerful illustrations and positive affirmations.",
+                "answer": "Liam"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 13,
+                "section": "(D)",
+                "text": "Meanwhile, sixteen-year-old Tyler, along with his basketball teammates, embodied a different approach. Their greetings included lines such as, “Keep striving for your dreams” and “You matter more than you realize.”"
+            },
+            {
+                "para_id": 15,
+                "section": "(D)",
+                "text": "Rebecca, thirteen, brought personal experiences to her greeting card. She designed it with affirming messages inspired by her own journey of overcoming shyness. Her pledge stated, “My goal is to be the person who says 'Hi' first in every new situation.” Rebecca considers the campaign her start in building confidence while also supporting others."
+            },
+            {
+                "para_id": 16,
+                "section": "(D)",
+                "text": "Families also joined together, with the Peterson family dedicating an entire Saturday to making postcards. Twelve-year-old Mia, her nine-year-old brother Liam, and their parents crafted “Hi cards” filled with cheerful illustrations of suns, animals, and positive affirmations."
+            },
+            {
+                "para_id": 19,
+                "section": "(E)",
+                "text": "The campaign has already expanded its outreach plans. Following the 'Hi Campaign,' Snyder reveals that new initiatives are lined up for the future. These might include campaigns focused on gratitude letters, compassion in conversation, or fostering team spirit in small-group settings. “We aim to create meaningful habits rooted in kindness,” Snyder adds."
+            }
+        ],
+        "marks": 5,
+        "id": "30_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "Read paragraphs 16–17. Find an expression that means the same as ‘small actions’.",
+        "answer": [
+            "small gestures"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 16,
+                "section": "(D)",
+                "text": "Families also joined together, with the Peterson family dedicating an entire Saturday to making postcards. Twelve-year-old Mia, her nine-year-old brother Liam, and their parents crafted “Hi cards” filled with cheerful illustrations of suns, animals, and positive affirmations."
+            },
+            {
+                "para_id": 17,
+                "section": "(D)",
+                "text": "“It's a way for us to bond while teaching kindness,” says their mother, Evelyn Peterson. “And it's become a reminder for the kids — small gestures can go a long way.”"
+            }
+        ],
+        "id": "31_text2",
+        "mark": 1,
+        "style": [
+            "0.5_line"
+        ]
+    },
+    {
+        "question_type": "multi_short_question",
+        "question_text": "What positive impacts of the \"Hi Campaign\" are described in the text?",
+        "sub_questions": [
+            {
+                "text": "a)",
+                "answer": [
+                    "(it/the campaign) promotes (intentional) kindness and emotional care"
+                ]
+            },
+            {
+                "text": "b)",
+                "answer": [
+                    "(it/the campaign) fosters better habits (rooted in kindness)"
+                ]
+            },
+            {
+                "text": "c)",
+                "answer": [
+                    "(it/the campaign) transcends boundaries (and bridges divides)"
+                ]
+            },
+            {
+                "text": "d)",
+                "answer": [
+                    "(it/the campaign) helps create brighter and kinder communities"
+                ]
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 18,
+                "section": "(E)",
+                "text": "Janet Snyder believes that embracing greetings in daily life can have rippling effects across communities. “It's more than saying 'hi',” Snyder explains, “It's about the intention: acknowledging someone's presence and showing care for their emotional space. These actions spark important and lasting changes.”"
+            },
+            {
+                "para_id": 19,
+                "section": "(E)",
+                "text": "The campaign has already expanded its outreach plans. Following the \"Hi Campaign,\" Snyder reveals that new initiatives are lined up for the future. These might include campaigns focused on gratitude letters, compassion in conversation, or fostering team spirit in small-group settings. “We aim to create meaningful habits rooted in kindness,” Snyder adds."
+            },
+            {
+                "para_id": 21,
+                "section": "(E)",
+                "text": "As messages like \"Hi, you're wonderful!\" and \"Hello, keep smiling!\" pass hands — physically and digitally — the campaign serves as a heartwarming reminder that even a smile or a word can transcend boundaries and bridge divides. Through one greeting at a time, individuals everywhere are rediscovering their collective ability to create brighter, kinder communities."
+            }
+        ],
+        "marks": 4,
+        "id": "32_text2",
+        "mark": 1,
+        "style": []
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "What is the purpose of assembling greeting postcards into a mural as mentioned in paragraph 20?",
+        "answer": [
+            "to celebrate Global Kindness Day",
+            "to commemorate Global Kindness Day",
+            "to honor Global Kindness Day"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 20,
+                "section": "(E)",
+                "text": "The \"Hi Campaign\" is not just a fleeting event. Its impact lives on in the smiles and exchanges it sparks. Greeting postcards are assembled into a colossal mural that will travel across major cities, including Los Angeles, Paris, and Seoul, to celebrate Global Kindness Day. Additionally, participants can visit the campaign's website to design virtual greeting cards and discover ways to embed kindness into their everyday routines."
+            }
+        ],
+        "id": "33_text2",
+        "mark": 1,
+        "style": [
+            "2_line"
+        ]
+    },
+    {
+        "question_type": "true_false_not_given",
+        "question_text": "Decide whether the following statements are True, False, or Not Given based on paragraphs 13–20.",
+        "statements": [
+            {
+                "text": "Tyler wrote postcards with supportive messages for others.",
+                "answer": "True"
+            },
+            {
+                "text": "Rebecca created greeting cards because she wanted to overcome her fear of animals.",
+                "answer": "False"
+            },
+            {
+                "text": "The Peterson family spent multiple weekends making postcards together.",
+                "answer": "Not Given"
+            },
+            {
+                "text": "Janet Snyder believes greeting postcards can prompt lasting change in communities.",
+                "answer": "True"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 13,
+                "section": "(D)",
+                "text": "Meanwhile, sixteen-year-old Tyler, along with his basketball teammates, embodied a different approach. Their greetings included lines such as, “Keep striving for your dreams” and “You matter more than you realize.”"
+            },
+            {
+                "para_id": 15,
+                "section": "(D)",
+                "text": "Rebecca, thirteen, brought personal experiences to her greeting card. She designed it with affirming messages inspired by her own journey of overcoming shyness. Her pledge stated, “My goal is to be the person who says 'Hi' first in every new situation.” Rebecca considers the campaign her start in building confidence while also supporting others."
+            },
+            {
+                "para_id": 16,
+                "section": "(D)",
+                "text": "Families also joined together, with the Peterson family dedicating an entire Saturday to making postcards. Twelve-year-old Mia, her nine-year-old brother Liam, and their parents crafted “Hi cards” filled with cheerful illustrations of suns, animals, and positive affirmations."
+            },
+            {
+                "para_id": 18,
+                "section": "(E)",
+                "text": "Janet Snyder believes that embracing greetings in daily life can have rippling effects across communities. “It's more than saying 'hi',” Snyder explains, “It's about the intention: acknowledging someone's presence and showing care for their emotional space. These actions spark important and lasting changes.”"
+            }
+        ],
+        "marks": 4,
+        "id": "34_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "short_question",
+        "question_text": "According to Snyder, what is the purpose of creating meaningful habits rooted in kindness?",
+        "answer": [
+            "to foster team spirit",
+            "to encourage compassion in conversation",
+            "to promote writing gratitude letters"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 19,
+                "section": "(E)",
+                "text": "The campaign has already expanded its outreach plans. Following the \"Hi Campaign,\" Snyder reveals that new initiatives are lined up for the future. These might include campaigns focused on gratitude letters, compassion in conversation, or fostering team spirit in small-group settings. “We aim to create meaningful habits rooted in kindness,” Snyder adds."
+            }
+        ],
+        "id": "35_text2",
+        "mark": 1,
+        "style": [
+            "0.5_line"
+        ]
+    },
+    {
+        "question_type": "matching",
+        "question_text": "Put the following events related to the 'Hi Campaign' in the correct order. Write (1-5) in the boxes provided.",
+        "statements": [
+            {
+                "text": "Participants from diverse countries shared their personalized greeting postcards.",
+                "answer": "1"
+            },
+            {
+                "text": "Volunteers gathered at the Community Center Inn to sort and send postcards.",
+                "answer": "2"
+            },
+            {
+                "text": "Daniel Lopez rallied the local community to contribute through word of mouth.",
+                "answer": "3"
+            },
+            {
+                "text": "Students at Lincoln Elementary School created their own greeting postcards.",
+                "answer": "4"
+            },
+            {
+                "text": "Greeting postcards were assembled into a mural to celebrate Global Kindness Day.",
+                "answer": "5"
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 2,
+                "section": "(A)",
+                "text": "The campaign invites participants from diverse countries such as Japan, the United States, Germany, Brazil, India, South Korea, France, and Kenya to share their personalized 'greeting postcards.' These postcards, crafted with sincerity and creativity, carry heartfelt messages and designs to convey how they pledge to brighten someone else's day."
+            },
+            {
+                "para_id": 3,
+                "section": "(B) Community Center Inn",
+                "text": "Last month, thousands of these greeting postcards made their way to a cozy community center located in Albuquerque, New Mexico, USA. Here, dozens of volunteers gathered to sort, display, and send out the greetings to wider global destinations."
+            },
+            {
+                "para_id": 10,
+                "section": "(C)",
+                "text": "Daniel Lopez, Maria's son, spearheaded outreach efforts by spreading news of the campaign through email and printed flyers. With mainly word of mouth and grassroots communication, he was able to rally over 800 members of the local community to contribute."
+            },
+            {
+                "para_id": 11,
+                "section": "(D)",
+                "text": "Several schools and clubs were quick to join the campaign, including Lincoln Elementary School where students eagerly created their greeting postcards. Seven-year-old Lola designed a vibrant card that said, 'Hi! You're amazing just the way you are!' She wanted her message to inspire positivity in its recipient."
+            },
+            {
+                "para_id": 20,
+                "section": "(E)",
+                "text": "The 'Hi Campaign' is not just a fleeting event. Its impact lives on in the smiles and exchanges it sparks. Greeting postcards are assembled into a colossal mural that will travel across major cities, including Los Angeles, Paris, and Seoul, to celebrate Global Kindness Day. Additionally, participants can visit the campaign's website to design virtual greeting cards and discover ways to embed kindness into their everyday routines."
+            }
+        ],
+        "id": "36_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "matching",
+        "question_text": "Which subheading below best fits each section in Text 2? One subheading is NOT used and should be left blank.",
+        "marks": 4,
+        "statements": [
+            {
+                "text": "Reviving connections through greetings",
+                "answer": "A"
+            },
+            {
+                "text": "A family-run hub of creativity",
+                "answer": "B"
+            },
+            {
+                "text": "Local community leaders drive the effort",
+                "answer": "C"
+            },
+            {
+                "text": "Inspiration through postcards",
+                "answer": "D"
+            },
+            {
+                "text": "Plans to expand kindness worldwide",
+                "answer": "E"
+            },
+            {
+                "text": "The power of young voices",
+                "answer": ""
+            }
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "(A)",
+                "text": "In the bustling digital age, the simplest forms of human connection are often overlooked. However, around the world, communities are reviving the tradition of greetings through a global initiative called the 'Hi Campaign.' This movement is encouraging individuals everywhere to rediscover the power of saying 'Hi' and spreading kindness."
+            },
+            {
+                "para_id": 4,
+                "section": "(B) Community Center Inn",
+                "text": "The Community Center Inn, a family-run space in Albuquerque, has been fostering social connections since its opening in 1985. Managed by longtime residents Maria Lopez and her son, Daniel, the venue offers workshops, art sessions, and local events aimed at bringing neighbors together."
+            },
+            {
+                "para_id": 10,
+                "section": "(C)",
+                "text": "Daniel Lopez, Maria's son, spearheaded outreach efforts by spreading news of the campaign through email and printed flyers. With mainly word of mouth and grassroots communication, he was able to rally over 800 members of the local community to contribute."
+            },
+            {
+                "para_id": 11,
+                "section": "(D)",
+                "text": "Several schools and clubs were quick to join the campaign, including Lincoln Elementary School where students eagerly created their greeting postcards. Seven-year-old Lola designed a vibrant card that said, 'Hi! You're amazing just the way you are!' She wanted her message to inspire positivity in its recipient."
+            },
+            {
+                "para_id": 19,
+                "section": "(E)",
+                "text": "The campaign has already expanded its outreach plans. Following the 'Hi Campaign,' Snyder reveals that new initiatives are lined up for the future. These might include campaigns focused on gratitude letters, compassion in conversation, or fostering team spirit in small-group settings. 'We aim to create meaningful habits rooted in kindness,' Snyder adds."
+            }
+        ],
+        "id": "37_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "multiple_choice",
+        "question_text": "Which of the following is the best alternative title for this text?",
+        "options": {
+            "A": "Kindness Knows No Borders",
+            "B": "The Challenges of Digital Connection",
+            "C": "Building Community through Greetings",
+            "D": "Creating Smiles Worldwide"
+        },
+        "answer": [
+            "C"
+        ],
+        "related_paragraphs": [
+            {
+                "title": "Spreading Smiles, One Greeting at a Time"
+            },
+            {
+                "subtitle": "Greeting revolution gives people a voice in spreading kindness"
+            },
+            {
+                "para_id": 1,
+                "section": "(A)",
+                "text": "In the bustling digital age, the simplest forms of human connection are often overlooked. However, around the world, communities are reviving the tradition of greetings through a global initiative called the \"Hi Campaign.\" This movement is encouraging individuals everywhere to rediscover the power of saying \"Hi\" and spreading kindness."
+            },
+            {
+                "para_id": 21,
+                "section": "(E)",
+                "text": "As messages like \"Hi, you're wonderful!\" and \"Hello, keep smiling!\" pass hands — physically and digitally — the campaign serves as a heartwarming reminder that even a smile or a word can transcend boundaries and bridge divides. Through one greeting at a time, individuals everywhere are rediscovering their collective ability to create brighter, kinder communities."
+            }
+        ],
+        "id": "39_text2",
+        "mark": 1,
+        "style": null
+    },
+    {
+        "question_type": "fill_in_the_blank",
+        "question_text": "Complete the summary of the text by writing ONE word to fill in each blank. You should make sure your answers are grammatically correct, paying attention to tenses, plurals, etc.",
+        "text_for_fill": "The 'Hi Campaign' is a global ___ promoting kindness through greetings. Participants from countries like ___ and France send out creative ___ postcards. Last month, thousands of postcards were sent to a ___ center in Albuquerque. Volunteers gathered to ___ these postcards, which are then forwarded to global destinations. Maria Lopez and her ___ Daniel manage the Community Center Inn, fostering connections through ___ and local events. Maria's belief in the campaign's message started after she attended a talk on ___ and mental well-being. Together, Maria's center and its volunteers played a ___ role in organizing postcards from ___ contributors worldwide. Daniel helped gather support by spreading news via email and ___ flyers.",
+        "answer": [
+            "initiative",
+            "Japan//Germany",
+            "greeting",
+            "community",
+            "sort",
+            "son",
+            "workshops",
+            "kindness",
+            "pivotal//critical",
+            "10000",
+            "printed"
+        ],
+        "related_paragraphs": [
+            {
+                "para_id": 1,
+                "section": "(A)",
+                "text": "In the bustling digital age, the simplest forms of human connection are often overlooked. However, around the world, communities are reviving the tradition of greetings through a global initiative called the 'Hi Campaign.' This movement is encouraging individuals everywhere to rediscover the power of saying 'Hi' and spreading kindness."
+            },
+            {
+                "para_id": 2,
+                "section": "(A)",
+                "text": "The campaign invites participants from diverse countries such as Japan, the United States, Germany, Brazil, India, South Korea, France, and Kenya to share their personalized 'greeting postcards.' These postcards, crafted with sincerity and creativity, carry heartfelt messages and designs to convey how they pledge to brighten someone else's day."
+            },
+            {
+                "para_id": 3,
+                "section": "(B) Community Center Inn",
+                "text": "Last month, thousands of these greeting postcards made their way to a cozy community center located in Albuquerque, New Mexico, USA. Here, dozens of volunteers gathered to sort, display, and send out the greetings to wider global destinations."
+            },
+            {
+                "para_id": 4,
+                "section": "(B) Community Center Inn",
+                "text": "The Community Center Inn, a family-run space in Albuquerque, has been fostering social connections since its opening in 1985. Managed by longtime residents Maria Lopez and her son, Daniel, the venue offers workshops, art sessions, and local events aimed at bringing neighbors together."
+            },
+            {
+                "para_id": 6,
+                "section": "(C)",
+                "text": "Maria's support for the 'Hi Campaign' began when she attended a talk about spreading kindness and acknowledging mental well-being. She was moved by the initiative's purpose of revitalizing empathy through the simple act of greeting."
+            },
+            {
+                "para_id": 9,
+                "section": "(C)",
+                "text": "Snyder recounts that organizing postcards from over 10,000 contributors across eight countries was no small feat. She admits that Maria's community center became a pivotal part of the campaign's success. When the facility offered to host volunteers for the sorting and preparation stages, the organizers were thrilled."
+            },
+            {
+                "para_id": 10,
+                "section": "(C)",
+                "text": "Daniel Lopez, Maria's son, spearheaded outreach efforts by spreading news of the campaign through email and printed flyers. With mainly word of mouth and grassroots communication, he was able to rally over 800 members of the local community to contribute."
+            }
+        ],
+        "id": "40_text2",
+        "mark": 1,
+        "style": null
+    }
+]

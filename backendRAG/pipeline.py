@@ -41,8 +41,6 @@ def generateQuestions(generator: Generator, year, part, error: list, uid: uuid):
     
     # loop through every question and generate then one by one
     for q in range(len(questions["questions"])):
-        # if q > 6:
-        #     break
         
         # extract data
         question = copy.deepcopy(questions["questions"][q])
@@ -91,45 +89,33 @@ def generateQuestions(generator: Generator, year, part, error: list, uid: uuid):
         json.dump(result, file, indent=4, ensure_ascii=False)
     # return True
         
-def run_generation_pipeline(topic: str, uid):
+def run_generation_pipeline(topic: str, uid, part_name):
     # Example Usage
     print(topic)
     generator = Generator()
-    generation_error = []
     year = 2012
-    
+    generation_error = []
     # extract the corresponding past paper and feed it to AI 
     # Generate reading materials
-    base_path = f"PastPaper/{year}"
-    for root, dirs, files in os.walk(base_path):
-        for file in files:
-            if file.startswith("text") and file.endswith(".txt"):  # 🔍 Only files starting with "text"
-                part_name = os.path.relpath(root, base_path)  # 💡 Get 'PartA', 'PartB1', etc.
-                text_id = file[-5]
-                job_store.update_job(uid,"status",f"Generating {part_name} text{text_id}")
-                generateReadingMaterials(generator, topic, year, part_name, text_id, uid)
-                convertTxtToJson(part_name,text_id, uid)
-                convertTextJsonToPdf(part_name, text_id, uid)
+    base_path = f"PastPaper/{year}/{part_name}"
+    
+    for file in os.listdir(base_path):
+        if file.startswith("text") and file.endswith(".txt"):  # 🔍 Only files starting with "text"
+            text_id = file[-5]
+            job_store.update_job(uid,"status",f"Generating {part_name} text{text_id}")
+            generateReadingMaterials(generator, topic, year, part_name, text_id, uid)
+            convertTxtToJson(part_name,text_id, uid)
+            convertTextJsonToPdf(part_name, text_id, uid)
                 
     # Generate questions
-    for root, dirs, files in os.walk(base_path):
-        for file in files:
-            if file == "questions.json": 
-                part_name = os.path.relpath(root, base_path)  # 💡 Get 'PartA', 'PartB1', etc.
-                # if part_name != "PartA":
-                #     continue
-                job_store.update_job(uid,"status",f"Generating {part_name} questions.")
-                generateQuestions(generator, year, part_name, generation_error, uid)
-                convertQuestionJsonToPdf(part_name, uid)
+    question_file = os.path.join(base_path, "questions.json")
+    if os.path.exists(question_file):
+        job_store.update_job(uid,"status",f"Generating {part_name} questions.")
+        generateQuestions(generator, year, part_name, generation_error, uid)
+        convertQuestionJsonToPdf(part_name, uid)
     
-    with open(f"Results/ErrorLog/{uid}_generationError.json", "x", encoding="utf-8") as file:
+    with open(f"Results/ErrorLog/{uid}_generationError.json", "w", encoding="utf-8") as file:
         json.dump(generation_error, file, indent=4, ensure_ascii=False)
         
     job_store.update_job(uid,"status","Done")
     
-    # return {
-    #     "success": True,
-    #     "uuid": uid,
-    #     "generated_count": len(result),
-    #     "errors": generation_error
-    # }

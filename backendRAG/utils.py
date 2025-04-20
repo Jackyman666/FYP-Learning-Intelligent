@@ -67,7 +67,7 @@ def convertTxtToJson(part,text_id, uid):
             paragraph_id += 1  
 
     # Save to JSON file
-    with open(write_file_path, 'x', encoding='utf-8') as json_file:
+    with open(write_file_path, 'w', encoding='utf-8') as json_file:
         json.dump(text_data, json_file, indent=4, ensure_ascii=False)
     
     return

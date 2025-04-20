@@ -1,5 +1,7 @@
 Title: What Your Updates Say About You
 
+Content:
+
 Social media is great for deepening bonds, making friends, or finding that special someone. Or is it?
 
 New research suggests that so-called power users, who contribute much more content than the average Facebook user, are unwittingly revealing undesirable personal traits to their peers. The recent study also suggests that Facebook is not good for those suffering from low self-esteem.
@@ -9,6 +11,8 @@ New research suggests that so-called power users, who contribute much more conte
 This assumption seems fair when applied to most people, especially those with low self-esteem. However, the findings of Forest's research—titled "When Social Networking Is Not Working"—suggest that this isn’t the case.
 
 The study revealed that people with low self-esteem were more negative than those with high self-esteem and were liked less by strangers who rated the participants’ status updates. It also found that people with low self-esteem received more responses from their Facebook friends when they posted highly positive updates compared to less positive ones. People with high self-esteem, on the other hand, used Facebook less and received more "like" replies after posting something negative, perhaps because these responses are rarer for them.
+
+The study also found that people with low self-esteem got more responses from their Facebook friends when they posted highly positive updates, compared to less positive ones. People with high self-esteem, on the other hand used Facebook less and got more 'like' replies after posting something negative, perhaps because these responses are rarer for them.
 
 So, people with low self-esteem may feel that Facebook is a risk-free forum for making personal disclosures, but they may not be helping themselves.
 

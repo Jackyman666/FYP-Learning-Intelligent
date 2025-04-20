@@ -1,8 +1,6 @@
-import json
-import time
-import openai
+import json, time, openai,os
 from dotenv import load_dotenv
-import os
+from config import MAX_GENERATE_RETRY,GENERATE_RETRY_DELAY
 
 class Generator:
     """Class for generating HKDSE-style reading material using OpenAI."""
@@ -387,15 +385,24 @@ class Generator:
         return prompt
     
     def generate(self,prompt):
-
-        response = self.client.chat.completions.create(  # ✅ Updated API call
-            model="gpt-4o",
-            messages=[{"role": "system", "content": "You are an expert HKDSE exam paper generator."},
-                    {"role": "user", "content": prompt}]
-        )
         
-        print("🔹 Prompt Tokens Used:", response.usage.prompt_tokens)
-        print("🔹 Completion Tokens Used:", response.usage.completion_tokens)
-        print("🔹 Total Tokens Used:", response.usage.total_tokens)
-
-        return response.choices[0].message.content  # ✅ Corrected response format
+        for retry in range(MAX_GENERATE_RETRY):
+            try:
+                response = self.client.chat.completions.create(  # ✅ Updated API call
+                    model="gpt-4o",
+                    messages=[{"role": "system", "content": "You are an expert HKDSE exam paper generator."},
+                            {"role": "user", "content": prompt}]
+                )
+                
+                print("🔹 Prompt Tokens Used:", response.usage.prompt_tokens)
+                print("🔹 Completion Tokens Used:", response.usage.completion_tokens)
+                print("🔹 Total Tokens Used:", response.usage.total_tokens)
+                return response.choices[0].message.content  # ✅ Corrected response format
+            except openai.RateLimitError as e:
+                wait_time = GENERATE_RETRY_DELAY * retry
+                print(f"⚠️ Rate limit hit. Retrying in {wait_time:.1f} seconds... (Attempt {retry}/{MAX_GENERATE_RETRY})")
+                time.sleep(wait_time)
+            except Exception as e:
+                print(f"❌ Unexpected error in generate(): {e}")
+                break
+                
