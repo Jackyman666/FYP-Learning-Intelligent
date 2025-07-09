@@ -1,6 +1,6 @@
 import json, time, openai,os
 from dotenv import load_dotenv
-from config import MAX_GENERATE_RETRY,GENERATE_RETRY_DELAY
+from config import MAX_GENERATE_RETRY,GENERATE_RETRY_DELAY, SYSTEM_PROMPT
 
 class Generator:
     """Class for generating HKDSE-style reading material using OpenAI."""
@@ -37,10 +37,10 @@ class Generator:
         
         return prompt
 
-    def readingPromt(self, topic, selected_materials, words_number, max_para, remark):
+    def readingPromt(self, topic, selected_materials, part, words_number, max_para, remark):
         remark = "\n\t".join(remark)
         prompt = f"""
-        Your task is to generate a **new reading material** based on the given **HKDSE past paper reading text**.  
+        Your task is to generate a **new reading material** based on the given **HKDSE past paper reading text** for {part}.  
 
         ## **📌 Task Instructions:**
         - The new reading material should follow the given **topic:** **"{topic}"**.
@@ -67,13 +67,7 @@ class Generator:
     
     def MCPrompt(self, reading_material, reference, remark):
         prompt = f"""
-        You are an expert in **HKDSE English Reading exam paper creation**.
         Your task is to generate ONE **multiple-choice question (MCQ)** based on the provided text paragraphs and taking reference from the Question Sample.
-        The Question Sample is taken from the past paper in JSON format with all the related information.
-        The provided text is a list of dictionaries. Each dictionary represents either:
-            - a subtitle, in the format: {{"subtitle": text}}
-            - a title, in the format: {{"title": text}}
-            - a full paragraph, in the format: {{"para_id": paragraph number, "section": section name, "text": full paragraph text}}
         
         ## **📌 Provided Text Paragraphs:**
         {reading_material}
@@ -113,11 +107,6 @@ class Generator:
     def multiChoicePrompt(self, reading_material, reference, remark):
         prompt = f"""
         Your task is to generate ONE multiple-choice question with more than one answer correct based on the provided text paragraphs and taking reference from the Question Sample.
-        The Question Sample is taken from the past paper in JSON format with all the related information.
-        The provided text is a list of dictionaries. Each dictionary represents either:
-            - a subtitle, in the format: {{"subtitle": text}}
-            - a title, in the format: {{"title": text}}
-            - a full paragraph, in the format: {{"para_id": paragraph number, "section": section name, "text": full paragraph text}}
         
         ## **📌 Provided Text Paragraphs:**
         {reading_material}
@@ -157,13 +146,7 @@ class Generator:
         
     def shortQuestionPrompt(self, reading_material, reference, remark):
         prompt = f"""
-        You are an expert in **HKDSE English Reading exam paper creation**.
         Your task is to generate ONE **short question** based on the provided text paragraphs and taking reference from the short question sample.
-        The short question sample is taken from the past paper in JSON format with all the related information.
-        The provided text is a list of dictionaries. Each dictionary represents either:
-            - a subtitle, in the format: {{"subtitle": text}}
-            - a title, in the format: {{"title": text}}
-            - a full paragraph, in the format: {{"para_id": paragraph number, "section": section name, "text": full paragraph text}}
         Notice that the answer(s) is stored in an array where each element is one of the possible answers, which means student answer either one is enough.
         It is not necessart to generate the same number of answers.
         In answer, you may see symbols like () and /:
@@ -202,14 +185,8 @@ class Generator:
     def multiShortQuestionPrompt(self, reading_material, reference, remark): #quality need improve
         num_sub_questions = len(reference["sub_questions"])
         prompt = f"""
-        You are an expert in **HKDSE English Reading exam paper creation**.
-        Your task is to generate **mutiple short question** based on the provided text paragraphs and taking reference from the Question Sample.
-        The Question Sample is taken from the past paper in JSON format with all the related information.
-        The provided text is a list of dictionaries. Each dictionary represents either:
-            - a subtitle, in the format: {{"subtitle": text}}
-            - a title, in the format: {{"title": text}}
-            - a full paragraph, in the format: {{"para_id": paragraph number, "section": section name, "text": full paragraph text}}
-        "answer" is an array where each element is one of the possible answers, which means student answer either one is enough.
+        Your task is to generate **mutiple short question** based on the provided text paragraphs and taking reference from a 1uestion sample.
+        Notice "answer" in the question sample is an array where each element is one of the possible answers, which means student answer either one is enough.
         In "answer", you may see symbols like () and /:
             - () means the words inside the bracket can be neglected
             - / means the words are interchangable
@@ -253,13 +230,7 @@ class Generator:
 
     def TFPrompt(self, reading_material, reference, remark):
         prompt = f"""
-        You are an expert in **HKDSE English Reading exam paper creation**.
         Your task is to generate **True False Not Given question** based on the provided text paragraphs and taking reference from the True False Not Given question sample.
-        The True False Not Given question sample is taken from the past paper in JSON format with all the related information.
-        The provided text is a list of dictionaries. Each dictionary represents either:
-            - a subtitle, in the format: {{"subtitle": text}}
-            - a title, in the format: {{"title": text}}
-            - a full paragraph, in the format: {{"para_id": paragraph number, "section": section name, "text": full paragraph text}}
         
         ## **📌 Provided Text Paragraphs:**
         {reading_material}
@@ -297,13 +268,7 @@ class Generator:
     def fillInBlankPrompt(self, reading_material, reference, remark):
         num_blanks = reference["text_for_fill"].count("___")
         prompt = f"""
-        You are an expert in **HKDSE English Reading exam paper creation**.
         Your task is to generate **Fill In the Blank question** based on the provided text paragraphs and taking reference from the Fill In the Blank question sample.
-        The question sample is taken from the past paper in JSON format with all the related information.
-        The provided text is a list of dictionaries. Each dictionary represents either:
-            - a subtitle, in the format: {{"subtitle": text}}
-            - a title, in the format: {{"title": text}}
-            - a full paragraph, in the format: {{"para_id": paragraph number, "section": section name, "text": full paragraph text}}
         In "text_for_fill", each "___" represents a blank that must be filled based on the instruction provided in "question_text" (e.g. Use ONE word/ more than one words to fill in each blank).
         The "answer" field is a list where each element corresponds to a blank in the text, based on its order of appearance (i.e. the first element matches the first blank, the second element matches the second blank, and so on)
         You may encounter the following symbols in "answer:
@@ -343,14 +308,7 @@ class Generator:
     
     def matchingPrompt(self, reading_material, reference, remark): #modify this
         prompt = f"""
-            You are an expert in **HKDSE English Reading exam paper creation**.
             Your task is to generate a **Matching-type question** based on the provided text paragraphs and by taking reference from the matching-type question sample.
-            The question sample is taken from a past HKDSE paper and is provided in JSON format with all the related information.
-            The provided text is a list of dictionaries. Each dictionary represents either:
-                - a subtitle, in the format: {{"subtitle": text}}
-                - a title, in the format: {{"title": text}}
-                - a full paragraph, in the format: {{"para_id": paragraph number, "section": section name, "text": full paragraph text}}
-
 
             ## **📌 Provided Text Paragraphs:**
             {reading_material}
@@ -386,11 +344,11 @@ class Generator:
     
     def generate(self,prompt):
         
-        for retry in range(MAX_GENERATE_RETRY):
+        for retry in range(1, MAX_GENERATE_RETRY+1):
             try:
                 response = self.client.chat.completions.create(  # ✅ Updated API call
                     model="gpt-4o",
-                    messages=[{"role": "system", "content": "You are an expert HKDSE exam paper generator."},
+                    messages=[{"role": "system", "content": SYSTEM_PROMPT},
                             {"role": "user", "content": prompt}]
                 )
                 

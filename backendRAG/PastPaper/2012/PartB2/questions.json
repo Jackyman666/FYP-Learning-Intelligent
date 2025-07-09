@@ -232,10 +232,10 @@
             "text_for_fill": "Guo sends her children to an international school because classes are taught in ___ and  ___ and the ___ ___ is more relaxing.",
             "style": ["2_blank"],
             "answer": [
-              ["English//Chinese"],
-              ["Chinese//English"],
-              ["classroom"],
-              ["environment"]
+              "English//Chinese",
+              "Chinese//English",
+              "classroom",
+              "environment"
             ],
             "related_paragraphs": [
                 {

@@ -18,7 +18,7 @@ def generateReadingMaterials(generator: Generator, topic, year, part, text_id, u
         max_para = data["content"][-1]["para_id"] + MAX_EXTRA_PARAGRAPH
         # min_para = data["content"][-1]["para_id"] - MAX_LESS_PARAGRAPH
     
-    readingPrompt = generator.readingPromt(topic, reading_materials, words_number, max_para, remark)
+    readingPrompt = generator.readingPromt(topic, reading_materials, part, words_number, max_para, remark)
     for i in range(MAX_READING_ATTEMPT):
         response = generator.generate(readingPrompt)
         words_count = len(response.split())

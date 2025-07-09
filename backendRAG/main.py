@@ -1,7 +1,8 @@
 import os, uuid, glob, zipfile
-from fastapi import FastAPI, HTTPException, BackgroundTasks
+from fastapi import FastAPI, HTTPException
+from fastapi.responses import JSONResponse
 from starlette.responses import FileResponse
-from starlette.background import BackgroundTask 
+from starlette.background import BackgroundTask
 from pydantic import BaseModel
 from threading import Thread
 from pipeline import run_generation_pipeline
@@ -94,11 +95,16 @@ def download_part_files(part: str, uid: str):
 
 @app.get("/status/{uid}")
 def getStatus(uid: str):
-    statuses = {}
-    for part in ["PartA", "PartB1", "PartB2"]:
-        part_uid = uid + part
-        statuses[part] = job_store.get_job(part_uid)
-    return {"uid": uid, "statuses": statuses}
+    try:
+        statuses = {}
+        for part in ["PartA", "PartB1", "PartB2"]:
+            part_uid = uid + part
+            job = job_store.get_job(part_uid)
+            statuses[part] = job if job else {"status": "Pending"}
+        return {"uid": uid, "statuses": statuses}
+    except Exception as e:
+        print(f"Error checking status for UID {uid}: {e}")
+        return JSONResponse(status_code=500, content={"message": "Error checking status"})
 
 @app.post("/generate")
 def generate(input_data: TopicInput):

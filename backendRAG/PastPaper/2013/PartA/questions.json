@@ -2,7 +2,7 @@
     "questions": 
     [
         {
-            "id": 1,
+            "id": "1_text1",
             "question_type": "multiple_choice",
             "question_text": "What is the tone in paragraph 1?",
             "options": {
@@ -21,12 +21,12 @@
             ]
         },
         {
-            "id": 2,
+            "id": "2_text1",
             "question_type": "short_question",
             "question_text": "What is special about the earthen pit in paragraph 2?",
             "answer": [
-            "it is an emperor’s tomb",
-            "the burial complex of China’s first emperor",
+            "it is (an) emperor’s tomb",
+            "(the) burial complex of China’s first emperor",
             "the place where China’s first emperor was buried",
             "a place where they found the terra-cotta warriors",
             "archaeological/excavation site",
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "id": 3,
+            "id": "3_text1",
             "question_type": "short_question",
-            "question_text": "What is the ‘ancient jigsaw puzzle’ in paragraph?",
+            "question_text": "What is the ‘ancient jigsaw puzzle’ in paragraph 2?",
             "answer": [
             "fragments/pieces of the terra-cotta army",
             "the broken terra-cotta warriors",
@@ -58,9 +58,9 @@
             ]
         },
         {
-            "id": 4,
+            "id": "4_text1",
             "question_type": "short_question",
-            "question_text": "What does the ‘the task’ in paragraph 3 refer to?",
+            "question_text": "What does the ‘the task’ (para 3) refer to?",
             "answer": [
             "transform(ing)/rebuilding/repairing a heap of clay fragments into a (full-size) warrior",
             "reassemble(ing) an army of (terra-cotta) warriors",
@@ -75,7 +75,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": "5_text1",
             "question_type": "short_question",
             "question_text": "According to paragraph 3, what were the farmers doing when they first discovered the terra-cotta warriors?",
             "answer": [
@@ -90,7 +90,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": "6_text1",
             "question_type": "true_false_not_given",
             "question_text": "Read paragraphs 2–3 and decide whether the following statements are True, False, or the information is Not Given.",
             "statements": [
@@ -105,27 +105,23 @@
             {
                 "text": "It usually takes a few hours to piece together a complete terra-cotta warrior.",
                 "answer": "False"
-            },
-            {
-                "text": "Yang Rongrong has been piecing together terra-cotta warriors for 39 years.",
-                "answer": "True"
             }
             ],
             "related_paragraphs": [
             {
                 "para_id": 2,
                 "section": "",
-                "text": "In an earthen pit in central China, under what used to be their village’s persimmon orchard, three middle-aged women are hunched over an ancient jigsaw puzzle..."
+                "text": "In an earthen pit in central China, under what used to be their village's persimmon orchard, three middle-aged women are hunched over an ancient jigsaw puzzle. Yang Rongrong, a cheerful 57-year-old, turns over a jagged piece in her callused hands and fits it into the perfect spot. The other women laugh as if enjoying an afternoon amusement in their village near the city of Xi'an. What Yang and her friends are doing, in fact, is piecing together the 2,200-year-old mystery of the terra-cotta army, part of the celebrated (and still dimly understood) burial complex of China's first emperor, Qin Shi Huang Di."
             },
             {
                 "para_id": 3,
                 "section": "",
-                "text": "It usually takes Yang and her co-workers many days to transform a heap of clay fragments into a full-size warrior..."
+                "text": "It usually takes Yang and her co-workers many days to transform a heap of clay fragments into a full-size warrior, but today they are lucky, accomplishing the task in a matter of hours. Yang has been solving such puzzles since 1974, when farmers from her village of Xiyang first unearthed pottery and a sculpted head while digging a well for their orchard. Having helped reassemble an army of a thousand warriors, Yang examines a clay head sheathed in 30 protective plastic layers. Visible through the wrap are flashes of pink and red, brilliant hues that hint at the original glory of the terra-cotta warriors."
             }
             ]
         },
         {
-            "id": 7,
+            "id": "7_text1",
             "question_type": "multiple_choice",
             "question_text": "Which of the following is NOT TRUE about the clay head in paragraph 3?",
             "options": {
@@ -139,25 +135,25 @@
             {
                 "para_id": 3,
                 "section": "",
-                "text": "Yang examines a clay head sheathed in protective plastic. Visible through the wrap are flashes of pink and red, brilliant hues that hint at the original glory of the terra-cotta warriors."
+                "text": "It usually takes Yang and her co-workers many days to transform a heap of clay fragments into a full-size warrior, but today they are lucky, accomplishing the task in a matter of hours. Yang has been solving such puzzles since 1974, when farmers from her village of Xiyang first unearthed pottery and a sculpted head while digging a well for their orchard. Having helped reassemble an army of a thousand warriors, Yang examines a clay head sheathed in 30 protective plastic layers. Visible through the wrap are flashes of pink and red, brilliant hues that hint at the original glory of the terra-cotta warriors."
             }
             ]
         },
         {
-            "id": 8,
+            "id": "8_text1",
             "question_type": "short_question",
             "question_text": "Find a word in paragraph 4 that means ‘not colourful’.",
             "answer": ["monochrome"],
             "related_paragraphs": [
-            {
-                "para_id": 4,
-                "section": "",
-                "text": "The monochrome figures that visitors to Xian’s terra-cotta army museum see today actually began as the multicolored fantasy of a ruler whose grandiose ambitions extended beyond the mortal realm..."
-            }
+                {
+                    "para_id": 4,
+                    "section": "",
+                    "text": "The monochrome figures that visitors to Xi'an's terra-cotta army museum see today actually began as the multicolored fantasy of a ruler whose grandiose ambitions extended beyond the mortal realm. The first emperor to unify China under a single dynasty, Qin Shi Huang Di packed a lot into his earthly reign, from 221 to 210 B.C. Aside from building the first lengths of the Great Wall, the tyrannical emperor standardized the nation's writing, reform system, currency, and measurements, and provided the source for the English word we now use for China (Qin is pronounced \"Chin\")."
+                }
             ]
         },
         {
-            "id": 9,
+            "id": "9_text1",
             "question_type": "short_question",
             "question_text": "What does ‘Qin Shi Huang Di packed a lot into his earthly reign’ (lines 38–39) tell us about the first emperor?",
             "answer": [
@@ -167,15 +163,15 @@
             "develop the country in many aspects"
             ],
             "related_paragraphs": [
-            {
-                "para_id": 4,
-                "section": "",
-                "text": "The first emperor to unify China under a single dynasty, Qin Shi Huang Di packed a lot into his earthly reign, from 221 to 210 B.C..."
-            }
+                {
+                    "para_id": 4,
+                    "section": "",
+                    "text": "The monochrome figures that visitors to Xi'an's terra-cotta army museum see today actually began as the multicolored fantasy of a ruler whose grandiose ambitions extended beyond the mortal realm. The first emperor to unify China under a single dynasty, Qin Shi Huang Di packed a lot into his earthly reign, from 221 to 210 B.C. Aside from building the first lengths of the Great Wall, the tyrannical emperor standardized the nation's writing, reform system, currency, and measurements, and provided the source for the English word we now use for China (Qin is pronounced \"Chin\")."
+                }
             ]
         },
         {
-            "id": 10,
+            "id": "10_text1",
             "question_type": "multiple_choice",
             "question_text": "Which of the following innovations is NOT mentioned in paragraph 4?",
             "options": {
@@ -186,15 +182,15 @@
             },
             "answer": ["B"],
             "related_paragraphs": [
-            {
-                "para_id": 4,
-                "section": "",
-                "text": "Aside from building the first lengths of the Great Wall, the tyrannical reformer standardized the nation’s writing system, currency, and measurements..."
-            }
+                {
+                    "para_id": 4,
+                    "section": "",
+                    "text": "The monochrome figures that visitors to Xi'an's terra-cotta army museum see today actually began as the multicolored fantasy of a ruler whose grandiose ambitions extended beyond the mortal realm. The first emperor to unify China under a single dynasty, Qin Shi Huang Di packed a lot into his earthly reign, from 221 to 210 B.C. Aside from building the first lengths of the Great Wall, the tyrannical emperor standardized the nation's writing, reform system, currency, and measurements, and provided the source for the English word we now use for China (Qin is pronounced \"Chin\")."
+                }
             ]
         },
         {
-            "id": 11,
+            "id": "11_text1",
             "question_type": "short_question",
             "question_text": "According to paragraph 5, why did the colors of the warriors not survive?",
             "answer": [
@@ -202,31 +198,31 @@
             "the colours were exposed to (the dry Xian) air"
             ],
             "related_paragraphs": [
-            {
-                "para_id": 5,
-                "section": "",
-                "text": "Sadly, most of the colors did not survive the crucible of time – or the exposure to air that comes with discovery and excavation..."
-            }
+                {
+                    "para_id": 5,
+                    "section": "",
+                    "text": "All the while, the emperor prepared for the afterlife, commanding the construction of the burial complex that covers 35 square miles. Qin's army of clay soldiers and horses was not a somber procession but a supernatural display of bold colors: red and green, purple and yellow. Sadly, most of the colors did not survive the crucible of time—or the exposure to air that comes with discovery and excavation. In earlier digs, archaeologists often watched helplessly as the warriors' colors disintegrated in the dry Xi'an air. One study showed that once exposed, the lacquer underneath the paint begins to curl after 15 seconds and flake off in just four minutes—vibrant pieces of history lost in the time it takes to boil an egg."
+                }
             ]
         },
         {
-            "id": 12,
+            "id": "12_text1",
             "question_type": "short_question",
-            "question_text": "In line 61, the writer mentions boiling an egg to show…",
+            "question_text": "In paragraph 6, the writer mentions boiling an egg to show…",
             "answer": [
             "how quickly/fast the paint/colour begins to curl/flake off/disintegrate",
             "vibrant pieces of history are lost in a short period of time"
             ],
             "related_paragraphs": [
-            {
-                "para_id": 5,
-                "section": "",
-                "text": "One study showed that once exposed, the lacquer underneath the paint begins to curl after 15 seconds and flake off in just four minutes – vibrant pieces of history lost in the time it takes to boil an egg."
-            }
+                {
+                    "para_id": 6,
+                    "section": "",
+                    "text": "Now, a combination of serendipity and new preservation techniques is revealing the terra-cotta army's true colors. A three-year excavation in Xi'an's most famous site, known as Pit 1, has yielded more than a hundred soldiers, some still adorned with painted features, including black hair, pink faces, and eyes. The best-preserved black or brown specimens were found at the bottom of the pit, where a layer of mud created by flooding acted as a sort of 2,000-year-long spa treatment."
+                }
             ]
         },
         {
-            "id": 13,
+            "id": "13_text1",
             "question_type": "multiple_choice",
             "question_text": "According to paragraph 6, mud at the bottom of Pit 1…",
             "options": {
@@ -237,86 +233,98 @@
             },
             "answer": ["A"],
             "related_paragraphs": [
-            {
-                "para_id": 6,
-                "section": "",
-                "text": "The best-preserved specimens were found at the bottom of the pit, where a layer of mud created by flooding acted as a sort of 2,000-year-long spa treatment."
-            }
+                {
+                    "para_id": 6,
+                    "section": "",
+                    "text": "Now, a combination of serendipity and new preservation techniques is revealing the terra-cotta army's true colors. A three-year excavation in Xi'an's most famous site, known as Pit 1, has yielded more than a hundred soldiers, some still adorned with painted features, including black hair, pink faces, and eyes. The best-preserved black or brown specimens were found at the bottom of the pit, where a layer of mud created by flooding acted as a sort of 2,000-year-long spa treatment."
+                }
             ]
         },
         {
-            "id": 14,
+            "id": "14_text1",
             "question_type": "short_question",
-            "question_text": "Who developed PEG (line 76)?",
+            "question_text": "Who developed PEG (para 7)?",
             "answer": [
             "Conservation Office in Germany and Chinese researchers",
             "Chinese researchers and German experts"
             ],
             "related_paragraphs": [
-            {
-                "para_id": 7,
-                "section": "",
-                "text": "Almost thirty years ago, Chinese researchers started working with experts from the Conservation Office in Germany to develop a preservative known as PEG to help save the warriors’ colors."
-            }
+                {
+                    "para_id": 7,
+                    "section": "",
+                    "text": "Almost thirty years ago, researchers started working with experts from the Conservation Office in Germany to develop a preservative known as PEG to help save the warriors' colors. During a recent excavation, the moment a painted artifact was unearthed, workers sprayed any bit of exposed color with the solution, then wrapped it in plastic to keep in the protective moisture. The most colorful pieces (and the earth surrounding them) have been removed to an onsite laboratory for further treatment. To everyone's delight, the modern techniques for preserving ancient colors seem to be working."
+                }
             ]
         },
         {
-            "id": 15,
+            "id": "15_text1",
             "question_type": "short_question",
             "question_text": "What is the purpose of wrapping the artifact in plastic?",
             "answer": [
             "to keep in the (protective) moisture",
+            "to keep it/artifact/wet/moist",
             "to protect it/artifact from the (dry) air",
             "to save/preserve/keep/protect the colour"
             ],
             "related_paragraphs": [
-            {
-                "para_id": 7,
-                "section": "",
-                "text": "Workers sprayed any bit of exposed color with the solution, then wrapped it in plastic to keep in the protective moisture."
-            }
+                {
+                    "para_id": 7,
+                    "section": "",
+                    "text": "Almost thirty years ago, researchers started working with experts from the Conservation Office in Germany to develop a preservative known as PEG to help save the warriors' colors. During a recent excavation, the moment a painted artifact was unearthed, workers sprayed any bit of exposed color with the solution, then wrapped it in plastic to keep in the protective moisture. The most colorful pieces (and the earth surrounding them) have been removed to an onsite laboratory for further treatment. To everyone's delight, the modern techniques for preserving ancient colors seem to be working."
+                }
             ]
         },
         {
-            "id": 16,
-            "question_type": "ordering",
+            "id": "16_text1",
+            "question_type": "matching",
             "question_text": "According to paragraph 7, the following steps are used to preserve the colors of the terra-cotta warriors. Put the steps in the correct order by writing 1 – 4 in the boxes provided.",
-            "steps": [
-            "Send the artifact to an on-site laboratory.",
-            "Spray the color with a solution.",
-            "Wrap the artifact in plastic.",
-            "Unearth the artifact."
+            "statements":[
+                {
+                    "text": "Send the artifact to an on-site laboratory.",
+                    "answer": "4"
+                },
+                {
+                    "text": "Spray the color with a solution.",
+                    "answer": "2"
+                },
+                {
+                    "text": "Wrap the artifact in plastic.",
+                    "answer": "3"
+                },
+                {
+                    "text": "Unearth the artifact.",
+                    "answer": "1"
+                }
             ],
-            "order": [4, 2, 3, 1],
             "related_paragraphs": [
-            {
-                "para_id": 7,
-                "section": "",
-                "text": "During a recent excavation, the moment a painted artifact was unearthed, workers sprayed any bit of exposed color with the solution, then wrapped it in plastic to keep in the protective moisture. The most colorful pieces... have been removed to an on-site laboratory for further treatment."
-            }
+                {
+                    "para_id": 7,
+                    "section": "",
+                    "text": "Almost thirty years ago, researchers started working with experts from the Conservation Office in Germany to develop a preservative known as PEG to help save the warriors' colors. During a recent excavation, the moment a painted artifact was unearthed, workers sprayed any bit of exposed color with the solution, then wrapped it in plastic to keep in the protective moisture. The most colorful pieces (and the earth surrounding them) have been removed to an onsite laboratory for further treatment. To everyone's delight, the modern techniques for preserving ancient colors seem to be working."
+                }
             ]
         },
         {
-            "id": 17,
+            "id": "17_text1",
             "question_type": "fill_in_the_blank",
             "question_text": "Complete the following summary about the artifacts Shen Maosheng shows the author. Use ONE word to fill in each blank.",
-            "text_for_fill": "Shen Maosheng first shows the author (i) _______ which have a similar appearance to backpacks, and a recently unearthed (ii) _______. Then he reveals a ‘real find’: a (iii) _______ and a (iv) _______ still in one piece.",
-            "answer": ["clay quivers", "chariot", "shield", "military drum"],
+            "text_for_fill": "Shen Maosheng first shows the author (i) ___ ___ which have a similar appearance to backpacks, and a recently unearthed (ii) ___. Then he reveals a ‘real find’: a (iii) ___ and a (iv) ___ ___ still in one piece.",
+            "answer": ["clay", "quivers", "chariot", "shield", "military", "drum"],
             "related_paragraphs": [
-            {
-                "para_id": 8,
-                "section": "",
-                "text": "In a narrow trench on the north side of Pit 1, archaeologist Shen Maosheng leads me past what look like terra-cotta backpacks strewn across the reddish soil. They are, in fact, clay quivers..."
-            },
-            {
-                "para_id": 9,
-                "section": "",
-                "text": "Shen unveils a jagged, three-foot-long shield... A few steps away is an intact military drum..."
-            }
+                {
+                    "para_id": 8,
+                    "section": "",
+                    "text": "In a narrow trench on the north side of Pit 1, archaeologist Shen Maosheng leads me past what look like terra-cotta backpacks strewn across the reddish soil. They are, in fact, clay quivers still bristling with bronze arrows. Shen and I skirt the remnants of a freshly excavated chariot, then stop beside a plastic sheet. \"Want to see a real find?\" he asks."
+                },
+                {
+                    "para_id": 9,
+                    "section": "",
+                    "text": "Lifting the sheet, Shen unveils a jagged, three-foot-long shield. The wood has rotted away, but the shield's delicate design and brilliant reds, greens, and whites are imprinted on the earth. A few steps away is an intact military drum whose leather surface has left another glorious pattern on the dirt, its crimson lines as fine as human hair. Together with the imprints of finely woven silk and linen textiles also found here, these artifacts offer clues about the distinctive artistry that flourished under the Qin dynasty and the vibrant palette that infused it."
+                }
             ]
         },
         {
-            "id": 18,
+            "id": "18_text1",
             "question_type": "multiple_choice",
             "question_text": "According to paragraph 9, the artifacts are evidence of the Qin dynasty’s…",
             "options": {
@@ -327,71 +335,71 @@
             },
             "answer": ["D"],
             "related_paragraphs": [
-            {
-                "para_id": 9,
-                "section": "",
-                "text": "Together with the imprints of finely woven silk and linen textiles also found here, these artifacts offer clues about the distinctive artistry that flourished under the Qin dynasty and the vibrant palette that infused it."
-            }
+                {
+                    "para_id": 9,
+                    "section": "",
+                    "text": "Lifting the sheet, Shen unveils a jagged, three-foot-long shield. The wood has rotted away, but the shield's delicate design and brilliant reds, greens, and whites are imprinted on the earth. A few steps away is an intact military drum whose leather surface has left another glorious pattern on the dirt, its crimson lines as fine as human hair. Together with the imprints of finely woven silk and linen textiles also found here, these artifacts offer clues about the distinctive artistry that flourished under the Qin dynasty and the vibrant palette that infused it."
+                }
             ]
         },
         {
-            "id": 19,
+            "id": "19_text1",
             "question_type": "short_question",
-            "question_text": "According to Rong Bo, why should the earth be treated like an artifact (lines 112–113)?",
+            "question_text": "According to Rong Bo, why should the earth be treated like an artifact (para 10)?",
             "answer": [
-            "so much color and artistry has been imprinted on the soil",
-            "the ancient paint adheres to dirt more readily than to lacquer"
+                "so much color and artistry has been imprinted on the soil",
+                "the ancient paint adheres to dirt more readily than to lacquer"
             ],
             "related_paragraphs": [
-            {
-                "para_id": 10,
-                "section": "",
-                "text": "With so much color and artistry imprinted on the soil... the ancient paint... adheres to dirt more readily than to lacquer..."
-            }
+                {
+                    "para_id": 10,
+                    "section": "",
+                    "text": "With so much imprinted on the soil—the ancient paint, alas, adheres to dirt more readily than to lacquer—Chinese preservationists are now trying to preserve the earth itself. \"We are treating the earth as an artifact,\" says Rong Bo, the museum's head chemist, who helped develop a binding agent that holds the soil together so the color won't be lost. The next challenge, Rong says, will be to find an acceptable method for reapplying this color to the warriors."
+                }
             ]
         },
         {
-            "id": 20,
+            "id": "20_text1",
             "question_type": "fill_in_the_blank",
             "question_text": "Complete the following text by writing ONE word to fill in each blank.",
-            "text_for_fill": "The next challenge for (i) _______ is to (ii) _______ a procedure for (iii) _______ color to the warriors now that a (iv) _______ has been developed to hold together the soil.",
+            "text_for_fill": "The next challenge for (i) ___ is to (ii) ___ a procedure for (iii) ___ ___ color to the warriors now that a (iv) _______ has been developed to hold together the soil.",
             "answer": ["Rong", "create", "reapplying", "binding agent"],
             "related_paragraphs": [
-            {
-                "para_id": 10,
-                "section": "",
-                "text": "The next challenge, Rong says, will be to find an acceptable method for reapplying this color to the warriors... helped develop a binding agent that holds the soil together."
-            }
+                {
+                    "para_id": 10,
+                    "section": "",
+                    "text": "With so much imprinted on the soil—the ancient paint, alas, adheres to dirt more readily than to lacquer—Chinese preservationists are now trying to preserve the earth itself. \"We are treating the earth as an artifact,\" says Rong Bo, the museum's head chemist, who helped develop a binding agent that holds the soil together so the color won't be lost. The next challenge, Rong says, will be to find an acceptable method for reapplying this color to the warriors."
+                }
             ]
         },
         {
-            "id": 21,
+            "id": "21_text1",
             "question_type": "true_false_not_given",
             "question_text": "Read paragraph 11 and decide whether the following statements are True, False, or the information is Not Given.",
             "statements": [
             {
                 "text": "Only a small portion of the tomb has been excavated.",
-                "answer": "T"
+                "answer": "True"
             },
             {
                 "text": "The speed of discovering new artifacts is slowing down.",
-                "answer": "F"
+                "answer": "False"
             },
             {
                 "text": "In 2011, the museum completed the excavation of the central burial mound.",
-                "answer": "F"
+                "answer": "False"
             }
             ],
             "related_paragraphs": [
-            {
-                "para_id": 11,
-                "section": "",
-                "text": "With less than one percent of the vast tomb complex excavated so far, it may take centuries to uncover all that remains hidden. But the pace of discovery is quickening. In 2011 the museum launched two long-term excavation projects..."
-            }
+                {
+                    "para_id": 11,
+                    "section": "",
+                    "text": "With less than one percent of the vast tomb complex excavated so far, it may take centuries to uncover all that remains hidden. But the pace of discovery is quickening. In 2011, the museum launched two long-term excavation projects on the flanks of the 250-foot-high central burial mound. Exploratory digs in this area a decade ago uncovered a group of terra-cotta acrobats and strong men. More extensive digs will yield mind-boggling excavations, which will amaze everyone, predicts Wu Yonggi, the museum's director."
+                }
             ]
         },
         {
-            "id": 22,
+            "id": "22_text1",
             "question_type": "multiple_choice",
             "question_text": "Based on the information in paragraph 11, Wu Yongqi expects future discoveries to be…",
             "options": {
@@ -402,15 +410,15 @@
             },
             "answer": ["D"],
             "related_paragraphs": [
-            {
-                "para_id": 11,
-                "section": "",
-                "text": "More extensive excavations will yield ‘mind-boggling discoveries’ which will amaze everyone, predicts Wu Yongqi, the museum’s director."
-            }
+                {
+                    "para_id": 11,
+                    "section": "",
+                    "text": "With less than one percent of the vast tomb complex excavated so far, it may take centuries to uncover all that remains hidden. But the pace of discovery is quickening. In 2011, the museum launched two long-term excavation projects on the flanks of the 250-foot-high central burial mound. Exploratory digs in this area a decade ago uncovered a group of terra-cotta acrobats and strong men. More extensive digs will yield mind-boggling excavations, which will amaze everyone, predicts Wu Yonggi, the museum's director."
+                }
             ]
         },
         {
-            "id": 23,
+            "id": "23_text1",
             "question_type": "multiple_choice",
             "question_text": "According to paragraphs 12–13, the Xian museum is now trying to…",
             "options": {
@@ -421,95 +429,100 @@
             },
             "answer": ["C"],
             "related_paragraphs": [
-            {
-                "para_id": 12,
-                "section": "",
-                "text": "Down in Pit 1, Yang tightens the straps that hold her reconstructed warrior together... His lifelike pigment has been preserved, and his body will go on display at the museum with all of the cracks and fissures he received during his 2,200 years underground."
-            },
-            {
-                "para_id": 13,
-                "section": "",
-                "text": "Now, reflecting the evolution of the museum’s views on historical accuracy, a new army is forming on the pit’s west end, cracks and all. In every statue Yang’s handiwork is plainly visible."
-            }
+                {
+                    "para_id": 12,
+                    "section": "",
+                    "text": "Down in Pit 1, Yang tightens the straps that hold her reconstructed warrior together. His head, still wrapped in plastic, is beaded with moisture. His lifelike pigment has been preserved, and his body will go on display at the museum with all of the cracks and fissures he received during his 2,200 years underground."
+                },
+                {
+                    "para_id": 13,
+                    "section": "",
+                    "text": "In the early days of the Xi'an excavations, the fractures and imperfections of the terra-cotta warriors were plastered over. Now, reflecting the evolution of the museum's views on historical accuracy, a new army is forming on the pit's west end, cracks and all. In every statue, Yang's handiwork is plainly visible. \"It's nothing special,\" she says with a modest smile. And with that, she and her village friends get back to work, piecing together the puzzle beneath the roots of their old persimmon trees."
+                }
             ]
         },
         {
-            "id": 24,
+            "id": "24_text1",
             "question_type": "matching",
-            "question_text": "Match the correct sub-headings (A–F) to the paragraphs in the article. Write the letter in the space next to the paragraph numbers.",
+            "question_text": "Match the correct sub-headings to the paragraphs in the article. Write the letter in the space next to the paragraph numbers.",
             "statement": [
-            { "text": "2–3", "answer": "B" },
-            { "text": "4–5", "answer": "A" },
-            { "text": "6–7", "answer": "C" },
-            { "text": "8–10", "answer": "D" },
-            { "text": "11", "answer": "F" },
-            { "text": "12–13", "answer": "E" }
+            { "text": "2–3", "answer": "Locals putting pieces together"},
+            { "text": "4–5", "answer": "The Emperor's colorful army"},
+            { "text": "6–7", "answer": "New preservation methods" },
+            { "text": "8–10", "answer": "colorful artifacts and colorful earth" },
+            { "text": "11", "answer": "Future discoveries" },
+            { "text": "12–13", "answer": "Preserving the cracks" }
             ],
             "related_paragraphs": [
-            {
-                "para_id": 2,
-                "section": "",
-                "text": "In an earthen pit in central China..."
-            },
-            {
-                "para_id": 3,
-                "section": "",
-                "text": "It usually takes Yang and her co-workers many days..."
-            },
-            {
-                "para_id": 4,
-                "section": "",
-                "text": "The monochrome figures that visitors to Xian’s terra-cotta army museum see today..."
-            },
-            {
-                "para_id": 5,
-                "section": "",
-                "text": "All the while, the emperor prepared for the afterlife..."
-            },
-            {
-                "para_id": 6,
-                "section": "",
-                "text": "Now a combination of serendipity and new preservation techniques..."
-            },
-            {
-                "para_id": 7,
-                "section": "",
-                "text": "Almost thirty years ago, Chinese researchers started working with experts..."
-            },
-            {
-                "para_id": 8,
-                "section": "",
-                "text": "In a narrow trench on the north side of Pit 1..."
-            },
-            {
-                "para_id": 9,
-                "section": "",
-                "text": "Lifting the sheet, Shen unveils a jagged, three-foot-long shield..."
-            },
-            {
-                "para_id": 10,
-                "section": "",
-                "text": "With so much color and artistry imprinted on the soil..."
-            },
-            {
-                "para_id": 11,
-                "section": "",
-                "text": "With less than one percent of the vast tomb complex excavated so far..."
-            },
-            {
-                "para_id": 12,
-                "section": "",
-                "text": "Down in Pit 1, Yang tightens the straps that hold her reconstructed warrior together..."
-            },
-            {
-                "para_id": 13,
-                "section": "",
-                "text": "In the early days of the Xian excavations, the fractures and imperfections..."
-            }
+                {
+                    "para_id": 1,
+                    "section": "",
+                    "text": "It was a dazzling spectacle: a life-size army of painted clay soldiers buried to guard an emperor's tomb. Now, archaeologists and artists armed with the latest tools and techniques are bringing that ancient vision back to life."
+                },
+                {
+                    "para_id": 2,
+                    "section": "",
+                    "text": "In an earthen pit in central China, under what used to be their village's persimmon orchard, three middle-aged women are hunched over an ancient jigsaw puzzle. Yang Rongrong, a cheerful 57-year-old, turns over a jagged piece in her callused hands and fits it into the perfect spot. The other women laugh as if enjoying an afternoon amusement in their village near the city of Xi'an. What Yang and her friends are doing, in fact, is piecing together the 2,200-year-old mystery of the terra-cotta army, part of the celebrated (and still dimly understood) burial complex of China's first emperor, Qin Shi Huang Di."
+                },
+                {
+                    "para_id": 3,
+                    "section": "",
+                    "text": "It usually takes Yang and her co-workers many days to transform a heap of clay fragments into a full-size warrior, but today they are lucky, accomplishing the task in a matter of hours. Yang has been solving such puzzles since 1974, when farmers from her village of Xiyang first unearthed pottery and a sculpted head while digging a well for their orchard. Having helped reassemble an army of a thousand warriors, Yang examines a clay head sheathed in 30 protective plastic layers. Visible through the wrap are flashes of pink and red, brilliant hues that hint at the original glory of the terra-cotta warriors."
+                },
+                {
+                    "para_id": 4,
+                    "section": "",
+                    "text": "The monochrome figures that visitors to Xi'an's terra-cotta army museum see today actually began as the multicolored fantasy of a ruler whose grandiose ambitions extended beyond the mortal realm. The first emperor to unify China under a single dynasty, Qin Shi Huang Di packed a lot into his earthly reign, from 221 to 210 B.C. Aside from building the first lengths of the Great Wall, the tyrannical emperor standardized the nation's writing, reform system, currency, and measurements, and provided the source for the English word we now use for China (Qin is pronounced \"Chin\")."
+                },
+                {
+                    "para_id": 5,
+                    "section": "",
+                    "text": "All the while, the emperor prepared for the afterlife, commanding the construction of the burial complex that covers 35 square miles. Qin's army of clay soldiers and horses was not a somber procession but a supernatural display of bold colors: red and green, purple and yellow. Sadly, most of the colors did not survive the crucible of time—or the exposure to air that comes with discovery and excavation. In earlier digs, archaeologists often watched helplessly as the warriors' colors disintegrated in the dry Xi'an air. One study showed that once exposed, the lacquer underneath the paint begins to curl after 15 seconds and flake off in just four minutes—vibrant pieces of history lost in the time it takes to boil an egg."
+                },
+                {
+                    "para_id": 6,
+                    "section": "",
+                    "text": "Now, a combination of serendipity and new preservation techniques is revealing the terra-cotta army's true colors. A three-year excavation in Xi'an's most famous site, known as Pit 1, has yielded more than a hundred soldiers, some still adorned with painted features, including black hair, pink faces, and eyes. The best-preserved black or brown specimens were found at the bottom of the pit, where a layer of mud created by flooding acted as a sort of 2,000-year-long spa treatment."
+                },
+                {
+                    "para_id": 7,
+                    "section": "",
+                    "text": "Almost thirty years ago, researchers started working with experts from the Conservation Office in Germany to develop a preservative known as PEG to help save the warriors' colors. During a recent excavation, the moment a painted artifact was unearthed, workers sprayed any bit of exposed color with the solution, then wrapped it in plastic to keep in the protective moisture. The most colorful pieces (and the earth surrounding them) have been removed to an onsite laboratory for further treatment. To everyone's delight, the modern techniques for preserving ancient colors seem to be working."
+                },
+                {
+                    "para_id": 8,
+                    "section": "",
+                    "text": "In a narrow trench on the north side of Pit 1, archaeologist Shen Maosheng leads me past what look like terra-cotta backpacks strewn across the reddish soil. They are, in fact, clay quivers still bristling with bronze arrows. Shen and I skirt the remnants of a freshly excavated chariot, then stop beside a plastic sheet. \"Want to see a real find?\" he asks."
+                },
+                {
+                    "para_id": 9,
+                    "section": "",
+                    "text": "Lifting the sheet, Shen unveils a jagged, three-foot-long shield. The wood has rotted away, but the shield's delicate design and brilliant reds, greens, and whites are imprinted on the earth. A few steps away is an intact military drum whose leather surface has left another glorious pattern on the dirt, its crimson lines as fine as human hair. Together with the imprints of finely woven silk and linen textiles also found here, these artifacts offer clues about the distinctive artistry that flourished under the Qin dynasty and the vibrant palette that infused it."
+                },
+                {
+                    "para_id": 10,
+                    "section": "",
+                    "text": "With so much imprinted on the soil—the ancient paint, alas, adheres to dirt more readily than to lacquer—Chinese preservationists are now trying to preserve the earth itself. \"We are treating the earth as an artifact,\" says Rong Bo, the museum's head chemist, who helped develop a binding agent that holds the soil together so the color won't be lost. The next challenge, Rong says, will be to find an acceptable method for reapplying this color to the warriors."
+                },
+                {
+                    "para_id": 11,
+                    "section": "",
+                    "text": "With less than one percent of the vast tomb complex excavated so far, it may take centuries to uncover all that remains hidden. But the pace of discovery is quickening. In 2011, the museum launched two long-term excavation projects on the flanks of the 250-foot-high central burial mound. Exploratory digs in this area a decade ago uncovered a group of terra-cotta acrobats and strong men. More extensive digs will yield mind-boggling excavations, which will amaze everyone, predicts Wu Yonggi, the museum's director."
+                },
+                {
+                    "para_id": 12,
+                    "section": "",
+                    "text": "Down in Pit 1, Yang tightens the straps that hold her reconstructed warrior together. His head, still wrapped in plastic, is beaded with moisture. His lifelike pigment has been preserved, and his body will go on display at the museum with all of the cracks and fissures he received during his 2,200 years underground."
+                },
+                {
+                    "para_id": 13,
+                    "section": "",
+                    "text": "In the early days of the Xi'an excavations, the fractures and imperfections of the terra-cotta warriors were plastered over. Now, reflecting the evolution of the museum's views on historical accuracy, a new army is forming on the pit's west end, cracks and all. In every statue, Yang's handiwork is plainly visible. \"It's nothing special,\" she says with a modest smile. And with that, she and her village friends get back to work, piecing together the puzzle beneath the roots of their old persimmon trees."
+                }
             ]
         },
         {
-            "id": 25,
+            "id": "25_text1",
             "question_type": "multiple_choice",
             "question_text": "This text is…",
             "options": {
@@ -520,11 +533,17 @@
             },
             "answer": ["C"],
             "related_paragraphs": [
-            {
-                "para_id": 1,
-                "section": "",
-                "text": "It was a dazzling spectacle: a life-size army of painted clay soldiers buried to guard an emperor’s tomb..."
-            }
+                {"title": "TERRA-COTTA WARRIORS IN COLOR"},
+                {
+                    "para_id": 1,
+                    "section": "",
+                    "text": "It was a dazzling spectacle: a life-size army of painted clay soldiers buried to guard an emperor's tomb. Now, archaeologists and artists armed with the latest tools and techniques are bringing that ancient vision back to life."
+                },
+                {
+                    "para_id": 13,
+                    "section": "",
+                    "text": "In the early days of the Xi'an excavations, the fractures and imperfections of the terra-cotta warriors were plastered over. Now, reflecting the evolution of the museum's views on historical accuracy, a new army is forming on the pit's west end, cracks and all. In every statue, Yang's handiwork is plainly visible. \"It's nothing special,\" she says with a modest smile. And with that, she and her village friends get back to work, piecing together the puzzle beneath the roots of their old persimmon trees."
+                }
             ]
         }
     ]

@@ -1,6 +1,6 @@
 # job_store.py
 import redis, os, json
-from typing import Any, Dict, Optional
+from typing import Any, Optional
 from config import REDIS_STORE_TIME
 from dotenv import load_dotenv
 
@@ -31,7 +31,9 @@ class JobStoreManager:
 
     def get_job(self, job_id: str) -> Optional[dict]:
         data = self.client.get(job_id)
-        return json.loads(data) if data else None
+        if not data:
+            return {"status": "Not exist"}
+        return json.loads(data)
 
     def delete_job(self, job_id: str):
         self.client.delete(job_id)

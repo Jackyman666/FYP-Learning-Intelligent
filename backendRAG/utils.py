@@ -188,7 +188,7 @@ def convertTextJsonToPdf(part,text_id, uid):
     doc.build(story)
     return
 
-def render_question_by_type(q, idx, styles):
+def renderQestionByType(q, idx, styles):
     elements = []
     q_type = q.get("question_type", "short_question")
     q_text = q.get("question_text", "No question text.")
@@ -243,7 +243,7 @@ def render_question_by_type(q, idx, styles):
             indented_table = Table([[main_table]]) # | [main_table with options + bubbles] |
             indented_table.setStyle(TableStyle([
                 ("VALIGN", (0, 0), (-1, -1), "TOP"),
-                ("LEFTPADDING", (0, 0), (-1, -1), 0),
+                ("LEFTPADDING", (0, 0), (-1, -1), 20),
                 ("RIGHTPADDING", (0, 0), (-1, -1), 0),
             ]))
 
@@ -276,17 +276,29 @@ def render_question_by_type(q, idx, styles):
 
         case "multi_short_question":
             for sub in q.get("sub_questions", []):
-                elements.append(Paragraph(f"- {sub['text']}:", styles['sub']))
+                elements.append(Paragraph(f"{sub['text']}: ", styles['sub']))
                 elements.append(Paragraph("______________________________________________________________________", styles['sub']))
 
         case "matching":
-            # Render as table with three columns
-            data = [["Expressions", "Answer"]]
-            for stmt in q.get("statements", []):
-                data.append([stmt["text"], ""])
+            # Render as table with two columns
+            data = []
+            subquestion = q.get("statements",[])
+            
+            # Row 0: Header
+            data.append([
+                Paragraph("<b>Expressions</b>", styles['header']),
+                Paragraph("<b>Answer</b>", styles['header']),
+            ])
+            
+            # Row 1..n: Statements
+            for i in range(len(subquestion)):
+                statement_text = subquestion[i].get('text','')
+                data.append([
+                    Paragraph(statement_text, styles['sub'])
+                ])
 
-            table = Table(data, colWidths=[220, 100])
-            table.setStyle(TableStyle([
+            matching_table = Table(data, colWidths=[300, 100])
+            matching_table.setStyle(TableStyle([
                 ("GRID", (0, 0), (-1, -1), 0.5, colors.black),
                 ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
                 ("ALIGN", (1, 1), (-1, -1), "CENTER"),
@@ -294,12 +306,40 @@ def render_question_by_type(q, idx, styles):
                 ("FONTSIZE", (0, 0), (-1, -1), 10),
             ]))
             elements.append(Spacer(1, 6))
-            elements.append(table)
+            elements.append(matching_table)
 
         case "true_false_not_given":
-            for stmt in q.get("statements", []):
-                elements.append(Paragraph(f"- {stmt['text']}", styles['sub']))
-                elements.append(Paragraph("[ ] True   [ ] False   [ ] Not Given", styles['sub']))
+            # Build the rows for the table
+            data = []
+            subquestion = q.get("statements",[])
+            
+            # Row 0: Header
+            data.append([
+                Paragraph("<b>Statements</b>", styles['header']),
+                Paragraph("<b>T</b>", styles['header']),
+                Paragraph("<b>F</b>", styles['header']),
+                Paragraph("<b>NG</b>", styles['header'])
+            ])
+
+            # Row 1..n: Statements + circles
+            for i in range(len(subquestion)):
+                statement_text = f"{i+1}) {subquestion[i].get('text','')}"
+                data.append([
+                    Paragraph(statement_text, styles['sub']),
+                    Paragraph("◯", styles['option']),
+                    Paragraph("◯", styles['option']),
+                    Paragraph("◯", styles['option'])
+                ])
+
+            # Create the table
+            tfng_table = Table(data, colWidths=[320, 30, 30, 30])
+            tfng_table.setStyle(TableStyle([
+                ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+                ('ALIGN', (0, 0), (-1, -1), 'CENTER')
+            ]))
+            
+            elements.append(Spacer(1, 6))
+            elements.append(tfng_table)
 
         case "fill_in_the_blank":
             fill_text = q.get("text_for_fill", "")
@@ -315,29 +355,130 @@ def render_question_by_type(q, idx, styles):
     elements.append(Spacer(1, 16))
     return elements
 
+def renderAnswerByType(q, idx, styles): 
+    elements = []
+    q_type = q.get("question_type", "")
+
+    match q_type:
+        case "multiple_choice":
+            answer = q.get('answer')[0]
+            elements.append(Paragraph(f"{idx}. {answer}", styles['answer']))
+            
+        case "multi_choice":
+            answers = ", ".join(q.get("answer", []))
+            elements.append(Paragraph(f"{idx}. {answers}", styles['answer']))
+
+        case "short_question":
+            answers = "//".join(q.get("answer", []))
+            elements.append(Paragraph(f"{idx}. {answers}", styles['answer']))
+
+
+        case "multi_short_question":
+            elements.append(Paragraph(f"{idx}.", styles['answer']))
+            for question in q.get("sub_questions", []):
+                answers = "//".join(question["answer"])
+                elements.append(Paragraph(f"{question['text']}: {answers}", styles['answer']))
+
+        case "matching":
+            elements.append(Paragraph(f"{idx}.", styles['answer']))
+            for question in q.get("statements", []):
+                answers = question["answer"]
+                elements.append(Paragraph(f"{question['text']}: {answers}", styles['answer']))
+
+        case "true_false_not_given":
+            elements.append(Paragraph(f"{idx}.", styles['answer']))
+            for question in q.get("statements", []):
+                answers = question["answer"]
+                elements.append(Paragraph(f"{answers}", styles['answer']))
+
+        case "fill_in_the_blank":
+            elements.append(Paragraph(f"{idx}.", styles['answer']))
+            
+            fill_text = q.get("text_for_fill", "")
+            answers = q.get("answer", [])
+            # Replace each blank "___" with an underlined space + answer
+            parts = fill_text.split("___")
+            filled_text = ""
+
+            for i in range(len(parts)):
+                filled_text += parts[i]
+                if i < len(answers):
+                    filled_text += f"<u>{answers[i]}</u>"  # underlined answer
+
+            elements.append(Paragraph(filled_text.replace("\n", "<br/>"), styles['option']))
+
+        case _:
+            elements.append(Spacer(1, 6))
+            elements.append(Paragraph("Answer: ____________________________", styles['answer']))
+            
+    elements.append(Spacer(1, 16))
+    return elements
+    
 def convertQuestionJsonToPdf(part, uid):
     json_path = f"Results/{part}/{uid}_questions.json"
-    pdf_path = f"Results/{part}/{uid}_questions.pdf"
+    question_pdf_path = f"Results/{part}/{uid}_questions.pdf"
+    answer_pdf_path = f"Results/{part}/{uid}answers.pdf"
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     # questions = data.get("questions", [])
     pdfmetrics.registerFont(TTFont('DejaVuSans', 'fonts/DejaVuSans.ttf'))
     
+    if part == "PartA":
+        box_data = [
+            ["A"],
+            ["COMPULSORY"]
+        ]
+    elif part == "PartB1":
+        box_data = [
+            ["B1"],
+            ["EASY SECTION"]
+        ]
+    else:
+        box_data = [
+            ["B2"],
+            ["DIFFICULT SECTION"]
+        ]
+
+    box = Table(box_data, colWidths=[90], rowHeights=[50, 20])
+
+    # Apply styles
+    box.setStyle(TableStyle([
+        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),  # Center horizontally
+        ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),  # Center vertically
+        ('FONTSIZE', (0, 0), (0, 0), 32),  
+        ('FONTSIZE', (0, 1), (0, 1), 8), 
+        ('BOTTOMPADDING', (0, 0), (0, 0), 0),
+        ('TOPPADDING', (0, 0), (0, 0), -5),
+        ('BOX', (0, 0), (-1, -1), 2, colors.black),  # Black border
+    ]))
+    
     base_styles = getSampleStyleSheet()
     styles = {
         'title': base_styles['Title'],
         'question': ParagraphStyle('Question', parent=base_styles['BodyText'], fontSize=11, spaceAfter=6, leading=14),
-        'option': ParagraphStyle('Option', parent=base_styles['BodyText'], leftIndent=20, fontSize=10, fontName='DejaVuSans'),
+        'header': ParagraphStyle('Header', parent=base_styles['BodyText'], fontSize=10, leading=12, alignment=0),
+        'option': ParagraphStyle('Option', parent=base_styles['BodyText'], fontSize=10, fontName='DejaVuSans'),
         'answer': ParagraphStyle('Answer', parent=base_styles['BodyText'], leftIndent=20, fontSize=10),
-        'sub': ParagraphStyle('Sub', parent=base_styles['BodyText'], leftIndent=20, fontSize=10)
+        'sub': ParagraphStyle('Sub', parent=base_styles['BodyText'], fontSize=10)
     }
     
-    story = [Paragraph("Question Paper", styles['title']), Spacer(1, 24)]
-    
+    question_story = [box, Spacer(1, 24)]
+    answer_story = [Paragraph(f"{part} - Answer Key", styles['title']), Spacer(1, 24)]
     for question in data:
         qid = question.get("id", "0_textx").split('_')[0]
-        story.extend(render_question_by_type(question, qid, styles))
+        question_story.extend(renderQestionByType(question, qid, styles))
+        answer_story.extend(renderAnswerByType(question, qid, styles))
+    
+    question_doc = SimpleDocTemplate(question_pdf_path, pagesize=A4,
+                                     rightMargin=72, leftMargin=72, topMargin=72, bottomMargin=72)
+    question_doc.build(question_story)
+    
 
-    doc = SimpleDocTemplate(pdf_path, pagesize=A4,
+    answer_doc = SimpleDocTemplate(answer_pdf_path, pagesize=A4,
                             rightMargin=72, leftMargin=72, topMargin=72, bottomMargin=72)
-    doc.build(story)
+    answer_doc.build(answer_story)
+
+# convertQuestionJsonToPdf("PartB2", "1")
+# f"PastPaper/2012/{part}/questions.json"
+# f"Results/{part}/{uid}_questions.json"
+# f"Results/{part}/{uid}_answers.pdf"
