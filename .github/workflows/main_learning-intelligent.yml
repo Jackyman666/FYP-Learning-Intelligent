@@ -42,10 +42,10 @@ jobs:
         run: | 
           zip -r release.zip . -x "venv/**" "*.log"
       
-      - name: Debug - Verify zipped artifact
-        run: |
-          ls -lh release.zip
-          unzip -l release.zip
+      # - name: Debug - Verify zipped artifact
+      #   run: |
+      #     ls -lh release.zip
+      #     unzip -l release.zip
       
       - name: Debug - List files in current directory
         run: ls -lh
