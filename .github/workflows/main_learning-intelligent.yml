@@ -46,9 +46,18 @@ jobs:
       #   run: |
       #     ls -lh release.zip
       #     unzip -l release.zip
+
+      - name: Debug - Check if release.zip exists
+        run: |
+          if [ -f "release.zip" ]; then
+            echo "release.zip exists"
+          else
+            echo "release.zip does not exist"
+            exit 1
+          fi
       
-      - name: Debug - List files in current directory
-        run: ls -lh
+      # - name: Debug - List files in current directory
+      #   run: ls -lh
 
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v4
